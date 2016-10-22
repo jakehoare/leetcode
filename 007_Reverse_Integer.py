@@ -18,8 +18,8 @@ class Solution(object):
         """
         negative = x < 0    # record if negative and change to positive
         x = abs(x)
-
         reversed = 0
+
         while x != 0:
             reversed = reversed * 10 + x % 10
             x //= 10
