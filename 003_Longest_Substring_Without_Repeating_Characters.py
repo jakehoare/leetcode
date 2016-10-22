@@ -14,3 +14,11 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
+        last_seen = {}
+        start = 0
+        longest = 0
+
+        for i, c in enumerate(s):
+            if c in last_seen:
+                pass
+            else:
