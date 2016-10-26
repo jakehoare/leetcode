@@ -5,8 +5,9 @@ _project_ = 'leetcode'
 # Divide two integers without using multiplication, division and mod operator.
 # If overflow, return MAX_INT.
 
-# TODO SOLUTION
-# Time - O(TODO)
+# Repeatedly double the divisor until it would exceed the dividend.  Then repeatedly halve the divisor, subtracting
+# it from the dividend whenever possible.
+# Time - O(log n)
 # Space - O(1)
 
 class Solution(object):
@@ -23,20 +24,20 @@ class Solution(object):
         divisor = abs(divisor)
 
         result = 0
-        while dividend >= divisor:
-            local_divisor = divisor
-            local_count = 1
+        max_divisor = divisor
+        shift_count = 1
 
-            while dividend >= local_divisor:
-                dividend -= local_divisor
-                result += local_count
-                local_divisor <<= 1
-                local_count <<= 1
+        while dividend >= (max_divisor << 1):   # find divisor * 2^i where divisor * 2^(i+1) > dividend
+            max_divisor <<= 1
+            shift_count <<= 1
+
+        while shift_count >= 1:
+            if dividend >= max_divisor:         # subtract max_divisor whenever possible
+                dividend -= max_divisor
+                result += shift_count
+            shift_count >>= 1
+            max_divisor >>= 1
 
         if diff_sign:
-           result = -result
-        return max(min(result, 2**31-1), -2**31)
-
-if __name__ == "__main__":
-    sol = Solution()
-    print(sol.divide(426, 7))
+            result = -result
+        return max(min(result, 2**31-1), -2**31)        # required for leetcode
