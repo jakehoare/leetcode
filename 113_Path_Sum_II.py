@@ -5,7 +5,7 @@ _project_ = 'leetcode'
 # Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.
 
 # Maintain a partial path and either make a new copy with latest node (as in path_sum) or append latest node
-# and pop before returning (as in path_sum2).
+# and pop before returning (as in path_sum2, which is faster).
 # Time - O(n)
 # Space - O(n**2), every path of tree has correct sum
 
