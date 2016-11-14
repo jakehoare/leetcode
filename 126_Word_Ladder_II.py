@@ -36,13 +36,10 @@ class Solution(object):
                             next_frontier[next].add(word)
 
             frontier = next_frontier
-            parents.update(next_frontier)
+            parents.update(next_frontier)   # merge dictionaries
 
         ladders = [[endWord]]
         while ladders and ladders[0][0] != beginWord:   # build results with all parents
             ladders = [[p] + l for l in ladders for p in parents[l[0]]]
         return ladders
 
-sol = Solution()
-words = {"hot","dot","dog","lot","log"}
-print(sol.findLadders('hit', 'cog', words))
