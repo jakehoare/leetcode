@@ -7,7 +7,7 @@ _project_ = 'leetcode'
 
 # Dynamic programming.  A prefix can be made from words in dictionary if it can be split into a shorter prefix
 # that can be made and another word in dictionary.
-# Time - O(n**2)
+# Time - O(n**3), there are O(n**2) substrings s[j:i], each taking O(n) to create
 # Space - O(n)
 
 class Solution(object):
