@@ -6,7 +6,7 @@ _project_ = 'leetcode'
 # find the area of largest rectangle in the histogram.
 
 # An index is popped from the stack when a lower height is found.  We calculate the largest area with the popped
-# index.  Popped index is the lowest height, width is deteremined by i and the next index below on the stack.
+# index.  Popped index is the lowest height, width is determined by i and the next index below on the stack.
 # Time - O(n)
 # Space - O(n)
 
