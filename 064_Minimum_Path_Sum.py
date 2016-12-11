@@ -6,7 +6,7 @@ _project_ = 'leetcode'
 # the sum of all numbers along its path.
 # Note: You can only move either down or right at any point in time.
 
-# Dynamic programming, min path to a cell = cell value + min(min path to cell above and left)
+# Dynamic programming, min path to a cell = cell value + min(min paths to cells above and left)
 # Time - O(m * n)
 # Space - O(m * n), could reduce to O(n) by keeping only previous row
 
