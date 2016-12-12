@@ -20,21 +20,21 @@ class Solution(object):
         :rtype: List[str]
         """
         if n <= 0:
-            return [""]
+            return ['']
 
         if n % 2 == 1:
-            results = [['0'], ['1'], ['8']]
+            results = ['0', '1', '8']
         else:
-            results = [[]]
+            results = ['']
 
         strobo = {'0' : '0', '1' : '1', '8': '8', '6' : '9', '9' : '6'}
         for i in range(n//2):
-            results = [[c] + r + [strobo[c]] for r in results for c in strobo]
+            results = [c + r + strobo[c] for r in results for c in strobo]
 
-        return [''.join(result) for result in results if (result[0] != '0' or n == 1)]
+        return [result for result in results if (result[0] != '0' or n == 1)]
 
 sol = Solution()
-for i in range(20):
-    start = time.time()
-    res = sol.findStrobogrammatic(i)
-    print(i, len(res), time.time()-start)
+i = 18
+start = time.time()
+res = sol.findStrobogrammatic(i)
+print(i, len(res), time.time()-start)
