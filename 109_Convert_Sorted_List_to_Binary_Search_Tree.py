@@ -6,7 +6,7 @@ _project_ = 'leetcode'
 # Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.
 
 # Count the length of the list.  Form left subtree from nodes before mid.  Mid node forms root, then right subtree
-# from nodes after mid.  When a new tree node is made, advance the linked list pointer.
+# from nodes after mid.  When a new tree node is made, advance the linked list pointer.  Bottom-up approach.
 # Time - O(n)
 # Space - O(n)
 
@@ -35,7 +35,7 @@ class Solution(object):
         while node:
             count += 1
             node = node.next
-        return self.list_to_bst([head], 0, count - 1)   # [head] is mutable list
+        return self.list_to_bst([head], 0, count - 1)   # [head] is mutable list of next list node to be converted
 
 
     def list_to_bst(self, node_as_list, start, end):  # convert linked-list nodes from start to end (inclusive)
