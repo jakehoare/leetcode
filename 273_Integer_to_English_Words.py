@@ -3,7 +3,7 @@ _project_ = 'leetcode'
 
 # https://leetcode.com/problems/integer-to-english-words/
 # Convert a non-negative integer to its english words representation.
-# Given input is guaranteed to be less than 231 - 1.
+# Given input is guaranteed to be less than 2**31 - 1.
 
 # Build the words from left to right in blocks of 3 digits.
 # Time - O(log n)
