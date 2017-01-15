@@ -5,7 +5,7 @@ _project_ = 'leetcode'
 # There are two sorted arrays nums1 and nums2 of size m and n respectively.
 # Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
 
-# Find the middle element if sum of input list lengths is odd, or else the average of thr middle pair.
+# Find the middle element if sum of input list lengths is odd, or else the average of the middle pair.
 # Time - O(log(m+n)), half of the elements smaller than median are removed each recursive call.
 # Space - O(log(m+n)) for the recursive call stack.
 
@@ -35,7 +35,7 @@ class Solution(object):
             return min(A[a_start], B[b_start])
 
         # remove k//2 elements from one list
-        # find the smallest of the k//2 - 1th element from both lists and recurse having reduced that list
+        # find the smallest of the k//2 - 1th element from both lists and recurse having reduced that list.
         # k//2 - 1th element must exist in at least 1 list
         mid_A, mid_B = float('inf'), float('inf')
         if k//2 - 1 < len(A) - a_start:
