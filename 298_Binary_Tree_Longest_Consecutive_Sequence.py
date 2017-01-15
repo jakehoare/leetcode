@@ -5,7 +5,7 @@ _project_ = 'leetcode'
 # Given a binary tree, find the length of the longest consecutive sequence path.  The path refers to any sequence
 # of nodes from some starting node to any node in the tree along the parent-child connections.
 
-# Preorder traversal.  If a node is 1 + previous value then increment sequence lenght, else start a new sequence.
+# Preorder traversal.  If a node is 1 + previous value then increment sequence length, else start a new sequence.
 # Time - O(n)
 # Space - O(1)
 
