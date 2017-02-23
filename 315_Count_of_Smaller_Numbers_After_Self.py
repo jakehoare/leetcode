@@ -2,9 +2,10 @@ _author_ = 'jake'
 _project_ = 'leetcode'
 
 # https://leetcode.com/problems/count-of-smaller-numbers-after-self/
-# You are given an integer array nums and you have to return a new counts array. The counts array has the property where counts[i] is the number of smaller elements to the right of nums[i].
+# You are given an integer array nums and you have to return a new counts array. The counts array has the property
+# where counts[i] is the number of smaller elements to the right of nums[i].
 
-# Create a binary search tree that tracks the number of smaller entires in left subtree of each node.  For each
+# Create a binary search tree that tracks the number of smaller entries in left subtree of each node.  For each
 # num in array starting from right, find number of smaller entries in BST and simultaneously add node.
 # Time - O(n*n), n log n if balanced
 # Space - O(n)
