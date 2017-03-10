@@ -9,7 +9,7 @@ _project_ = 'leetcode'
 
 # Arrays store the sums of each row and column, integers store the sums of the diagonals.  Convert player to +/-1 and
 # increment sum of row, col and potentially diagonals.  Check if any of row, col or diagonal has absolute sum of n.
-# Time - O(n) for constructor and to move()
+# Time - O(n) for constructor and to O(1) for move()
 # Space - O(n)
 
 class TicTacToe(object):
