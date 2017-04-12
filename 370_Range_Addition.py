@@ -7,7 +7,7 @@ _project_ = 'leetcode'
 # subarray A[startIndex ... endIndex] (startIndex and endIndex inclusive) with inc.
 # Return the modified array after all k operations were executed.
 
-# To a list of length length + 1, add increments at starting index of exch update and decrements after ending index.
+# To a list of length length + 1, add increments at starting index of each update and decrements after ending index.
 # Iterate over shifts, creating a cumulative sum.
 # Time - O(n + k) where n = length and k = len(updates)
 # Space - O(n)
