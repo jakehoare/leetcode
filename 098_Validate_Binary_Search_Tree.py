@@ -40,6 +40,7 @@ class Solution(object):
 
         if node.val <= self.prev:
             self.correct = False
+            return          # halt exploration
         self.prev = node.val
 
         self.inorder(node.right)
