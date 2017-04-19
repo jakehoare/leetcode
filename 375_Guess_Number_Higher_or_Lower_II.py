@@ -9,6 +9,8 @@ _project_ = 'leetcode'
 
 # Dynamic programming.  Min money for any range is the minimum cost after all possible next guesses.  Min cost of
 # a particular guess is the guess + worst case of having to recurse on the range either above or below the guess.
+# Best guess  is never in LHS of range since then the RHS is longer and has greater numbers so we always want LHS to be
+# longer.
 # Alternatively, top-down recursive.
 # Time - O(n**3)
 # Space - O(n**2)
@@ -29,7 +31,7 @@ class Solution(object):
             for lower in range(1, n + 2 - range_length):
                 upper = lower + range_length - 1
                 min_cost = float('inf')
-                for guess in range(lower + 1, upper):  # guesses of lower and upper are never optimal so only check non-end values
+                for guess in range((lower + upper)  // 2, upper):   # guesses of LHS and upper are never optimal
                     cost = guess + max(min_money[guess - lower - 1][lower - 1], min_money[upper - guess - 1][guess])
                     min_cost = min(min_cost, cost)
 
