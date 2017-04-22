@@ -7,7 +7,7 @@ _project_ = 'leetcode'
 # check: Check if a number is available or not.
 # release: Recycle or release a number.
 
-# Store the set of all unused numbers.  Stroing the used numbers does not allow finding a new number in O(1) time.
+# Store the set of all unused numbers.  Storing the used numbers does not allow finding a new number in O(1) time.
 # Time - O(n) to initialise, O(1) all other operations
 # Space - O(n)
 
