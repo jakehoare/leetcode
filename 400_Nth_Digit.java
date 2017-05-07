@@ -4,7 +4,7 @@ Find the nth digit of the infinite integer sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 1
 
 Find the length of the number containing the nth digit by removing 9 digits of length 1, 90 of length 2, etc.
 Find the integer containing n by dividing remainder by its length and adding the starting integer of that length.
-Time - O(n)
+Time - O(log n)
 Space - O(1)
 */
 
