@@ -7,7 +7,9 @@ _project_ = 'leetcode'
 
 # Binary search the range of possible smallest max subarray sums. If x is valid, search range x and below else search
 # above x.
-# Time - O(n log n)
+# Binary search must make progress each iteration. Since mid can equal left then next iteration brings right down to
+# mid instead of left up (which may result in no change).  right = mid-1 and left=mid may not make progress.
+# Time - O(n log sum(n))
 # Space - O(1)
 
 class Solution(object):
