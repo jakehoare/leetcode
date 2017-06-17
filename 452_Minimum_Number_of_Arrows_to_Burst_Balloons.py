@@ -10,7 +10,7 @@ _project_ = 'leetcode'
 # An arrow once shot keeps travelling up infinitely. The problem is to find the minimum number of arrows that must be
 # shot to burst all balloons.
 
-# Sort by ending edge.
+# Sort by ending edge. Greedily shoot first ending edge, which bursts all balloons that start before or after that edge.
 # Time - O(n)
 # Space - O(1)
 
@@ -21,7 +21,7 @@ class Solution(object):
         :rtype: int
         """
         arrows, last_arrow = 0, float("-inf")
-        points.sort(key=lambda x: x[1])
+        points.sort(key = lambda x: x[1])
 
         for start, end in points:
 
