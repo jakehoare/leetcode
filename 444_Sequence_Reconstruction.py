@@ -1,5 +1,17 @@
+_author_ = 'jake'
+_project_ = 'leetcode'
 
-from collections import defaultdict
+# https://leetcode.com/problems/sequence-reconstruction/
+# Check whether the original sequence org can be uniquely reconstructed from the sequences in seqs. The org sequence
+# is a permutation of the integers from 1 to n, with 1 ≤ n ≤ 104. Reconstruction means building a shortest common
+# supersequence of the sequences in seqs (i.e., a shortest sequence so that all sequences in seqs are subsequences
+# of it). Determine whether there is only one sequence that can be reconstructed from seqs and it is the org sequence.
+
+# Note org is permutation hence no duplicates. Create set of all consecutive pair in org and mapping from each num in
+# org to its index. For each seq remove any consecutive pair from pairs and check numbers appear in increasing index
+# order in org. Consecutive pairs in some seq ensures there is no choise condition
+# Time - O(s + n), total length of all seqs + org
+# Space - O(n)
 
 class Solution(object):
     def sequenceReconstruction(self, org, seqs):
@@ -8,32 +20,18 @@ class Solution(object):
         :type seqs: List[List[int]]
         :rtype: bool
         """
-        return org == self.can_reconstruct(seqs, [0] * len(seqs), [])
+        extended = [None] + org  # prepend with None to catch len(org) == 1
+        pairs = set((n1, n2) for n1, n2 in zip(extended, org))
+        num_to_index = {num: i for i, num in enumerate(extended)}
 
-    def can_reconstruct(self, seqs, pointers, reconstruction):
+        for seq in seqs:
 
-        int_to_seqs = defaultdict(set)  # value is set of all seqs indices where next integer is key
-        for i, seq in enumerate(seqs):
-            if pointers[i] < len(seq):
-                int_to_seqs[seqs[i][pointers[i]]].add(i)
+            for n1, n2 in zip([None] + seq, seq):
 
-        if not int_to_seqs:
-            return reconstruction
+                if n2 not in num_to_index or num_to_index[n2] <= num_to_index[n1]:
+                    return False
+                last_index = num_to_index[n2]
 
-        reconstruct = set()
-        saved_pointers = pointers[:]
+                pairs.discard((n1, n2))
 
-        for num in int_to_seqs:
-            for i in int_to_seqs[num]:
-                pointers[i] += 1
-            reconstruct.add(tuple(self.can_reconstruct(seqs, pointers, reconstruction + [num])))
-            pointers = saved_pointers
-
-        if len(reconstruct) != 1:
-            return []
-        return list(reconstruct.pop())
-
-sol = Solution()
-target = [1,2,3]
-test =[[1,2],[1,3],[2,3]]
-print(sol.sequenceReconstruction(target, test))
+        return not pairs
