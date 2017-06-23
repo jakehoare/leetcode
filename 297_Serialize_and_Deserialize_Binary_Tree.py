@@ -10,7 +10,7 @@ _project_ = 'leetcode'
 # to a string and this string can be deserialized to the original tree structure.
 
 # Perform a preorder traversal, recursing whenever we see a non-null node.  Rebuild by creating a queue and taking
-# thr front value.  Ignore if null, else rebuild the root with value, recur right then left.
+# the front value.  Ignore if null, else rebuild the root with value, recurse right then left.
 # Time - O(n)
 # Space - O(n)
 
@@ -30,17 +30,13 @@ class Codec:
         :type root: TreeNode
         :rtype: str
         """
-        encoding = []
-        self.preorder(root, encoding)
-        return ",".join(encoding)           # assumes TreeNode.val do not include comma
+        return ",".join(self.preorder(root))    # assumes TreeNode.val do not include comma
 
-    def preorder(self, node, encoding):
+    def preorder(self, node):
         if not node:
-            encoding.append("null")
+            return ["null"]
         else:
-            encoding.append(str(node.val))
-            self.preorder(node.left, encoding)
-            self.preorder(node.right, encoding)
+            return [str(node.val)] + self.preorder(node.left) + self.preorder(node.right)
 
 
     def deserialize(self, data):
