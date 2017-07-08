@@ -12,14 +12,23 @@ public class Solution {
     public boolean repeatedSubstringPattern(String s) {
 
         int n = s.length();
+
         for (int sub = 1; sub <= n / 2; ++sub) {
+
             if (n % sub != 0)
                 continue;
-            StringBuilder sb = new StringBuilder();
+
             String substring = s.substring(0, sub);
-            for (int i = 0; i < n / sub; ++i)
-                sb.append(substring);
-            if (sb.toString().equals(s))
+            boolean mismatch = false;
+
+            for (int i = 1; i < n / sub; ++i) {
+                if (!s.substring(i * sub, (i + 1) * sub).equals(substring)) {
+                    mismatch = true;
+                    break;
+                }
+            }
+
+            if (!mismatch)
                 return true;
         }
         return false;
