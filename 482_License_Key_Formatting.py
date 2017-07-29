@@ -13,7 +13,7 @@ _project_ = 'leetcode'
 # return the license key formatted according to the description above.
 
 # Replace "-" by "" and convert to upper case.
-# Time - O(n**2 / K) since n // K blocks and each concatenation takes O(n)
+# Time - O(n)
 # Space - O(n)
 
 class Solution(object):
@@ -29,9 +29,11 @@ class Solution(object):
         if stub == 0:           # set stub to a block if zero to avoid leading "-"
             stub = K
             blocks -= 1
-        formatted = key[:stub]
+        formatted = [key[:stub]]
 
         for i in range(blocks):
-            formatted += "-" + key[(i * K) + stub:((i + 1) * K) + stub]
+            formatted.append(key[(i * K) + stub:((i + 1) * K) + stub])
 
-        return formatted
+        return "-".join(formatted)
+
+
