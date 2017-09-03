@@ -12,7 +12,7 @@ _project_ = 'leetcode'
 # by column. Then if a row does not have a count of N each black pixel either cannot have col_count of N or is not from
 # an identical row. Else count black pixels from all cols with countof N.
 # Time - O(mn)
-# Space - O(mn)
+# Space - O(mn) 
 
 from collections import defaultdict
 
