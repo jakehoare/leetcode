@@ -11,7 +11,7 @@ _project_ = 'leetcode'
 # if exists. If not, travel to the right subtree. Repeat until you reach a leaf node.
 # The right-most node is also defined by the same way with left and right exchanged.
 
-# Find left edge until leaf. Inorder traversal to append all leaves. Find rig edge and reverse.
+# Find left edge until leaf. Inorder traversal to append all leaves. Find right edge and reverse.
 # Time - O(n)
 # Space - O(n)
 
