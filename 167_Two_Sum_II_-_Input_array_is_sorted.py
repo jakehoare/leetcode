@@ -7,7 +7,7 @@ _project_ = 'leetcode'
 # Please note that your returned answers (both index1 and index2) are not zero-based.
 # You may assume that each input would have exactly one solution.
 
-# Start pointest at both ends of array. Increment left if sum is too low or decrement right if sum is too high.
+# Start pointers at both ends of array. Increment left if sum is too low or decrement right if sum is too high.
 # Time - O(n)
 # Space - O(1)
 
