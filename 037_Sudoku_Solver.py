@@ -87,9 +87,3 @@ class Solution(object):
                 if self.board[r][c] == digit:
                     return False
         return True
-
-
-sol = Solution()
-test = ["..9748...","7........",".2.1.9...","..7...24.",".64.1.59.",".98...3..","...8.3.2.","........6","...2759.."]
-sol.solveSudoku(test)
-print(test)

@@ -51,7 +51,3 @@ class Solution(object):
                 high = mid-1
 
         return False
-
-sol = Solution()
-test = [[1]]
-print(sol.searchMatrix(test, 2))
