@@ -33,8 +33,3 @@ class Solution(object):
                     matched[i][j] = (i != 0 and matched[i-1][j-1] and s[i-1] == pattern)
 
         return matched[-1][-1]
-
-sol = Solution()
-s = 'abcd'
-p = '.*'
-print(sol.isMatch(s, p))

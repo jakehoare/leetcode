@@ -31,7 +31,3 @@ class Solution(object):
             if colour == 0:
                 nums[next_red] = 0
                 next_red += 1
-
-sol = Solution()
-test = [1,2,0,2,1,0]
-print(sol.sortColors(test))

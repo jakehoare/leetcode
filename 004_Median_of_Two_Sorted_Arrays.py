@@ -46,11 +46,3 @@ class Solution(object):
         if mid_A < mid_B:
             return self.get_kth_smallest(A, a_start + k//2, B, b_start, k - k//2)
         return self.get_kth_smallest(A, a_start, B, b_start + k//2, k - k//2)
-
-
-
-if __name__ == "__main__":
-    sol = Solution()
-    test1 = [1,3,5]
-    test2 = [2,4]
-    print(sol.findMedianSortedArrays(test1, test2))

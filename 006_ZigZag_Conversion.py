@@ -35,7 +35,3 @@ class Solution(object):
             row += direction
 
         return "".join([c for r in zigzag for c in r])  # flatten list of lists
-
-if __name__ == "__main__":
-    sol = Solution()
-    print(sol.convert("PAYPALISHIRING", 3))
