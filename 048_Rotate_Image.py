@@ -28,9 +28,3 @@ class Solution(object):
                 matrix[n - 1 - i][layer] = matrix[n - 1 - layer][n - 1- i]
                 matrix[n - 1 - layer][n - 1 - i] = matrix[i][n - 1 - layer]
                 matrix[i][n - 1 - layer] = temp
-
-sol = Solution()
-test = [[1,2,3], [4,5,6], [7,8,9]]
-print(list(zip(*test[::-1])))
-sol.rotate(test)
-print(test)

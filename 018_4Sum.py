@@ -47,10 +47,3 @@ class Solution(object):
             for i in range(len(nums)-n+1):              # for all possible first numbers nums[i]
                 if i == 0 or nums[i] != nums[i-1]:      # if not duplicate
                     self.n_sum(nums[i+1:], target-nums[i], partial + [nums[i]], n-1, results)
-
-
-
-if __name__ == "__main__":
-    sol = Solution()
-    test = [1, 0, -1, 0, -2, 2]
-    print(sol.fourSum(test, 0))

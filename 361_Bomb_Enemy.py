@@ -42,8 +42,3 @@ class Solution(object):
                     max_kill_enemies = max(max_kill_enemies, row_kill + col_kill[c])
 
         return max_kill_enemies
-
-
-sol = Solution()
-test = ["0E00","E0WE","0E00"]
-print(sol.maxKilledEnemies(test))

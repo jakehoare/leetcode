@@ -47,7 +47,3 @@ class Solution(object):
                 third += 1
 
         return False
-
-sol = Solution()
-test = "111122335588143"
-print(sol.isAdditiveNumber(test))
