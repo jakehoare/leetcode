@@ -34,6 +34,3 @@ class Solution(object):
             n -= 1
 
         return "".join(result)
-
-sol = Solution()
-print(sol.getPermutation(4,10))

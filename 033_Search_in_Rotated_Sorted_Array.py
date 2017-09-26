@@ -38,7 +38,4 @@ class Solution(object):
                 return self.rotated_search(nums, target, mid+1, right)
             return self.rotated_search(nums, target, left, mid-1)
 
-sol = Solution()
-print(sol.search([3,1], 1))
-
 

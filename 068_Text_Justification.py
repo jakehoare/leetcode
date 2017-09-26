@@ -56,10 +56,3 @@ class Solution(object):
         justified.append(final_line)
 
         return justified
-
-
-
-sol = Solution()
-test = ["Listen","to","many,","speak","to","a","few."]
-width = 6
-print(sol.fullJustify(test, width))

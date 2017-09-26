@@ -43,6 +43,3 @@ class Solution(object):
                     results.append(root)
 
         return results
-
-sol = Solution()
-print(sol.generateTrees(0))

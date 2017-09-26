@@ -23,9 +23,3 @@ class Solution(object):
                 nums[next_free] = num
                 next_free += 1
         return next_free
-
-if __name__ == "__main__":
-    sol = Solution()
-    test = [3,2,2,3]
-    length = sol.removeElement(test, 3)
-    print(test[:length])
