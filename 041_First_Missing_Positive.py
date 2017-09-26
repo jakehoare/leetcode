@@ -31,8 +31,3 @@ class Solution(object):
             if nums[i] != i+1:
                 return i+1
         return len(nums)+1
-
-
-
-sol = Solution()
-print(sol.firstMissingPositive([2,1]))

@@ -32,9 +32,3 @@ class Solution(object):
             results = [c + r + strobo[c] for r in results for c in strobo]
 
         return [result for result in results if (result[0] != '0' or n == 1)]
-
-sol = Solution()
-i = 18
-start = time.time()
-res = sol.findStrobogrammatic(i)
-print(i, len(res), time.time()-start)

@@ -23,6 +23,3 @@ class Solution(object):
         if i == -1:
             return [1] + digits
         return digits[:i] + [digits[i]+1] + digits[i+1:]
-
-sol = Solution()
-print(sol.plusOne([2,3,9,9]))

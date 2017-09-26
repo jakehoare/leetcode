@@ -28,6 +28,3 @@ class Solution(object):
             col += d_c
 
         return spiral
-
-sol = Solution()
-print(sol.generateMatrix(5))

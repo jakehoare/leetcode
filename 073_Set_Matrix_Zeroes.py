@@ -45,7 +45,3 @@ class Solution(object):
         if first_col_zero:
             for r in range(rows):
                 matrix[r][0] = 0
-
-sol = Solution()
-test = [[0,0,0,5],[4,3,1,4],[0,1,1,4],[1,2,1,3],[0,0,1,1]]
-print(sol.setZeroes(test))
