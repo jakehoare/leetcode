@@ -45,6 +45,3 @@ class Solution(object):
             if row + col_diff == new_row or row - col_diff == new_row:
                 return True
         return False
-
-sol = Solution()
-print(sol.solveNQueens(4))

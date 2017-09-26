@@ -52,10 +52,3 @@ class Solution(object):
                     i += word_len
 
         return result
-
-
-if __name__ == "__main__":
-    sol = Solution()
-    s = "aaaaaa"
-    words = ["aaa","aaa"]
-    print(sol.findSubstring(s, words))

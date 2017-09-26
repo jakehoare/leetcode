@@ -39,8 +39,3 @@ class Solution(object):
 
         result = max(min(result, 2**31 - 1), -2**31)    # keep within 4 byte signed integer bounds
         return result
-
-
-if __name__ == "__main__":
-    sol = Solution()
-    print(sol.myAtoi('   010'))
