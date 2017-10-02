@@ -6,6 +6,7 @@ _project_ = 'leetcode'
 # Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
 
 # Find the middle element if sum of input list lengths is odd, or else the average of the middle pair.
+# get_kth_smallest recusively removes k//2 elements from one list.
 # Time - O(log(m+n)), half of the elements smaller than median are removed each recursive call.
 # Space - O(log(m+n)) for the recursive call stack.
 
