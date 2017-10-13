@@ -13,7 +13,7 @@ Space - O(1)
 
 class Solution {
     public int findUnsortedSubarray(int[] nums) {
-        
+
         int numsMax = nums[0];      // nums.length guaranteed to be non-zero
         int numsMin = nums[nums.length - 1];
         int left = -1;              // initialise right and left so if not updated (sorted ascending)
