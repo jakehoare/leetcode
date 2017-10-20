@@ -8,9 +8,11 @@ _project_ = 'leetcode'
 # For all rows that have a black pixel at column C, they should be exactly the same as row R
 # The picture is represented by a 2D char array consisting of 'B' and 'W' pixels.
 
-# Iterate over picture, for each row if contains N black pixels add to row_strings counter. Also count black pixels
-# by column. Then if a row does not have a count of N each black pixel either cannot have col_count of N or is not from
-# an identical row. Else count black pixels from all cols with countof N.
+# Iterate over picture, for each row that contains N black pixels, increment row_strings counter which maps from a string
+# representation of that row to its frequency. Also count black pixels by column.
+# Then for each row_string with N copies, increment the result by N for each pixel for a column with a count of N.
+# if a row string does not have N copies then each black pixel either cannot have col_count of N or is not from
+# an identical row.
 # Time - O(mn)
 # Space - O(mn)
 
