@@ -4,9 +4,11 @@ _project_ = 'leetcode'
 # https://leetcode.com/problems/max-points-on-a-line/
 # Given n points on a 2D plane, find the maximum number of points that lie on the same straight line.
 
-# For each point, count the number of other points with the same gradient and store in dictionary.  Python accepts
-# floats as dictionary keys.  Infinite slopes are stored with key of 'inf'.  If both x and y are the same, both points
-# lie on all lines with the first point.
+# For each point, calculate the gradient of the line to all other points and store in dictionary.  Python accepts
+# floats as dictionary keys and floating point accuracy is not an issue for sufficiently small x and y.
+# Infinite slopes are stored with key of 'inf'.  If both x and y are the same, both points lie on all lines with the
+# first point. Calculate the max number of points on a line with each base point in turn, only considering other points
+# that have not already been the base point.
 # Time - O(n**2)
 # Space - O(n)
 
