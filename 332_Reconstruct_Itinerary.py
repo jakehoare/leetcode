@@ -25,7 +25,7 @@ class Solution(object):
         :type tickets: List[List[str]]
         :rtype: List[str]
         """
-        tickets.sort(reverse = True)
+        tickets.sort(reverse = True)    # reverse start destination, then ties broken by reverse end
         flights = defaultdict(list)
         for start, end in tickets:      # key is start, value is list of ends (lowest alphabetical is last)
             flights[start].append(end)
