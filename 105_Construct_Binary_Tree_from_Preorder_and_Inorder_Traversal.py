@@ -5,9 +5,8 @@ _project_ = 'leetcode'
 # Given preorder and inorder traversal of a tree, construct the binary tree.
 # You may assume that duplicates do not exist in the tree.
 
-# Construct tree in preorder. Null inorder signifies preorder[0] is not part of this subtree.
-# The first element of preorder is the root.  Partition the inorder list about this element.  Complete left subtree
-# with all elements on left of partition, then right subtree.
+# Build until we reach stop value, initially None. Take first preorder as root then recurse left until inorder is
+# root value. Then discard inorder and recurse right until final stop.
 # Time - O(n)
 # Space - O(n)
 
@@ -27,20 +26,19 @@ class Solution(object):
         :type inorder: List[int]
         :rtype: TreeNode
         """
-        preorder = deque(preorder)              # if not deque, can pop(0) from list
-        return self.build(preorder, inorder)
+        def build(stop):
 
-    def build(self, preorder, inorder):
+            if not inorder or inorder[-1] == stop:
+                return None
 
-        if not inorder:     # use inorder and not preorder
-            return None
+            root_val = preorder.pop()
+            root = TreeNode(root_val)
+            root.left = build(root_val)     # build left subtree until inorder reaches root_val
+            inorder.pop()                   # then discard root_val
+            root.right = build(stop)        # build right subtree until inorder reaches original stop
 
-        root_val = preorder.popleft()   # remove an element from deque when creating a node
-        root = TreeNode(root_val)
-        inorder_index = inorder.index(root_val)
+            return root
 
-        root.left = self.build(preorder, inorder[:inorder_index])
-        root.right = self.build(preorder, inorder[inorder_index+1:])
-
-        return root
-
+        preorder.reverse()      # reverse so we can pop in O(1) time
+        inorder.reverse()
+        return build(None)
