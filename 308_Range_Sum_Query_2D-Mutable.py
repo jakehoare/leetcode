@@ -10,10 +10,9 @@ _project_ = 'leetcode'
 # Store the cumulative sums for each row.  To sumRegion, sum the difference between the sum to the last and first col
 # over each row.  To update, add the difference to the cumulative sum of that row for each later column.
 # Time - O(mn) to initialise, O(n) to update, O(m) to sumRegion
-# Space - O(mn)
+# Space - O(1), modified im place
 
 class NumMatrix(object):
-
     def __init__(self, matrix):
         """
         :type matrix: List[List[int]]
@@ -21,13 +20,11 @@ class NumMatrix(object):
         if not matrix or not matrix[0]:
             return
         rows, self.cols = len(matrix), len(matrix[0])
-        self.row_sums = []
-        for r in range(rows):
-            self.row_sums.append([matrix[r][0]])
-            for c in range(1, self.cols):
-                self.row_sums[-1].append(self.row_sums[-1][-1] + matrix[r][c])
-        self.matrix = matrix
 
+        for r in range(rows):
+            for c in range(1, self.cols):
+                matrix[r][c] += matrix[r][c - 1]
+        self.matrix = matrix
 
     def update(self, row, col, val):
         """
@@ -36,11 +33,13 @@ class NumMatrix(object):
         :type val: int
         :rtype: void
         """
-        diff = val - self.matrix[row][col]
-        for c in range(col, self.cols):
-            self.row_sums[row][c] += diff
-        self.matrix[row][col] = val
+        prev = self.matrix[row][col]
+        if col != 0:
+            prev -= self.matrix[row][col - 1]
+        diff = val - prev
 
+        for c in range(col, self.cols):
+            self.matrix[row][c] += diff
 
     def sumRegion(self, row1, col1, row2, col2):
         """
@@ -51,8 +50,8 @@ class NumMatrix(object):
         :rtype: int
         """
         sum_region = 0
-        for r in range(row1, row2+1):
-            sum_region += self.row_sums[r][col2]
+        for r in range(row1, row2 + 1):
+            sum_region += self.matrix[r][col2]
             if col1 != 0:
-                sum_region -= self.row_sums[r][col1-1]
+                sum_region -= self.matrix[r][col1 - 1]
         return sum_region
