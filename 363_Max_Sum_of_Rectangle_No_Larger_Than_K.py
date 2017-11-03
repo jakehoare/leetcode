@@ -5,10 +5,12 @@ _project_ = 'leetcode'
 # Given a non-empty 2D matrix matrix and an integer k, find the max sum of a rectangle in the matrix such that
 # its sum is no larger than k.
 
-# For each pair of start col calculate cumulative row_sums by row of each end col in turn.  Maintain a sorted list of
-# the cumulative sums of row_sums.  Search for the smallest prefix sum larger than all_row_sum - k
+# For each column forming the left edge of the rectangle, calculate cumulative row_sums for each column at the right
+# edge of the rectangle. For each right edge column, iterate over rows and maintain a sorted list of the sum of the
+# cells between those columns for each row. For each row, find the value in the list that makes a rectangle with sum
+# not more than k. Insert cumulative row sum into list.
 # Alternatively use skip list or self-balancing tree to maintain sorted list.
-# Time - O(n**2 * m **2)
+# Time - O(n**2 * m**2)
 # Space - O(m)
 
 import bisect
@@ -29,14 +31,14 @@ class Solution(object):
             row_sums = [0 for _ in range(rows)]
 
             for j in range(i, cols):
-                sorted_sums = [0]   # always have prefix of zero length
+                sorted_sums = [0]   # sum of rows between these columns
                 all_row_sum = 0     # sum of cols i to j (inclusive), rows 0 to r (inclusive)
 
                 for r in range(rows):
                     row_sums[r] += matrix[r][j]
                     all_row_sum += row_sums[r]
 
-                    larger = bisect.bisect_left(sorted_sums, all_row_sum - k)
+                    larger = bisect.bisect_left(sorted_sums, all_row_sum - k)   #
                     if larger != len(sorted_sums):
                         if all_row_sum - sorted_sums[larger] == k:  # cannot improve, early return
                             return k
