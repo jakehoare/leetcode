@@ -5,7 +5,7 @@ _project_ = 'leetcode'
 # Evaluate the value of an arithmetic expression in Reverse Polish Notation.
 # Valid operators are +, -, *, /. Each operand may be an integer or another expression.
 
-# Push numbers onto stack.  Apply operators to top 2 members of stack adn push back result.
+# Push numbers onto stack.  Apply operators to top 2 members of stack and push back result.
 # Faster but less concise without using eval().
 # Time - O(n)
 # Space - O(n)
