@@ -9,6 +9,7 @@ _project_ = 'leetcode'
 # If the frog's last jump was k units, then its next jump must be either k - 1, k, or k + 1 units.
 # Note that the frog can only jump in the forward direction.
 
+# For each stone, create a set of previous jump distances that can reach that stone.
 # For each jump size that can reach each stone, for each of the 3 jump sizes, if this reaches another stone add it
 # to the set of jumps that can reach that next stone.
 # Time - O(n**2)
