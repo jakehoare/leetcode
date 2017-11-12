@@ -7,8 +7,9 @@ _project_ = 'leetcode'
 # Converting the input string to integer is NOT allowed.
 # You should NOT use internal library such as BigInteger.
 
-# Reverse digit order. nums1[i] * nums2[j] is added to result[i+j+1] and result[i+j]
-# Alternatively : return str(int(num1) * int(num2))
+# Create a list of each digit in the result, starting wiht the least significant digit.
+# Reverse input digit order. nums1[i] * nums2[j] is added to result[i+j+1] and result[i+j]
+# Alternatively: return str(int(num1) * int(num2))
 # Time - O(m * n) where inputs are of lengths m and n
 # Space - O(max(m,n))
 
@@ -20,7 +21,7 @@ class Solution(object):
         :rtype: str
         """
         num1, num2 = num1[::-1], num2[::-1]         # easier to work with lowest digits first
-        result = [0] * (2 * max(len(num1), len(num2)))
+        result = [0] * (len(num1) + len(num2))
 
 
         for i in range(len(num1)):
@@ -31,9 +32,7 @@ class Solution(object):
 
                 int2 = ord(num2[j]) - ord('0')
 
-                product = int1 * int2
-                units = product % 10
-                tens = product // 10
+                tens, units = divmod(int1 * int2, 10)
 
                 result[i + j] += units      # add units and handle carry of units
                 if result[i + j] > 9:
