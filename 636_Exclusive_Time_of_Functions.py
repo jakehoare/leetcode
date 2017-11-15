@@ -11,10 +11,9 @@ _project_ = 'leetcode'
 # functions should not be considered as this function's exclusive time. You should return the exclusive time of each
 # function sorted by their function id.
 
-# When a function starts, if there is a current function already running then update the exclusive time and push
-# current onto stack. Update new current function and time. Else if finish then update exclusive time of finished
-# function (extra +1 because start is at perriod start and end is at end) and update current function and its restart
-# time.
+# When a function starts, if there is a current function already running then update its exclusive time. Push
+# new function onto stack and update time. Else if finish then update exclusive time of finished
+# function (extra +1 because start is at perriod start and end is at end) and update time.
 # Time - O(n)
 # Space - O(n)
 
@@ -27,25 +26,21 @@ class Solution(object):
         """
         stack = []
         exclusive = [0 for _ in range(n)]
-        current, start = None, None
+        start = None
 
         for log in logs:
             fn, state, time = log.split(":")
             fn, time = int(fn), int(time)
 
             if state == "start":
-                if current is not None:
-                    exclusive[current] += time - start
-                    stack.append(current)
-                current, start = fn, time
+                if stack:
+                    exclusive[stack[-1]] += time - start
+                stack.append(fn)
+                start = time
 
             else:
-                exclusive[current] += time - start + 1      # +1 because finish is at end of time step
-                if stack:
-                    current = stack.pop()
-                    start = time + 1
-                else:
-                    current, start = None, None
+                exclusive[stack.pop()] += time - start + 1
+                start = time + 1
 
         return exclusive
 
