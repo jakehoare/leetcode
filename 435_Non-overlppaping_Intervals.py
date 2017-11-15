@@ -18,6 +18,7 @@ class Interval(object):
         self.start = s
         self.end = e
 
+
 class Solution(object):
     def eraseOverlapIntervals(self, intervals):
         """
@@ -28,15 +29,14 @@ class Solution(object):
         if not intervals:
             return 0
 
-        intervals.sort(key = lambda x: x.start)   # sort by increasing start
-        current = intervals[0].start            # current interval end point
+        intervals.sort(key=lambda x: x.start)   # sort by increasing start
+        current_end = intervals[0].start        # does not overlap with first interval
 
         for interval in intervals:
-
-            if current > interval.start:  # overlap
+            if current_end > interval.start:    # overlap
                 erase += 1
-                if interval.end > current:  # retain current since end is less so less future overlaps
+                if interval.end > current_end:  # retain current since end is less so fewer future overlaps
                     continue
-            current = interval.end  # update current if no overlap or best choice
+            current_end = interval.end          # update current if no overlap or best choice
 
         return erase
