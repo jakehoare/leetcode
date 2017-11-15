@@ -17,7 +17,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        subarray_sum, min_length, start = 0, len(nums)+1, 0     # min_length len(nums)+1 indicates no subarray sum >= s
+        subarray_sum, min_length, start = 0, len(nums) + 1, 0   # min_length len(nums)+1 indicates no subarray sum >= s
 
         for i in range(len(nums)):
 
