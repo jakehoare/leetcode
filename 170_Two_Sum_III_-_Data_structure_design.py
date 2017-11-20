@@ -25,10 +25,7 @@ class TwoSum(object):
         Add the number to an internal data structure.
         :rtype: nothing
         """
-        if number not in self.nums:
-            self.nums[number] = False   # first occurrence of num
-        else:
-            self.nums[number] = True    # num seen already
+        self.nums[number] = number in self.nums     # False for first occurence, True for multiple occurrences
 
     def find(self, value):
         """
