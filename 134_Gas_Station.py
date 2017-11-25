@@ -7,9 +7,9 @@ _project_ = 'leetcode'
 # station (i+1). You begin the journey with an empty tank at one of the gas stations.
 # Return the starting gas station's index if you can travel around the circuit once, otherwise return -1.
 
-# If total gas >= total cost then a circuit is possible.  There must be some journey leg that is possible, so we can
-# add the net gas balance from that to the next journey leg and repeat.
-# Perform a theoretical circuit and find the leg where tha gas is minimal.  Start from next station.
+# If total gas >= total cost then a circuit is possible.
+# Iterate round the circuit, updating current tank balance and total. If current tank is negative, cannot start at
+# that station so update start to next possible station.
 # Time - O(n)
 # Space - O(1)
 
@@ -20,16 +20,14 @@ class Solution(object):
         :type cost: List[int]
         :rtype: int
         """
-        if sum(gas) < sum(cost):
-            return -1
-
-        tank = 0
-        min_tank = float('inf')
+        start, tank, total = 0, 0, 0
 
         for station in range(len(gas)):
-            tank += gas[station] - cost[station]
-            if tank < min_tank:
-                min_tank = tank
-                min_station = station
+            balance = gas[station] - cost[station]
+            tank += balance
+            total += balance
+            if tank < 0:
+                start = station + 1
+                tank = 0
 
-        return (min_station+1) % len(gas)
+        return -1 if total < 0 else start
