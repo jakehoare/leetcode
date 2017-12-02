@@ -20,21 +20,23 @@ class Solution(object):
         :type word2: str
         :rtype: int
         """
-        return self.edit_distance(word1, len(word1)-1, word2, len(word2)-1, {})
 
-    def edit_distance(self, word1, i, word2, j, memo):      # i, j are next indices to be matched
-        if i < 0 or j < 0:
-            return i + 1 + j + 1
+        def edit_distance(i, j):
+            if i < 0 or j < 0:
+                return i + 1 + j + 1
 
-        if (i, j) in memo:
-            return memo[(i, j)]
+            if (i, j) in memo:
+                return memo[(i, j)]
 
-        if word1[i] == word2[j]:
-            result = self.edit_distance(word1, i-1, word2, j-1, memo)
-        else:
-            result = 1 + min(self.edit_distance(word1, i-1, word2, j, memo),
-                             self.edit_distance(word1, i, word2, j-1, memo),
-                             self.edit_distance(word1, i-1, word2, j-1, memo))
+            if word1[i] == word2[j]:
+                result = edit_distance(i - 1, j - 1)
+            else:
+                result = 1 + min(edit_distance(i - 1, j),
+                                 edit_distance(i, j - 1),
+                                 edit_distance(i - 1, j - 1))
 
-        memo[(i, j)] = result
-        return result
+            memo[(i, j)] = result
+            return result
+
+        memo = {}
+        return edit_distance(len(word1) - 1, len(word2) - 1)
