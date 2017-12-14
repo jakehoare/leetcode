@@ -21,47 +21,56 @@ class Solution(object):
         :type edges: List[List[int]]
         :rtype: bool
         """
-        if len(edges) != n-1:                       # eliminate if too many/few edges for n nodes
-            return False
 
-        adjacency = {i : [] for i in range(n)}      # list of neighbours for each node
-        for a, b in edges:
-            adjacency[a].append(b)
-            adjacency[b].append(a)
+        class Solution(object):
+            def validTree(self, n, edges):
+                """
+                :type n: int
+                :type edges: List[List[int]]
+                :rtype: bool
+                """
 
-        self.dfs(0, adjacency)
-        return not adjacency
+                def dfs(node):                  # recursively removes nbors from mapping
+                    nbors = adjacency.pop(node, [])
+                    for nbor in nbors:
+                        dfs(nbor)
 
-    def dfs(self, node, adjacency):
-        nbors = adjacency.pop(node, [])     # returns list of nbors of node or defaults to [] if node not in dict
-        for nbor in nbors:
-            self.dfs(nbor, adjacency)
+                if len(edges) != n - 1:         # eliminate if too many/few edges for n nodes
+                    return False
+
+                adjacency = {i: [] for i in range(n)}   # list of neighbours for each node
+                for a, b in edges:
+                    adjacency[a].append(b)
+                    adjacency[b].append(a)
+
+                dfs(0)
+                return not adjacency
 
 
 class Solution2(object):
     def validTree(self, n, edges):
-        if len(edges) != n-1:
+        """
+        :type n: int
+        :type edges: List[List[int]]
+        :rtype: bool
+        """
+        def find(node):
+            if parents[node] == -1:
+                return node
+            return find(parents[node])
+
+        if len(edges) != n - 1:
             return False
+
         parents = [-1] * n
 
         for a, b in edges:
 
-            a_parent = self.find(a, parents)
-            b_parent = self.find(b, parents)
+            a_parent = find(a)
+            b_parent = find(b)
 
             if a_parent == b_parent:
                 return False
             parents[a_parent] = b_parent
 
         return True
-
-    def find(self, node, parents):
-        if parents[node] == -1:
-            return node
-        return self.find(parents[node], parents)
-
-
-sol = Solution2()
-n = 5
-edges = [[0, 1], [1, 2], [2, 3], [1, 3]]
-print(sol.validTree(n, edges))
