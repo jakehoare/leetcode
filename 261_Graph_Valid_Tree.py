@@ -69,7 +69,7 @@ class Solution2(object):
             a_parent = find(a)
             b_parent = find(b)
 
-            if a_parent == b_parent:
+            if a_parent == b_parent:    # already have same parent before this edge
                 return False
             parents[a_parent] = b_parent
 
