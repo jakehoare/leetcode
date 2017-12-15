@@ -6,7 +6,7 @@ _project_ = 'leetcode'
 
 # Reverse entire array, then reverse left k elements and right n-k elements.
 # Alternatively, split after n-k elements and swap slices.
-# Time - O(1)
+# Time - O(n)
 # Space - O(1)
 
 class Solution(object):
