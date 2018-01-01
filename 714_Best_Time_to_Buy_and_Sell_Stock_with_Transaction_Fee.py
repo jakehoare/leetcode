@@ -9,7 +9,7 @@ _project_ = 'leetcode'
 # Return the maximum profit you can make.
 
 # Track most cash after buying at current price and most cash after selling at current price. Most cash after buying is
-# higher of prevous most and cash after buying here = sell - price. Most cash after selling is higher of prevous most
+# higher of previous most and cash after buying here = sell - price. Most cash after selling is higher of previous most
 # and cash after selling here = buy + price - fee.
 # Time - O(n)
 # Space - O(1)
