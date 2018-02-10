@@ -6,7 +6,7 @@ _project_ = 'leetcode'
 # The digits are stored in reverse order and each of their nodes contain a single digit.
 # Add the two numbers and return it as a linked list.
 
-# Iterte ovr lists. Add to result a node with the the sum of input nodes plus carry, mod 10.
+# Iterate over lists. Add to result a node with the the sum of input nodes plus carry, mod 10.
 # Time - O(max(m,n)) where m and n are input list lengths.
 # Space - O(max(m,n)), output will be at most one digit more than longest input.
 
