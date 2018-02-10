@@ -12,6 +12,7 @@ _project_ = 'leetcode'
 # Starting point is assumed to be valid, so it might not be included in the bank.
 # You may assume start and end string is not the same.
 
+# NOTE THAT THIS PROBLEM IS IN DRAFT STATUS IN LEETCODE
 # BFS. For each gene in frontier, try all possible mutations. If mutation is in bank then remove, hence no need to
 # check for loops.
 # Time - O(n) where n is size of bank
