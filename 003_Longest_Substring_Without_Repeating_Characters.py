@@ -20,7 +20,8 @@ class Solution(object):
 
         for i, c in enumerate(s):
 
-            if c in last_seen and last_seen[c] >= start:    # start a new substring after the previous sighting of c
+            if c in last_seen and last_seen[c] >= start:
+                # start a new substring after the previous sighting of c
                 start = last_seen[c]+1
             else:
                 longest = max(longest, i-start+1)
