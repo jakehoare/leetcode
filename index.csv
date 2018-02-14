@@ -477,6 +477,7 @@
 660,3,660 Remove 9,https://raw.githubusercontent.com/jakehoare/leetcode/master/660_Remove_9.py
 662,2,662 Maximum Width of Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/662_Maximum_Width_of_Binary_Tree.py
 663,2,663 Equal Tree Partition,https://raw.githubusercontent.com/jakehoare/leetcode/master/663_Equal_Tree_Partition.py
+664,3,664 Strange Printer,https://raw.githubusercontent.com/jakehoare/leetcode/master/664_Strange_Printer.py
 691,3,691 Stickers to Spell Word,https://raw.githubusercontent.com/jakehoare/leetcode/master/691_Stickers_to_Spell_Word.py
 692,2,692 Top K Frequent Words,https://raw.githubusercontent.com/jakehoare/leetcode/master/692_Top_K_Frequent_Words.py
 694,2,694 Number of Distinct Islands,https://raw.githubusercontent.com/jakehoare/leetcode/master/694_Number_of_Distinct_Islands.py
@@ -501,3 +502,5 @@
 731,2,731 My Calendar II,https://raw.githubusercontent.com/jakehoare/leetcode/master/731_My_Calendar_II.py
 732,3,732 My Calendar III,https://raw.githubusercontent.com/jakehoare/leetcode/master/732_My_Calendar_III.py
 735,2,735 Asteroid Collision,https://raw.githubusercontent.com/jakehoare/leetcode/master/735_Asteroid_Collision.py
+737,2,737 Sentence Similarity II,https://raw.githubusercontent.com/jakehoare/leetcode/master/737_Sentence_Similarity_II.py
+738,2,738 Monotone Increasing Digits,https://raw.githubusercontent.com/jakehoare/leetcode/master/738_Monotone_Increasing_Digits.py
