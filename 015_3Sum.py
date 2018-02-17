@@ -8,7 +8,7 @@ _project_ = 'leetcode'
 
 # Sort the array.  For each index i perform a bidirectional search on the higher values in the array.
 # Skip over duplicates.  Increment i to the next new minimum number.
-# Time - O(n^2), for each i at least one of j and k moves every iteration.
+# Time - O(n**2), for each i at least one of j and k moves every iteration.
 # Space - O(n)
 
 class Solution(object):
@@ -32,23 +32,24 @@ class Solution(object):
                 if triple_sum == 0:     # record result and move both j and k to next new numbers
                     results.append([nums[i], nums[j], nums[k]])
                     k -= 1
-                    while k > j and nums[k] == nums[k+1]:
+                    while k > j and nums[k] == nums[k + 1]:
                         k -= 1
                     j += 1
-                    while j < k and nums[j] == nums[j-1]:
+                    while j < k and nums[j] == nums[j - 1]:
                         j += 1
 
                 elif triple_sum > 0:    # decrement k to next new number
                     k -= 1
-                    while k > j and nums[k] == nums[k+1]:
+                    while k > j and nums[k] == nums[k + 1]:
                         k -= 1
                 else:                   # increment j to next new number
                     j += 1
-                    while j < k and nums[j] == nums[j-1]:
+                    while j < k and nums[j] == nums[j - 1]:
                         j += 1
 
             i += 1                      # increment i to next new number
-            while i < len(nums)-2 and nums[i] == nums[i-1]:
+            while i < len(nums) - 2 and nums[i] == nums[i - 1]:
                 i += 1
 
         return results
+
