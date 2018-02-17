@@ -4,7 +4,7 @@ _project_ = 'leetcode'
 # https://leetcode.com/problems/binary-tree-preorder-traversal/
 # Given a binary tree, return the preorder traversal of its nodes' values.
 
-# Maintain a stack of nodes discovered and to be visited.  Add right children to stack before left so left subtrees
+# Maintain a stack of nodes discovered and to be visited. Add right children to stack before left so left subtrees
 # are visited before right.
 # Alternatively, visit node, recurse left then recurse right.
 # Time - O(n)
