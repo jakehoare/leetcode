@@ -19,35 +19,33 @@ class Solution(object):
         """
         if not matrix or not matrix[0]:
             return False
-        rows = len(matrix)
-        cols = len(matrix[0])
+        rows, cols = len(matrix), len(matrix[0])
 
-        high, low = rows-1, 0
+        def bin_search(low, high, row):     # if row == -1 then search first values of rows
+                                            # else search cols of a specific row
+            while high >= low:
 
-        while high >= low:
-            mid = (high + low) // 2
-            value = matrix[mid][0]
-            if target == value:
-                return True
-            elif target > value:
-                low = mid+1
-            else:
-                high = mid-1
+                mid = (high + low) // 2
+                if row != -1:
+                    value = matrix[row][mid]
+                else:
+                    value = matrix[mid][0]
 
-        if high == -1:
+                if target == value:
+                    return -2               # signifies target is found
+                elif target > value:
+                    low = mid + 1
+                else:
+                    high = mid - 1
+
+            return high
+
+        row = bin_search(0, rows - 1, -1)
+        if row == -2:
+            return True
+        if row == -1:
             return False
-        row = high
 
-        high, low = cols-1, 0
+        return bin_search(0, cols - 1, row) == -2
 
-        while high >= low:
-            mid = (high + low) // 2
-            value = matrix[row][mid]
-            if target == value:
-                return True
-            elif target > value:
-                low = mid+1
-            else:
-                high = mid-1
 
-        return False
