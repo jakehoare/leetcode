@@ -478,6 +478,9 @@
 662,2,662 Maximum Width of Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/662_Maximum_Width_of_Binary_Tree.py
 663,2,663 Equal Tree Partition,https://raw.githubusercontent.com/jakehoare/leetcode/master/663_Equal_Tree_Partition.py
 664,3,664 Strange Printer,https://raw.githubusercontent.com/jakehoare/leetcode/master/664_Strange_Printer.py
+666,2,666 Path Sum IV,https://raw.githubusercontent.com/jakehoare/leetcode/master/666_Path_Sum_IV.py
+667,2,667 Beautiful Arrangement II,https://raw.githubusercontent.com/jakehoare/leetcode/master/667_Beautiful_Arrangement_II.py
+668,3,668 Kth Smallest Number in Multiplication Table,https://raw.githubusercontent.com/jakehoare/leetcode/master/668_Kth_Smallest_Number_in_Multiplication_Table.py
 691,3,691 Stickers to Spell Word,https://raw.githubusercontent.com/jakehoare/leetcode/master/691_Stickers_to_Spell_Word.py
 692,2,692 Top K Frequent Words,https://raw.githubusercontent.com/jakehoare/leetcode/master/692_Top_K_Frequent_Words.py
 694,2,694 Number of Distinct Islands,https://raw.githubusercontent.com/jakehoare/leetcode/master/694_Number_of_Distinct_Islands.py
@@ -507,3 +510,4 @@
 738,2,738 Monotone Increasing Digits,https://raw.githubusercontent.com/jakehoare/leetcode/master/738_Monotone_Increasing_Digits.py
 739,2,739 Daily Temperatures,https://raw.githubusercontent.com/jakehoare/leetcode/master/739_Daily_Temperatures.py
 740,2,740 Delete and Earn,https://raw.githubusercontent.com/jakehoare/leetcode/master/740_Delete_and_Earn.py
+741,3,741 Cherry Pickup,https://raw.githubusercontent.com/jakehoare/leetcode/master/741_Cherry_Pickup.py
