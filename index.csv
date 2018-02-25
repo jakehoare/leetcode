@@ -47,7 +47,7 @@
 47,2,047 Permutations II,https://raw.githubusercontent.com/jakehoare/leetcode/master/047_Permutations_II.py
 48,2,048 Rotate Image,https://raw.githubusercontent.com/jakehoare/leetcode/master/048_Rotate_Image.py
 49,2,049 Group Anagrams,https://raw.githubusercontent.com/jakehoare/leetcode/master/049_Group_Anagrams.py
-50,2,"050 Pow(x,n)",https://raw.githubusercontent.com/jakehoare/leetcode/master/050_Pow(x%2Cn).py
+50,2,050 Power Function,https://raw.githubusercontent.com/jakehoare/leetcode/master/050_Power_Function.py
 51,3,051 N-Queens,https://raw.githubusercontent.com/jakehoare/leetcode/master/051_N-Queens.py
 52,3,052 N-Queens II,https://raw.githubusercontent.com/jakehoare/leetcode/master/052_N-Queens_II.py
 53,1,053 Maximum Subarray,https://raw.githubusercontent.com/jakehoare/leetcode/master/053_Maximum_Subarray.py
@@ -481,6 +481,7 @@
 666,2,666 Path Sum IV,https://raw.githubusercontent.com/jakehoare/leetcode/master/666_Path_Sum_IV.py
 667,2,667 Beautiful Arrangement II,https://raw.githubusercontent.com/jakehoare/leetcode/master/667_Beautiful_Arrangement_II.py
 668,3,668 Kth Smallest Number in Multiplication Table,https://raw.githubusercontent.com/jakehoare/leetcode/master/668_Kth_Smallest_Number_in_Multiplication_Table.py
+670,2,670 Maximum Swap,https://raw.githubusercontent.com/jakehoare/leetcode/master/670_Maximum_Swap.py
 691,3,691 Stickers to Spell Word,https://raw.githubusercontent.com/jakehoare/leetcode/master/691_Stickers_to_Spell_Word.py
 692,2,692 Top K Frequent Words,https://raw.githubusercontent.com/jakehoare/leetcode/master/692_Top_K_Frequent_Words.py
 694,2,694 Number of Distinct Islands,https://raw.githubusercontent.com/jakehoare/leetcode/master/694_Number_of_Distinct_Islands.py
