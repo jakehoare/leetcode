@@ -17,7 +17,7 @@ class Solution(object):
         :type n: int
         :rtype: List[List[str]]
         """
-        partials = [[]]
+        partials = [[]]                         # solutions up to current row
         for col in range(n):
             new_partials = []
             for partial in partials:
@@ -27,7 +27,7 @@ class Solution(object):
             partials = new_partials
 
         results = []
-        for partial in partials:
+        for partial in partials:                # convert result to strings
             result = [['.'] * n for _ in range(n)]
             for col, row in enumerate(partial):
                 result[row][col] = 'Q'
@@ -39,9 +39,10 @@ class Solution(object):
 
     def conflict(self, partial, new_row):
         for col, row in enumerate(partial):
-            if new_row == row:
+            if new_row == row:                      # same row
                 return True
             col_diff = len(partial) - col
-            if row + col_diff == new_row or row - col_diff == new_row:
+            if abs(new_row - row) == col_diff:      # same diagonal
                 return True
+
         return False
