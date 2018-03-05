@@ -200,9 +200,11 @@
 216,2,216 Combination Sum III,https://raw.githubusercontent.com/jakehoare/leetcode/master/216_Combination_Sum_III.py
 217,1,217 Contains Duplicate,https://raw.githubusercontent.com/jakehoare/leetcode/master/217_Contains_Duplicate.py
 218,3,218 The Skyline Problem,https://raw.githubusercontent.com/jakehoare/leetcode/master/218_The_Skyline_Problem.py
+219,1,219 Contains Duplicate II,https://raw.githubusercontent.com/jakehoare/leetcode/master/219_Contains_Duplicate_II.py
 220,2,220 Contains Duplicate III,https://raw.githubusercontent.com/jakehoare/leetcode/master/220_Contains_Duplicate_III.py
 221,2,221 Maximal Square,https://raw.githubusercontent.com/jakehoare/leetcode/master/221_Maximal_Square.py
 222,2,222 Count Complete Tree Nodes,https://raw.githubusercontent.com/jakehoare/leetcode/master/222_Count_Complete_Tree_Nodes.py
+223,2,223 Rectangle Area,https://raw.githubusercontent.com/jakehoare/leetcode/master/223_Rectangle_Area.py
 224,3,224 Basic Calculator,https://raw.githubusercontent.com/jakehoare/leetcode/master/224_Basic_Calculator.py
 227,2,227 Basic Calculator II,https://raw.githubusercontent.com/jakehoare/leetcode/master/227_Basic_Calculator_II.py
 228,2,228 Summary Ranges,https://raw.githubusercontent.com/jakehoare/leetcode/master/228_Summary_Ranges.py
@@ -484,6 +486,7 @@
 668,3,668 Kth Smallest Number in Multiplication Table,https://raw.githubusercontent.com/jakehoare/leetcode/master/668_Kth_Smallest_Number_in_Multiplication_Table.py
 670,2,670 Maximum Swap,https://raw.githubusercontent.com/jakehoare/leetcode/master/670_Maximum_Swap.py
 672,2,672 Bulb Switcher II,https://raw.githubusercontent.com/jakehoare/leetcode/master/672_Bulb_Switcher_II.py
+673,2,673 Number of Longest Increasing Subsequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/673_Number_of_Longest_Increasing_Subsequence.py
 676,2,676 Implement Magic Dictionary,https://raw.githubusercontent.com/jakehoare/leetcode/master/676_Implement_Magic_Dictionary.py
 691,3,691 Stickers to Spell Word,https://raw.githubusercontent.com/jakehoare/leetcode/master/691_Stickers_to_Spell_Word.py
 692,2,692 Top K Frequent Words,https://raw.githubusercontent.com/jakehoare/leetcode/master/692_Top_K_Frequent_Words.py
