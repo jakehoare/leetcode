@@ -206,6 +206,8 @@
 222,2,222 Count Complete Tree Nodes,https://raw.githubusercontent.com/jakehoare/leetcode/master/222_Count_Complete_Tree_Nodes.py
 223,2,223 Rectangle Area,https://raw.githubusercontent.com/jakehoare/leetcode/master/223_Rectangle_Area.py
 224,3,224 Basic Calculator,https://raw.githubusercontent.com/jakehoare/leetcode/master/224_Basic_Calculator.py
+225,1,225 Implement Stack Using Queues,https://raw.githubusercontent.com/jakehoare/leetcode/master/225_Implement_Stack_Using_Queues.py
+226,1,226 Invert Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/226_Invert_Binary_Tree.py
 227,2,227 Basic Calculator II,https://raw.githubusercontent.com/jakehoare/leetcode/master/227_Basic_Calculator_II.py
 228,2,228 Summary Ranges,https://raw.githubusercontent.com/jakehoare/leetcode/master/228_Summary_Ranges.py
 229,2,229 Majority Element II,https://raw.githubusercontent.com/jakehoare/leetcode/master/229_Majority_Element_II.py
@@ -493,7 +495,9 @@
 678,2,678 Valid Parenthesis String,https://raw.githubusercontent.com/jakehoare/leetcode/master/678_Valid_Parenthesis_String.py
 679,3,679 24 Game,https://raw.githubusercontent.com/jakehoare/leetcode/master/679_24_Game.py
 681,2,681 Next Closest Time,https://raw.githubusercontent.com/jakehoare/leetcode/master/681_Next_Closest_Time.py
+683,3,683 K Empty Slots,https://raw.githubusercontent.com/jakehoare/leetcode/master/683_K_Empty_Slots.py
 684,2,684 Redundant Connection,https://raw.githubusercontent.com/jakehoare/leetcode/master/684_Redundant_Connection.py
+685,3,685 Redundant Connection II,https://raw.githubusercontent.com/jakehoare/leetcode/master/685_Redundant_Connection_II.py
 691,3,691 Stickers to Spell Word,https://raw.githubusercontent.com/jakehoare/leetcode/master/691_Stickers_to_Spell_Word.py
 692,2,692 Top K Frequent Words,https://raw.githubusercontent.com/jakehoare/leetcode/master/692_Top_K_Frequent_Words.py
 694,2,694 Number of Distinct Islands,https://raw.githubusercontent.com/jakehoare/leetcode/master/694_Number_of_Distinct_Islands.py
