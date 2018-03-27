@@ -4,8 +4,8 @@ _project_ = 'leetcode'
 # https://leetcode.com/problems/palindrome-linked-list/
 # Given a singly linked list, determine if it is a palindrome.
 
-# Find the length of the list and move to the first node after the middle. Reverse right half of the list in-place.
-# Iterate along original list and reversed right half, checking for equality of val.
+# Move a fast pointer and a slow pointer along the list. Slow pointer nodes are added to reversed list.
+# When no more fast move is possible, iterate along slow and back along reversed list checking for val equality.
 # Time - O(n)
 # Space - O(1)
 
@@ -15,30 +15,25 @@ class Solution(object):
         :type head: ListNode
         :rtype: bool
         """
-        node, length = head, 0
-        while node:
-            node = node.next
-            length += 1
+        fast, slow = head, head
+        rev = None                      # head of the already-reversed part
 
-        if length < 2:
-            return True
+        while fast and fast.next:
+            fast = fast.next.next
+            next_slow = slow.next
+            slow.next = rev
+            rev = slow
+            slow = next_slow
 
-        node, i = head, 0
-        while i < (length + 1) // 2:            # iterate to start of right-half (ignoring middle)
-            node = node.next
-            i += 1
+        # if fast is not null, slow is middle element of odd length list which is skipped
+        # if fast is null, slow is first element of 2nd half of even length list
+        if fast:
+            slow = slow.next
 
-        rev_head, rev_next = node, node.next    # rev_head is head of already reversed part
-        rev_head.next = None                    # rev_next is head of part to be reversed
-
-        while rev_next:
-            temp = rev_next.next                # store what will be new rev_next
-            rev_next.next = rev_head            # link rev_next to rev_head
-            rev_head, rev_next = rev_next, temp
-
-        while rev_head:
-            if head.val != rev_head.val:        # check values are same
+        while slow:
+            if slow.val != rev.val:
                 return False
-            head, rev_head = head.next, rev_head.next
+            slow = slow.next
+            rev = rev.next
 
         return True
