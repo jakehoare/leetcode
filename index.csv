@@ -223,10 +223,14 @@
 239,3,239 Sliding Window Maximum,https://raw.githubusercontent.com/jakehoare/leetcode/master/239_Sliding_Window_Maximum.py
 240,2,240 Search a 2D Matrix II,https://raw.githubusercontent.com/jakehoare/leetcode/master/240_Search_a_2D_Matrix_II.py
 241,2,241 Different Ways to Add Parentheses,https://raw.githubusercontent.com/jakehoare/leetcode/master/241_Different_Ways_to_Add_Parentheses.py
+242,1,242 Valid Anagram,https://raw.githubusercontent.com/jakehoare/leetcode/master/242_Valid_Anagram.py
+243,1,243 Shortest Word Distance,https://raw.githubusercontent.com/jakehoare/leetcode/master/243_Shortest_Word_Distance.py
 244,2,244 Shortest Word Distance II,https://raw.githubusercontent.com/jakehoare/leetcode/master/244_Shortest_Word_Distance_II.py
 245,2,245 Shortest Word Distance III,https://raw.githubusercontent.com/jakehoare/leetcode/master/245_Shortest_Word_Distance_III.py
+246,1,246 Strobogrammatic Number,https://raw.githubusercontent.com/jakehoare/leetcode/master/246_Strobogrammatic_Number.py
 247,2,247 Strobogrammatic Number II,https://raw.githubusercontent.com/jakehoare/leetcode/master/247_Strobogrammatic_Number_II.py
 248,3,248 Strobogrammatic Number III,https://raw.githubusercontent.com/jakehoare/leetcode/master/248_Strobogrammatic_Number_III.py
+249,2,249 Group Shifted Strings,https://raw.githubusercontent.com/jakehoare/leetcode/master/249_Group_Shifted_Strings.py
 250,2,250 Count Univalue Subtrees,https://raw.githubusercontent.com/jakehoare/leetcode/master/250_Count_Univalue_Subtrees.py
 251,2,251 Flatten 2D Vector,https://raw.githubusercontent.com/jakehoare/leetcode/master/251_Flatten_2D_Vector.py
 253,2,253 Meeting Rooms II,https://raw.githubusercontent.com/jakehoare/leetcode/master/253_Meeting_Rooms_II.py
