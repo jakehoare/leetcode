@@ -6,8 +6,8 @@ Top-down recursively add node.val to path and recurse if node is not a leaf, or 
 Alternatively, bottom-up find all paths from left and right nodes to leaves a prepend current node.
 Both can be converted to use StringBuilder but leaf node values must be removed from path after toString() in order
 to revert to original path.
-Time - O(n (log n)**2), less than n/2 leaves, each path log n, log n to copy String without StringBuilder
-Space - O(n log n)
+Time - O(n**2), for every node visited extend existing path
+Space - O(n)
 */
 
 public class Solution {
