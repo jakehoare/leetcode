@@ -233,10 +233,12 @@
 249,2,249 Group Shifted Strings,https://raw.githubusercontent.com/jakehoare/leetcode/master/249_Group_Shifted_Strings.py
 250,2,250 Count Univalue Subtrees,https://raw.githubusercontent.com/jakehoare/leetcode/master/250_Count_Univalue_Subtrees.py
 251,2,251 Flatten 2D Vector,https://raw.githubusercontent.com/jakehoare/leetcode/master/251_Flatten_2D_Vector.py
+252,1,252 Meeting Rooms,https://raw.githubusercontent.com/jakehoare/leetcode/master/252_Meeting_Rooms.py
 253,2,253 Meeting Rooms II,https://raw.githubusercontent.com/jakehoare/leetcode/master/253_Meeting_Rooms_II.py
 254,2,254 Factor Combinations,https://raw.githubusercontent.com/jakehoare/leetcode/master/254_Factor_Combinations.py
 255,2,255 Verify Preorder Sequence in Binary Search Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/255_Verify_Preorder_Sequence_in_Binary_Search_Tree.py
 256,1,256 Paint House,https://raw.githubusercontent.com/jakehoare/leetcode/master/256_Paint_House.py
+257,1,257 Binary Tree Paths,https://raw.githubusercontent.com/jakehoare/leetcode/master/257_Binary_Tree_Paths.py
 259,2,259 3Sum Smaller,https://raw.githubusercontent.com/jakehoare/leetcode/master/259_3Sum_Smaller.py
 260,2,260 Single number III,https://raw.githubusercontent.com/jakehoare/leetcode/master/260_Single_number_III.py
 261,2,261 Graph Valid Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/261_Graph_Valid_Tree.py
