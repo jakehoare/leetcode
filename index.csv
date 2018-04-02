@@ -239,18 +239,24 @@
 255,2,255 Verify Preorder Sequence in Binary Search Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/255_Verify_Preorder_Sequence_in_Binary_Search_Tree.py
 256,1,256 Paint House,https://raw.githubusercontent.com/jakehoare/leetcode/master/256_Paint_House.py
 257,1,257 Binary Tree Paths,https://raw.githubusercontent.com/jakehoare/leetcode/master/257_Binary_Tree_Paths.py
+258,1,258 Add Digits,https://raw.githubusercontent.com/jakehoare/leetcode/master/258_Add_Digits.py
 259,2,259 3Sum Smaller,https://raw.githubusercontent.com/jakehoare/leetcode/master/259_3Sum_Smaller.py
 260,2,260 Single number III,https://raw.githubusercontent.com/jakehoare/leetcode/master/260_Single_number_III.py
 261,2,261 Graph Valid Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/261_Graph_Valid_Tree.py
+263,1,263 Ugly Number,https://raw.githubusercontent.com/jakehoare/leetcode/master/263_Ugly_Number.py
+264,2,264 Ugly Number II,https://raw.githubusercontent.com/jakehoare/leetcode/master/264_Ugly_Number_II.py
 265,3,265 Paint House II,https://raw.githubusercontent.com/jakehoare/leetcode/master/265_Paint_House_II.py
+266,1,266 Palindrome Permutation,https://raw.githubusercontent.com/jakehoare/leetcode/master/266_Palindrome_Permutation.py
 267,2,267 Palindrome Permutation II,https://raw.githubusercontent.com/jakehoare/leetcode/master/267_Palindrome_Permutation_II.py
 268,1,268 Missing Number,https://raw.githubusercontent.com/jakehoare/leetcode/master/268_Missing_Number.py
 269,3,269 Alien Dictionary,https://raw.githubusercontent.com/jakehoare/leetcode/master/269_Alien_Dictionary.py
+270,1,270 Closest Binary Search Tree Value,https://raw.githubusercontent.com/jakehoare/leetcode/master/270_Closest_Binary_Search_Tree_Value.py
 271,2,271 Encode and Decode Strings,https://raw.githubusercontent.com/jakehoare/leetcode/master/271_Encode_and_Decode_Strings.py
 272,3,272 Closest Binary Search Tree Value II,https://raw.githubusercontent.com/jakehoare/leetcode/master/272_Closest_Binary_Search_Tree_Value_II.py
 273,3,273 Integer to English Words,https://raw.githubusercontent.com/jakehoare/leetcode/master/273_Integer_to_English_Words.py
 274,2,274 H-Index,https://raw.githubusercontent.com/jakehoare/leetcode/master/274_H-Index.py
 275,2,275 H-Index II,https://raw.githubusercontent.com/jakehoare/leetcode/master/275_H-Index_II.py
+276,1,276 Paint Fence,https://raw.githubusercontent.com/jakehoare/leetcode/master/276_Paint_Fence.py
 277,2,277 Find the Celebrity,https://raw.githubusercontent.com/jakehoare/leetcode/master/277_Find_the_Celebrity.py
 279,2,279 Perfect Squares,https://raw.githubusercontent.com/jakehoare/leetcode/master/279_Perfect_Squares.py
 280,2,280 Wiggle Sort,https://raw.githubusercontent.com/jakehoare/leetcode/master/280_Wiggle_Sort.py
