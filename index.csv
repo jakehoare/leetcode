@@ -258,16 +258,21 @@
 275,2,275 H-Index II,https://raw.githubusercontent.com/jakehoare/leetcode/master/275_H-Index_II.py
 276,1,276 Paint Fence,https://raw.githubusercontent.com/jakehoare/leetcode/master/276_Paint_Fence.py
 277,2,277 Find the Celebrity,https://raw.githubusercontent.com/jakehoare/leetcode/master/277_Find_the_Celebrity.py
+278,1,278 First Bad Version,https://raw.githubusercontent.com/jakehoare/leetcode/master/278_First_Bad_Version.py
 279,2,279 Perfect Squares,https://raw.githubusercontent.com/jakehoare/leetcode/master/279_Perfect_Squares.py
 280,2,280 Wiggle Sort,https://raw.githubusercontent.com/jakehoare/leetcode/master/280_Wiggle_Sort.py
 281,2,281 Zigzag Iterator,https://raw.githubusercontent.com/jakehoare/leetcode/master/281_Zigzag_Iterator.py
 282,3,282 Expression Add Operators,https://raw.githubusercontent.com/jakehoare/leetcode/master/282_Expression_Add_Operators.py
+283,1,283 Move Zeros,https://raw.githubusercontent.com/jakehoare/leetcode/master/283_Move_Zeros.py
 284,2,284 Peeking Iterator,https://raw.githubusercontent.com/jakehoare/leetcode/master/284_Peeking_Iterator.py
 285,2,285 Inorder Successor in BST,https://raw.githubusercontent.com/jakehoare/leetcode/master/285_Inorder_Successor_in_BST.py
 286,2,286 Walls and Gates,https://raw.githubusercontent.com/jakehoare/leetcode/master/286_Walls_and_Gates.py
 287,2,287 Find the Duplicate Number,https://raw.githubusercontent.com/jakehoare/leetcode/master/287_Find_the_Duplicate_Number.py
+288,2,288 Unique Word Abbreviation,https://raw.githubusercontent.com/jakehoare/leetcode/master/288_Unique_Word_Abbreviation.py
 289,2,289 Game of Life,https://raw.githubusercontent.com/jakehoare/leetcode/master/289_Game_of_Life.py
+290,1,290 Word Pattern,https://raw.githubusercontent.com/jakehoare/leetcode/master/290_Word_Pattern.py
 291,3,291 Word Pattern II,https://raw.githubusercontent.com/jakehoare/leetcode/master/291_Word_Pattern_II.py
+292,1,292 Nim Game,https://raw.githubusercontent.com/jakehoare/leetcode/master/292_Nim_Game.py
 294,2,294 Flip Game II,https://raw.githubusercontent.com/jakehoare/leetcode/master/294_Flip_Game_II.py
 295,3,295 Find Median from Data Stream,https://raw.githubusercontent.com/jakehoare/leetcode/master/295_Find_Median_from_Data_Stream.py
 296,3,296 Best Meeting Point,https://raw.githubusercontent.com/jakehoare/leetcode/master/296_Best_Meeting_Point.py
@@ -516,6 +521,7 @@
 684,2,684 Redundant Connection,https://raw.githubusercontent.com/jakehoare/leetcode/master/684_Redundant_Connection.py
 685,3,685 Redundant Connection II,https://raw.githubusercontent.com/jakehoare/leetcode/master/685_Redundant_Connection_II.py
 688,2,688 Knight Probability in Chessboard,https://raw.githubusercontent.com/jakehoare/leetcode/master/688_Knight_Probability_in_Chessboard.py
+689,3,689 Maximum Sum of 3 Non-Overlapping Subarrays,https://raw.githubusercontent.com/jakehoare/leetcode/master/689_Maximum_Sum_of_3_Non-Overlapping_Subarrays.py
 691,3,691 Stickers to Spell Word,https://raw.githubusercontent.com/jakehoare/leetcode/master/691_Stickers_to_Spell_Word.py
 692,2,692 Top K Frequent Words,https://raw.githubusercontent.com/jakehoare/leetcode/master/692_Top_K_Frequent_Words.py
 694,2,694 Number of Distinct Islands,https://raw.githubusercontent.com/jakehoare/leetcode/master/694_Number_of_Distinct_Islands.py
