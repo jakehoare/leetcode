@@ -273,11 +273,13 @@
 290,1,290 Word Pattern,https://raw.githubusercontent.com/jakehoare/leetcode/master/290_Word_Pattern.py
 291,3,291 Word Pattern II,https://raw.githubusercontent.com/jakehoare/leetcode/master/291_Word_Pattern_II.py
 292,1,292 Nim Game,https://raw.githubusercontent.com/jakehoare/leetcode/master/292_Nim_Game.py
+293,1,293 Flip Game,https://raw.githubusercontent.com/jakehoare/leetcode/master/293_Flip_Game.py
 294,2,294 Flip Game II,https://raw.githubusercontent.com/jakehoare/leetcode/master/294_Flip_Game_II.py
 295,3,295 Find Median from Data Stream,https://raw.githubusercontent.com/jakehoare/leetcode/master/295_Find_Median_from_Data_Stream.py
 296,3,296 Best Meeting Point,https://raw.githubusercontent.com/jakehoare/leetcode/master/296_Best_Meeting_Point.py
 297,3,297 Serialize and Deserialize Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/297_Serialize_and_Deserialize_Binary_Tree.py
 298,2,298 Binary Tree Longest Consecutive Sequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/298_Binary_Tree_Longest_Consecutive_Sequence.py
+299,2,299 Bulls and Cows,https://raw.githubusercontent.com/jakehoare/leetcode/master/299_Bulls_and_Cows.py
 300,2,300 Longest Increasing Subsequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/300_Longest_Increasing_Subsequence.py
 301,3,301 Remove Invalid Parentheses,https://raw.githubusercontent.com/jakehoare/leetcode/master/301_Remove_Invalid_Parentheses.py
 302,3,302 Smallest Rectangle Enclosing Black Pixels,https://raw.githubusercontent.com/jakehoare/leetcode/master/302_Smallest_Rectangle_Enclosing_Black_Pixels.py
@@ -552,3 +554,5 @@
 739,2,739 Daily Temperatures,https://raw.githubusercontent.com/jakehoare/leetcode/master/739_Daily_Temperatures.py
 740,2,740 Delete and Earn,https://raw.githubusercontent.com/jakehoare/leetcode/master/740_Delete_and_Earn.py
 741,3,741 Cherry Pickup,https://raw.githubusercontent.com/jakehoare/leetcode/master/741_Cherry_Pickup.py
+742,2,742 Closest Leaf in a Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/742_Closest_Leaf_in_a_Binary_Tree.py
+743,2,743 Network Delay Time,https://raw.githubusercontent.com/jakehoare/leetcode/master/743_Network_Delay_Time.py
