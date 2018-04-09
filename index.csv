@@ -283,6 +283,7 @@
 300,2,300 Longest Increasing Subsequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/300_Longest_Increasing_Subsequence.py
 301,3,301 Remove Invalid Parentheses,https://raw.githubusercontent.com/jakehoare/leetcode/master/301_Remove_Invalid_Parentheses.py
 302,3,302 Smallest Rectangle Enclosing Black Pixels,https://raw.githubusercontent.com/jakehoare/leetcode/master/302_Smallest_Rectangle_Enclosing_Black_Pixels.py
+303,1,303 Range Sum Query - Immutable,https://raw.githubusercontent.com/jakehoare/leetcode/master/303_Range_Sum_Query_-_Immutable.py
 304,2,304 Range Sum Query 2D-Immutable,https://raw.githubusercontent.com/jakehoare/leetcode/master/304_Range_Sum_Query_2D-Immutable.py
 305,3,305 Number of Islands II,https://raw.githubusercontent.com/jakehoare/leetcode/master/305_Number_of_Islands_II.py
 306,2,306 Additive Number,https://raw.githubusercontent.com/jakehoare/leetcode/master/306_Additive_Number.py
@@ -305,6 +306,7 @@
 323,2,323 Number of Connected Components in an Undirected Graph,https://raw.githubusercontent.com/jakehoare/leetcode/master/323_Number_of_Connected_Components_in_an_Undirected_Graph.py
 324,2,324 Wiggle Sort II,https://raw.githubusercontent.com/jakehoare/leetcode/master/324_Wiggle_Sort_II.py
 325,2,325 Maximum Size Subarray Sum Equals k,https://raw.githubusercontent.com/jakehoare/leetcode/master/325_Maximum_Size_Subarray_Sum_Equals_k.py
+326,1,326 Power of Three,https://raw.githubusercontent.com/jakehoare/leetcode/master/326_Power_of_Three.py
 327,3,327 Count of Range Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/327_Count_of_Range_Sum.py
 328,2,328 Odd Even Linked List,https://raw.githubusercontent.com/jakehoare/leetcode/master/328_Odd_Even_Linked_List.py
 329,3,329 Longest Increasing Path in a Matrix,https://raw.githubusercontent.com/jakehoare/leetcode/master/329_Longest_Increasing_Path_in_a_Matrix.py
@@ -317,6 +319,7 @@
 336,3,336 Palindrome Pairs,https://raw.githubusercontent.com/jakehoare/leetcode/master/336_Palindrome_Pairs.py
 337,2,337 House Robber III,https://raw.githubusercontent.com/jakehoare/leetcode/master/337_House_Robber_III.py
 338,2,338 Counting Bits,https://raw.githubusercontent.com/jakehoare/leetcode/master/338_Counting_Bits.py
+339,1,339 Nested List Weighted Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/339_Nested_List_Weighted_Sum.py
 340,3,340 Longest Substring with At Most K Distinct Characters,https://raw.githubusercontent.com/jakehoare/leetcode/master/340_Longest_Substring_with_At_Most_K_Distinct_Characters.py
 341,2,341 Flatten Nested List Iterator,https://raw.githubusercontent.com/jakehoare/leetcode/master/341_Flatten_Nested_List_Iterator.py
 343,2,343 Integer Break,https://raw.githubusercontent.com/jakehoare/leetcode/master/343_Integer_Break.py
