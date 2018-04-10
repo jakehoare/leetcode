@@ -322,7 +322,9 @@
 339,1,339 Nested List Weighted Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/339_Nested_List_Weighted_Sum.py
 340,3,340 Longest Substring with At Most K Distinct Characters,https://raw.githubusercontent.com/jakehoare/leetcode/master/340_Longest_Substring_with_At_Most_K_Distinct_Characters.py
 341,2,341 Flatten Nested List Iterator,https://raw.githubusercontent.com/jakehoare/leetcode/master/341_Flatten_Nested_List_Iterator.py
+342,1,342 Power of Four,https://raw.githubusercontent.com/jakehoare/leetcode/master/342_Power_of_Four.py
 343,2,343 Integer Break,https://raw.githubusercontent.com/jakehoare/leetcode/master/343_Integer_Break.py
+344,1,344 Reverse String,https://raw.githubusercontent.com/jakehoare/leetcode/master/344_Reverse_String.py
 347,2,347 Top K Frequent Elements,https://raw.githubusercontent.com/jakehoare/leetcode/master/347_Top_K_Frequent_Elements.py
 348,2,348 Design Tic-Tac-Toe,https://raw.githubusercontent.com/jakehoare/leetcode/master/348_Design_Tic-Tac-Toe.py
 351,2,351 Android Unlock Patterns,https://raw.githubusercontent.com/jakehoare/leetcode/master/351_Android_Unlock_Patterns.py
@@ -559,3 +561,4 @@
 741,3,741 Cherry Pickup,https://raw.githubusercontent.com/jakehoare/leetcode/master/741_Cherry_Pickup.py
 742,2,742 Closest Leaf in a Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/742_Closest_Leaf_in_a_Binary_Tree.py
 743,2,743 Network Delay Time,https://raw.githubusercontent.com/jakehoare/leetcode/master/743_Network_Delay_Time.py
+745,1,745 Prefix and Suffix Search,https://raw.githubusercontent.com/jakehoare/leetcode/master/745_Prefix_and_Suffix_Search.py
