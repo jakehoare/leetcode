@@ -325,8 +325,12 @@
 342,1,342 Power of Four,https://raw.githubusercontent.com/jakehoare/leetcode/master/342_Power_of_Four.py
 343,2,343 Integer Break,https://raw.githubusercontent.com/jakehoare/leetcode/master/343_Integer_Break.py
 344,1,344 Reverse String,https://raw.githubusercontent.com/jakehoare/leetcode/master/344_Reverse_String.py
+345,1,345 Reverse Vowels of a String,https://raw.githubusercontent.com/jakehoare/leetcode/master/345_Reverse_Vowels_of_a_String.py
+346,1,346 Moving Average from Data Stream,https://raw.githubusercontent.com/jakehoare/leetcode/master/346_Moving_Average_from_Data_Stream.py
 347,2,347 Top K Frequent Elements,https://raw.githubusercontent.com/jakehoare/leetcode/master/347_Top_K_Frequent_Elements.py
 348,2,348 Design Tic-Tac-Toe,https://raw.githubusercontent.com/jakehoare/leetcode/master/348_Design_Tic-Tac-Toe.py
+349,1,349 Intersection of Two Arrays,https://raw.githubusercontent.com/jakehoare/leetcode/master/349_Intersection_of_Two_Arrays.py
+350,1,350 Intersection of Two Arrays II,https://raw.githubusercontent.com/jakehoare/leetcode/master/350_Intersection_of_Two_Arrays_II.py
 351,2,351 Android Unlock Patterns,https://raw.githubusercontent.com/jakehoare/leetcode/master/351_Android_Unlock_Patterns.py
 352,3,352 Data Stream as Disjoint Intervals,https://raw.githubusercontent.com/jakehoare/leetcode/master/352_Data_Stream_as_Disjoint_Intervals.py
 353,2,353 Design Snake Game,https://raw.githubusercontent.com/jakehoare/leetcode/master/353_Design_Snake_Game.py
