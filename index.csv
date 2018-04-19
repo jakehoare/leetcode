@@ -566,5 +566,6 @@
 741,3,741 Cherry Pickup,https://raw.githubusercontent.com/jakehoare/leetcode/master/741_Cherry_Pickup.py
 742,2,742 Closest Leaf in a Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/742_Closest_Leaf_in_a_Binary_Tree.py
 743,2,743 Network Delay Time,https://raw.githubusercontent.com/jakehoare/leetcode/master/743_Network_Delay_Time.py
-745,1,745 Prefix and Suffix Search,https://raw.githubusercontent.com/jakehoare/leetcode/master/745_Prefix_and_Suffix_Search.py
-748,1,748 Shortest Completing Word,https://raw.githubusercontent.com/jakehoare/leetcode/master/748_Shortest_Completing_Word.py
+745,3,745 Prefix and Suffix Search,https://raw.githubusercontent.com/jakehoare/leetcode/master/745_Prefix_and_Suffix_Search.py
+748,2,748 Shortest Completing Word,https://raw.githubusercontent.com/jakehoare/leetcode/master/748_Shortest_Completing_Word.py
+750,2,750 Number Of Corner Rectangles,https://raw.githubusercontent.com/jakehoare/leetcode/master/750_Number_Of_Corner_Rectangles.py
