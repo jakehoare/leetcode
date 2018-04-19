@@ -339,6 +339,7 @@
 356,2,356 Line Reflection,https://raw.githubusercontent.com/jakehoare/leetcode/master/356_Line_Reflection.py
 357,2,357 Count Numbers with Unique Digits,https://raw.githubusercontent.com/jakehoare/leetcode/master/357_Count_Numbers_with_Unique_Digits.py
 358,3,358 Rearrange String k Distance Apart,https://raw.githubusercontent.com/jakehoare/leetcode/master/358_Rearrange_String_k_Distance_Apart.py
+359,1,359 Logger Rate Limiter,https://raw.githubusercontent.com/jakehoare/leetcode/master/359_Logger_Rate_Limiter.py
 360,2,360 Sort Transformed Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/360_Sort_Transformed_Array.py
 361,2,361 Bomb Enemy,https://raw.githubusercontent.com/jakehoare/leetcode/master/361_Bomb_Enemy.py
 362,2,362 Design Hit Counter,https://raw.githubusercontent.com/jakehoare/leetcode/master/362_Design_Hit_Counter.py
@@ -566,3 +567,4 @@
 742,2,742 Closest Leaf in a Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/742_Closest_Leaf_in_a_Binary_Tree.py
 743,2,743 Network Delay Time,https://raw.githubusercontent.com/jakehoare/leetcode/master/743_Network_Delay_Time.py
 745,1,745 Prefix and Suffix Search,https://raw.githubusercontent.com/jakehoare/leetcode/master/745_Prefix_and_Suffix_Search.py
+748,1,748 Shortest Completing Word,https://raw.githubusercontent.com/jakehoare/leetcode/master/748_Shortest_Completing_Word.py
