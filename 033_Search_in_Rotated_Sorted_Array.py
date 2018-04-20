@@ -18,24 +18,26 @@ class Solution(object):
         :type target: int
         :rtype: int
         """
-        return self.rotated_search(nums, target, 0, len(nums)-1)
+        left, right = 0, len(nums) - 1
 
-    def rotated_search(self, nums, target, left, right):
+        while left <= right:
 
-        if left > right:
-            return -1
+            mid = (left + right) // 2
 
-        mid = (left + right) // 2
-        if nums[mid] == target:
-            return mid
+            if nums[mid] == target:
+                return mid
 
-        if nums[left] <= nums[mid]:                                 # LHS is sorted
-            if target >= nums[left] and target < nums[mid]:         # target is on LHS
-                return self.rotated_search(nums, target, left, mid-1)
-            return self.rotated_search(nums, target, mid+1, right)
-        else:                                                       # RHS is sorted
-            if target <= nums[right] and target > nums[mid]:        # target is on RHS
-                return self.rotated_search(nums, target, mid+1, right)
-            return self.rotated_search(nums, target, left, mid-1)
+            if nums[left] <= nums[mid]:  # LHS is sorted
+                if target >= nums[left] and target < nums[mid]:  # target is on LHS
+                    right = mid - 1
+                else:
+                    left = mid + 1
+            else:  # RHS is sorted
+                if target <= nums[right] and target > nums[mid]:  # target is on RHS
+                    left = mid + 1
+                else:
+                    right = mid - 1
+
+        return -1
 
 
