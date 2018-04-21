@@ -347,11 +347,14 @@
 364,2,364 Nested List Weight Sum II,https://raw.githubusercontent.com/jakehoare/leetcode/master/364_Nested_List_Weight_Sum_II.py
 365,2,365 Water And Jug Problem,https://raw.githubusercontent.com/jakehoare/leetcode/master/365_Water_And_Jug_Problem.py
 366,2,366 Find Leaves of Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/366_Find_Leaves_of_Binary_Tree.py
+367,1,367 Valid Perfect Square,https://raw.githubusercontent.com/jakehoare/leetcode/master/367_Valid_Perfect_Square.py
 368,2,368 Largest Divisible Subset,https://raw.githubusercontent.com/jakehoare/leetcode/master/368_Largest_Divisible_Subset.py
 369,2,369 Plus One Linked List,https://raw.githubusercontent.com/jakehoare/leetcode/master/369_Plus_One_Linked_List.py
 370,2,370 Range Addition,https://raw.githubusercontent.com/jakehoare/leetcode/master/370_Range_Addition.py
+371,1,371 Sum of Two Integers,https://raw.githubusercontent.com/jakehoare/leetcode/master/371_Sum_of_Two_Integers.py
 372,2,372 Super Pow,https://raw.githubusercontent.com/jakehoare/leetcode/master/372_Super_Pow.py
 373,2,373 Find K Pairs With Smallest Sums,https://raw.githubusercontent.com/jakehoare/leetcode/master/373_Find_K_Pairs_With_Smallest_Sums.py
+374,1,374 Guess Number Higher or Lower,https://raw.githubusercontent.com/jakehoare/leetcode/master/374_Guess_Number_Higher_or_Lower.py
 375,2,375 Guess Number Higher or Lower II,https://raw.githubusercontent.com/jakehoare/leetcode/master/375_Guess_Number_Higher_or_Lower_II.py
 376,2,376 Wiggle Subsequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/376_Wiggle_Subsequence.py
 377,2,377 Combination Sum IV,https://raw.githubusercontent.com/jakehoare/leetcode/master/377_Combination_Sum_IV.py
@@ -568,4 +571,5 @@
 743,2,743 Network Delay Time,https://raw.githubusercontent.com/jakehoare/leetcode/master/743_Network_Delay_Time.py
 745,3,745 Prefix and Suffix Search,https://raw.githubusercontent.com/jakehoare/leetcode/master/745_Prefix_and_Suffix_Search.py
 748,2,748 Shortest Completing Word,https://raw.githubusercontent.com/jakehoare/leetcode/master/748_Shortest_Completing_Word.py
+749,3,749 Contain Virus,https://raw.githubusercontent.com/jakehoare/leetcode/master/749_Contain_Virus.py
 750,2,750 Number Of Corner Rectangles,https://raw.githubusercontent.com/jakehoare/leetcode/master/750_Number_Of_Corner_Rectangles.py
