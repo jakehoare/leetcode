@@ -363,10 +363,13 @@
 380,2,380 Insert Delete GetRandom O(1),https://raw.githubusercontent.com/jakehoare/leetcode/master/380_Insert_Delete_GetRandom_O(1).py
 381,3,381 Insert Delete GetRandom O(1) Duplicates Allowed,https://raw.githubusercontent.com/jakehoare/leetcode/master/381_Insert_Delete_GetRandom_O(1)_Duplicates_Allowed.py
 382,2,382 Linked List Random Node,https://raw.githubusercontent.com/jakehoare/leetcode/master/382_Linked_List_Random_Node.py
+383,1,383 Ransom Note,https://raw.githubusercontent.com/jakehoare/leetcode/master/383_Ransom_Note.py
 384,2,384 Shuffle an Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/384_Shuffle_an_Array.py
 385,2,385 Mini Parser,https://raw.githubusercontent.com/jakehoare/leetcode/master/385_Mini_Parser.py
 386,2,386 Lexicographical Numbers,https://raw.githubusercontent.com/jakehoare/leetcode/master/386_Lexicographical_Numbers.py
+387,1,387 First Unique Character in a String,https://raw.githubusercontent.com/jakehoare/leetcode/master/387_First_Unique_Character_in_a_String.py
 388,2,388 Longest Absolute File Path,https://raw.githubusercontent.com/jakehoare/leetcode/master/388_Longest_Absolute_File_Path.py
+389,1,389 Find the Difference,https://raw.githubusercontent.com/jakehoare/leetcode/master/389_Find_the_Difference.py
 390,2,390 Elimination Game,https://raw.githubusercontent.com/jakehoare/leetcode/master/390_Elimination_Game.py
 391,3,391 Perfect Rectangle,https://raw.githubusercontent.com/jakehoare/leetcode/master/391_Perfect_Rectangle.py
 392,2,392 Is Subsequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/392_Is_Subsequence.py
@@ -377,6 +380,7 @@
 397,2,397 Integer Replacement,https://raw.githubusercontent.com/jakehoare/leetcode/master/397_Integer_Replacement.py
 398,2,398 Random Pick Index,https://raw.githubusercontent.com/jakehoare/leetcode/master/398_Random_Pick_Index.py
 399,2,399 Evaluate Division,https://raw.githubusercontent.com/jakehoare/leetcode/master/399_Evaluate_Division.py
+400,1,400 Nth Digit,https://raw.githubusercontent.com/jakehoare/leetcode/master/400_Nth_Digit.py
 402,2,402 Remove K Digits,https://raw.githubusercontent.com/jakehoare/leetcode/master/402_Remove_K_Digits.py
 403,3,403 Frog Jump,https://raw.githubusercontent.com/jakehoare/leetcode/master/403_Frog_Jump.py
 406,2,406 Queue Reconstruction by Height,https://raw.githubusercontent.com/jakehoare/leetcode/master/406_Queue_Reconstruction_by_Height.py
@@ -573,3 +577,4 @@
 748,2,748 Shortest Completing Word,https://raw.githubusercontent.com/jakehoare/leetcode/master/748_Shortest_Completing_Word.py
 749,3,749 Contain Virus,https://raw.githubusercontent.com/jakehoare/leetcode/master/749_Contain_Virus.py
 750,2,750 Number Of Corner Rectangles,https://raw.githubusercontent.com/jakehoare/leetcode/master/750_Number_Of_Corner_Rectangles.py
+752,2,752 Open the Lock,https://raw.githubusercontent.com/jakehoare/leetcode/master/752_Open_the_Lock.py
