@@ -385,6 +385,7 @@
 402,2,402 Remove K Digits,https://raw.githubusercontent.com/jakehoare/leetcode/master/402_Remove_K_Digits.py
 403,3,403 Frog Jump,https://raw.githubusercontent.com/jakehoare/leetcode/master/403_Frog_Jump.py
 404,1,404 Sum of Left Leaves,https://raw.githubusercontent.com/jakehoare/leetcode/master/404_Sum_of_Left_Leaves.py
+405,1,405 Convert a Number to Hexadecimal,https://raw.githubusercontent.com/jakehoare/leetcode/master/405_Convert_a_Number_to_Hexadecimal.py
 406,2,406 Queue Reconstruction by Height,https://raw.githubusercontent.com/jakehoare/leetcode/master/406_Queue_Reconstruction_by_Height.py
 407,3,407 Trapping Rain Water II,https://raw.githubusercontent.com/jakehoare/leetcode/master/407_Trapping_Rain_Water_II.py
 410,3,410 Split Array Largest Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/410_Split_Array_Largest_Sum.py
@@ -580,3 +581,4 @@
 749,3,749 Contain Virus,https://raw.githubusercontent.com/jakehoare/leetcode/master/749_Contain_Virus.py
 750,2,750 Number Of Corner Rectangles,https://raw.githubusercontent.com/jakehoare/leetcode/master/750_Number_Of_Corner_Rectangles.py
 752,2,752 Open the Lock,https://raw.githubusercontent.com/jakehoare/leetcode/master/752_Open_the_Lock.py
+753,3,753 Cracking the Safe,https://raw.githubusercontent.com/jakehoare/leetcode/master/753_Cracking_the_Safe.py
