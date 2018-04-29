@@ -388,6 +388,8 @@
 405,1,405 Convert a Number to Hexadecimal,https://raw.githubusercontent.com/jakehoare/leetcode/master/405_Convert_a_Number_to_Hexadecimal.py
 406,2,406 Queue Reconstruction by Height,https://raw.githubusercontent.com/jakehoare/leetcode/master/406_Queue_Reconstruction_by_Height.py
 407,3,407 Trapping Rain Water II,https://raw.githubusercontent.com/jakehoare/leetcode/master/407_Trapping_Rain_Water_II.py
+408,1,408 Valid Word Abbreviation,https://raw.githubusercontent.com/jakehoare/leetcode/master/408_Valid_Word_Abbreviation.py
+409,1,409 Longest Palindrome,https://raw.githubusercontent.com/jakehoare/leetcode/master/409_Longest_Palindrome.py
 410,3,410 Split Array Largest Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/410_Split_Array_Largest_Sum.py
 411,3,411 Minimum Unique Word Abbreviation,https://raw.githubusercontent.com/jakehoare/leetcode/master/411_Minimum_Unique_Word_Abbreviation.py
 413,2,413 Arithmetic Slices,https://raw.githubusercontent.com/jakehoare/leetcode/master/413_Arithmetic_Slices.py
