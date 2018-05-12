@@ -421,6 +421,8 @@
 444,2,444 Sequence Reconstruction,https://raw.githubusercontent.com/jakehoare/leetcode/master/444_Sequence_Reconstruction.py
 445,2,445 Add Two Numbers II,https://raw.githubusercontent.com/jakehoare/leetcode/master/445_Add_Two_Numbers_II.py
 446,3,446 Arithmetic Slices II-Subsequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/446_Arithmetic_Slices_II-Subsequence.py
+447,1,447 Number of Boomerangs,https://raw.githubusercontent.com/jakehoare/leetcode/master/447_Number_of_Boomerangs.py
+448,1,448 Find All Numbers Disappeared in an Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/448_Find_All_Numbers_Disappeared_in_an_Array.py
 449,2,449 Serialize and Deserialize BST,https://raw.githubusercontent.com/jakehoare/leetcode/master/449_Serialize_and_Deserialize_BST.py
 450,2,450 Delete Node in a BST,https://raw.githubusercontent.com/jakehoare/leetcode/master/450_Delete_Node_in_a_BST.py
 451,2,451 Sort Characters by Frquency,https://raw.githubusercontent.com/jakehoare/leetcode/master/451_Sort_Characters_by_Frquency.py
