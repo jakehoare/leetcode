@@ -415,8 +415,11 @@
 438,1,438 Find All Anagrams in a String,https://raw.githubusercontent.com/jakehoare/leetcode/master/438_Find_All_Anagrams_in_a_String.py
 439,2,439 Ternary Expression Parser,https://raw.githubusercontent.com/jakehoare/leetcode/master/439_Ternary_Expression_Parser.py
 440,3,440 K-th Smallest in Lexicographical Order,https://raw.githubusercontent.com/jakehoare/leetcode/master/440_K-th_Smallest_in_Lexicographical_Order.py
+441,1,441 Arranging Coins,https://raw.githubusercontent.com/jakehoare/leetcode/master/441_Arranging_Coins.py
 442,2,442 Find All Duplicates in an Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/442_Find_All_Duplicates_in_an_Array.py
+443,1,443 String Compression,https://raw.githubusercontent.com/jakehoare/leetcode/master/443_String_Compression.py
 444,2,444 Sequence Reconstruction,https://raw.githubusercontent.com/jakehoare/leetcode/master/444_Sequence_Reconstruction.py
+445,2,445 Add Two Numbers II,https://raw.githubusercontent.com/jakehoare/leetcode/master/445_Add_Two_Numbers_II.py
 446,3,446 Arithmetic Slices II-Subsequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/446_Arithmetic_Slices_II-Subsequence.py
 449,2,449 Serialize and Deserialize BST,https://raw.githubusercontent.com/jakehoare/leetcode/master/449_Serialize_and_Deserialize_BST.py
 450,2,450 Delete Node in a BST,https://raw.githubusercontent.com/jakehoare/leetcode/master/450_Delete_Node_in_a_BST.py
@@ -591,5 +594,7 @@
 750,2,750 Number Of Corner Rectangles,https://raw.githubusercontent.com/jakehoare/leetcode/master/750_Number_Of_Corner_Rectangles.py
 752,2,752 Open the Lock,https://raw.githubusercontent.com/jakehoare/leetcode/master/752_Open_the_Lock.py
 753,3,753 Cracking the Safe,https://raw.githubusercontent.com/jakehoare/leetcode/master/753_Cracking_the_Safe.py
+754,2,754 Reach a Number,https://raw.githubusercontent.com/jakehoare/leetcode/master/754_Reach_a_Number.py
 755,2,755 Pour Water,https://raw.githubusercontent.com/jakehoare/leetcode/master/755_Pour_Water.py
 756,2,756 Pyramid Transition Matrix,https://raw.githubusercontent.com/jakehoare/leetcode/master/756_Pyramid_Transition_Matrix.py
+757,3,757 Set Intersection Size At Least Two,https://raw.githubusercontent.com/jakehoare/leetcode/master/757_Set_Intersection_Size_At_Least_Two.py
