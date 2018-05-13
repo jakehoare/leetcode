@@ -427,7 +427,9 @@
 450,2,450 Delete Node in a BST,https://raw.githubusercontent.com/jakehoare/leetcode/master/450_Delete_Node_in_a_BST.py
 451,2,451 Sort Characters by Frquency,https://raw.githubusercontent.com/jakehoare/leetcode/master/451_Sort_Characters_by_Frquency.py
 452,2,452 Minimum Number of Arrows to Burst Balloons,https://raw.githubusercontent.com/jakehoare/leetcode/master/452_Minimum_Number_of_Arrows_to_Burst_Balloons.py
+453,1,453 Minimum Moves to Equal Array Elements,https://raw.githubusercontent.com/jakehoare/leetcode/master/453_Minimum_Moves_to_Equal_Array_Elements.py
 454,2,454 4Sum II,https://raw.githubusercontent.com/jakehoare/leetcode/master/454_4Sum_II.py
+455,1,455 Assign Cookies,https://raw.githubusercontent.com/jakehoare/leetcode/master/455_Assign_Cookies.py
 456,2,456 132 Pattern,https://raw.githubusercontent.com/jakehoare/leetcode/master/456_132_Pattern.py
 460,3,460 LFU Cache,https://raw.githubusercontent.com/jakehoare/leetcode/master/460_LFU_Cache.py
 462,2,462 Minimum Moves to Equal Array Elements II,https://raw.githubusercontent.com/jakehoare/leetcode/master/462_Minimum_Moves_to_Equal_Array_Elements_II.py
@@ -600,3 +602,5 @@
 755,2,755 Pour Water,https://raw.githubusercontent.com/jakehoare/leetcode/master/755_Pour_Water.py
 756,2,756 Pyramid Transition Matrix,https://raw.githubusercontent.com/jakehoare/leetcode/master/756_Pyramid_Transition_Matrix.py
 757,3,757 Set Intersection Size At Least Two,https://raw.githubusercontent.com/jakehoare/leetcode/master/757_Set_Intersection_Size_At_Least_Two.py
+758,1,758 Bold Words in String,https://raw.githubusercontent.com/jakehoare/leetcode/master/758_Bold_Words_in_String.py
+759,3,759 Employee Free Time,https://raw.githubusercontent.com/jakehoare/leetcode/master/759_Employee_Free_Time.py
