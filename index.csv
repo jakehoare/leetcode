@@ -433,7 +433,9 @@
 456,2,456 132 Pattern,https://raw.githubusercontent.com/jakehoare/leetcode/master/456_132_Pattern.py
 459,1,459 Repeated Substring Pattern,https://raw.githubusercontent.com/jakehoare/leetcode/master/459_Repeated_Substring_Pattern.py
 460,3,460 LFU Cache,https://raw.githubusercontent.com/jakehoare/leetcode/master/460_LFU_Cache.py
+461,1,461 Hamming Distance,https://raw.githubusercontent.com/jakehoare/leetcode/master/461_Hamming_Distance.py
 462,2,462 Minimum Moves to Equal Array Elements II,https://raw.githubusercontent.com/jakehoare/leetcode/master/462_Minimum_Moves_to_Equal_Array_Elements_II.py
+463,1,463 Island Perimeter,https://raw.githubusercontent.com/jakehoare/leetcode/master/463_Island_Perimeter.py
 464,2,464 Can I Win,https://raw.githubusercontent.com/jakehoare/leetcode/master/464_Can_I_Win.py
 466,3,466 Count The Repetition,https://raw.githubusercontent.com/jakehoare/leetcode/master/466_Count_The_Repetition.py
 467,2,467 Unique Substrings in Wraparound String,https://raw.githubusercontent.com/jakehoare/leetcode/master/467_Unique_Substrings_in_Wraparound_String.py
