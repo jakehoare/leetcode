@@ -6,7 +6,6 @@ Since the result could be very large, you should return the largest palindrome m
 For a given n find the largest possible number which is a product. Take the first half of the digits of this
 number and reverse them to create the largest possible palindrome. Test if this palindrome is a product by checking
 factors with n digits starting from 10**n - 1 and stopping at sqrt(palindrome). If not, decrement the first half.
-first half,
 Time - O(10**2n), 10**n firstHalf to check, each of which is checked for 10**n factors
 Space - O(n)
 */
