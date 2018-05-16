@@ -12,7 +12,8 @@ _project_ = 'leetcode'
 # You are given a non-empty string S, representing a license key to format, and an integer K. And you need to
 # return the license key formatted according to the description above.
 
-# Replace "-" by "" and convert to upper case.
+# Replace "-" by "" and convert to upper case. Append complete blocks of length K to result working from back of string.
+# If any stub append that, reverse blocks and join.
 # Time - O(n)
 # Space - O(n)
 
@@ -24,15 +25,16 @@ class Solution(object):
         :rtype: str
         """
         key = S.replace("-", "").upper()
+        formatted = []
 
-        blocks, stub = divmod(len(key), K)
-        if stub == 0:           # set stub to a block if zero to avoid leading "-"
-            stub = K
-            blocks -= 1
-        formatted = [key[:stub]]
+        i = len(key) - K
+        while i >= 0:
+            formatted.append(key[i:i + K])
+            i -= K
 
-        for i in range(blocks):
-            formatted.append(key[(i * K) + stub:((i + 1) * K) + stub])
+        if i != -K:
+            formatted.append(key[:i + K])
+        return "-".join(formatted[::-1])
 
         return "-".join(formatted)
 
