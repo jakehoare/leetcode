@@ -437,6 +437,7 @@
 462,2,462 Minimum Moves to Equal Array Elements II,https://raw.githubusercontent.com/jakehoare/leetcode/master/462_Minimum_Moves_to_Equal_Array_Elements_II.py
 463,1,463 Island Perimeter,https://raw.githubusercontent.com/jakehoare/leetcode/master/463_Island_Perimeter.py
 464,2,464 Can I Win,https://raw.githubusercontent.com/jakehoare/leetcode/master/464_Can_I_Win.py
+465,3,465 Optimal Account Balancing,https://raw.githubusercontent.com/jakehoare/leetcode/master/465_Optimal_Account_Balancing.py
 466,3,466 Count The Repetition,https://raw.githubusercontent.com/jakehoare/leetcode/master/466_Count_The_Repetition.py
 467,2,467 Unique Substrings in Wraparound String,https://raw.githubusercontent.com/jakehoare/leetcode/master/467_Unique_Substrings_in_Wraparound_String.py
 468,2,468 Validate IP Address,https://raw.githubusercontent.com/jakehoare/leetcode/master/468_Validate_IP_Address.py
@@ -453,14 +454,17 @@
 482,1,482 License Key Formatting,https://raw.githubusercontent.com/jakehoare/leetcode/master/482_License_Key_Formatting.py
 483,3,483 Smallest Good Base,https://raw.githubusercontent.com/jakehoare/leetcode/master/483_Smallest_Good_Base.py
 484,2,484 Find Permutation,https://raw.githubusercontent.com/jakehoare/leetcode/master/484_Find_Permutation.py
+485,1,485 Max Consecutive Ones,https://raw.githubusercontent.com/jakehoare/leetcode/master/485_Max_Consecutive_Ones.py
 486,2,486 Predict the Winner,https://raw.githubusercontent.com/jakehoare/leetcode/master/486_Predict_the_Winner.py
 487,2,487 Max Consecutive Ones II,https://raw.githubusercontent.com/jakehoare/leetcode/master/487_Max_Consecutive_Ones_II.py
 488,3,488 Zuma Game,https://raw.githubusercontent.com/jakehoare/leetcode/master/488_Zuma_Game.py
 490,2,490 The Maze,https://raw.githubusercontent.com/jakehoare/leetcode/master/490_The_Maze.py
 491,2,491 Increasing Subsequences,https://raw.githubusercontent.com/jakehoare/leetcode/master/491_Increasing_Subsequences.py
+492,1,492 Construct the Rectangle,https://raw.githubusercontent.com/jakehoare/leetcode/master/492_Construct_the_Rectangle.py
 493,3,493 Reverse Pairs,https://raw.githubusercontent.com/jakehoare/leetcode/master/493_Reverse_Pairs.py
 494,2,494 Target Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/494_Target_Sum.py
 495,2,495 Teemo Attacking,https://raw.githubusercontent.com/jakehoare/leetcode/master/495_Teemo_Attacking.py
+496,1,496 Next Greater Element I,https://raw.githubusercontent.com/jakehoare/leetcode/master/496_Next_Greater_Element_I.py
 498,2,498 Diagonal Traverse,https://raw.githubusercontent.com/jakehoare/leetcode/master/498_Diagonal_Traverse.py
 499,3,499 The Maze III,https://raw.githubusercontent.com/jakehoare/leetcode/master/499_The_Maze_III.py
 502,3,502 IPO,https://raw.githubusercontent.com/jakehoare/leetcode/master/502_IPO.py
