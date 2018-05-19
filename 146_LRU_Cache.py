@@ -7,7 +7,8 @@ _project_ = 'leetcode'
 # set(key, value) - Set or insert the value if the key is not already present. When the cache reached its capacity,
 # it should invalidate the least recently used item before inserting a new item.
 
-# Dictionary stores keys with values of nodes.  Nodes form double linked list containing key, value pairs.
+# Dictionary stores keys with values of nodes.  Nodes form double linked list containing key, value pairs. DLL is in
+# order of use with least recent at head and most recent at tail.
 # Time - O(1) to set and get
 # Space - O(n)
 
