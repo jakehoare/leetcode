@@ -502,7 +502,9 @@
 538,1,538 Convet BST to Greater Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/538_Convet_BST_to_Greater_Tree.py
 539,2,539 Minimum Time Difference,https://raw.githubusercontent.com/jakehoare/leetcode/master/539_Minimum_Time_Difference.py
 540,2,540 Single Element in a Sorted Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/540_Single_Element_in_a_Sorted_Array.py
+541,1,541 Reverse String II,https://raw.githubusercontent.com/jakehoare/leetcode/master/541_Reverse_String_II.py
 542,2,542 01 Matrix,https://raw.githubusercontent.com/jakehoare/leetcode/master/542_01_Matrix.py
+543,1,543 Diameter of Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/543_Diameter_of_Binary_Tree.py
 544,2,544 Output Contest Matches,https://raw.githubusercontent.com/jakehoare/leetcode/master/544_Output_Contest_Matches.py
 545,2,545 Boundary of Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/545_Boundary_of_Binary_Tree.py
 546,3,546 Remove Boxes,https://raw.githubusercontent.com/jakehoare/leetcode/master/546_Remove_Boxes.py
@@ -623,3 +625,5 @@
 757,3,757 Set Intersection Size At Least Two,https://raw.githubusercontent.com/jakehoare/leetcode/master/757_Set_Intersection_Size_At_Least_Two.py
 758,1,758 Bold Words in String,https://raw.githubusercontent.com/jakehoare/leetcode/master/758_Bold_Words_in_String.py
 759,3,759 Employee Free Time,https://raw.githubusercontent.com/jakehoare/leetcode/master/759_Employee_Free_Time.py
+760,1,760 Find Anagram Mappings,https://raw.githubusercontent.com/jakehoare/leetcode/master/760_Find_Anagram_Mappings.py
+762,1,762 Prime Number of Set Bits in Binary Representation,https://raw.githubusercontent.com/jakehoare/leetcode/master/762_Prime_Number_of_Set_Bits_in_Binary_Representation.py
