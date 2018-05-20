@@ -2,7 +2,8 @@ _author_ = 'jake'
 _project_ = 'leetcode'
 
 # https://leetcode.com/problems/lfu-cache/
-# Design and implement a data structure for Least Frequently Used (LFU) cache. It should support the following operations: get and put.
+# Design and implement a data structure for Least Frequently Used (LFU) cache.
+# It should support the following operations: get and put.
 # get(key) - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.
 # put(key, value) - Set or insert the value if the key is not already present. When the cache reaches its capacity, it
 # should invalidate the least frequently used item before inserting a new item. For the purpose of this problem, when
@@ -11,7 +12,7 @@ _project_ = 'leetcode'
 # Maintain dict form key to value, dict from key to (freq, time), priority queue and set of keys to update in queue.
 # For get and put existing key, do not update queue but add key to update set. For put when cache is full, update queue
 # until top item does not need updating.
-# Time - O(1) for get, O(k log k) for pur
+# Time - O(1) for get, O(k log k) for put
 # Space - O(k)
 
 import heapq
