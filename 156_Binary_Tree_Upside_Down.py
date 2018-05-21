@@ -6,8 +6,8 @@ _project_ = 'leetcode'
 # same parent node) or empty, flip it upside down and turn it into a tree where the original right nodes turned
 # into left leaf nodes. Return the new root.
 
-# Base case for recursion is lean node or None.  Recursively process left subtree, find rightmost path, add previous
-# right on left and pervious root on right.
+# Base case for recursion is a leaf node or None. Recursively process left subtree, find rightmost path, add previous
+# right on left and previous root on right.
 # Time - O(n)
 # Space - O(1)
 
@@ -24,7 +24,7 @@ class Solution(object):
         :type root: TreeNode
         :rtype: TreeNode
         """
-        if not root or not root.left:       # if no left then no righh, leaf
+        if not root or not root.left:       # if no left then no right, leaf
             return root
 
         new_root = self.upsideDownBinaryTree(root.left)     # recurse left
