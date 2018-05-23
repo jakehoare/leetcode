@@ -527,7 +527,9 @@
 566,1,566 Reshape the Matrix,https://raw.githubusercontent.com/jakehoare/leetcode/master/566_Reshape_the_Matrix.py
 567,2,567 Permutation in String,https://raw.githubusercontent.com/jakehoare/leetcode/master/567_Permutation_in_String.py
 568,3,568 Maximum Vacation Days,https://raw.githubusercontent.com/jakehoare/leetcode/master/568_Maximum_Vacation_Days.py
+572,1,572 Subtree of Another Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/572_Subtree_of_Another_Tree.py
 573,2,573 Squirrel Simulation,https://raw.githubusercontent.com/jakehoare/leetcode/master/573_Squirrel_Simulation.py
+575,1,575 Distribute Candies,https://raw.githubusercontent.com/jakehoare/leetcode/master/575_Distribute_Candies.py
 576,2,576 Out of Boundary Paths,https://raw.githubusercontent.com/jakehoare/leetcode/master/576_Out_of_Boundary_Paths.py
 582,2,582 Kill Process,https://raw.githubusercontent.com/jakehoare/leetcode/master/582_Kill_Process.py
 583,2,583 Delete Operation for Two Strings,https://raw.githubusercontent.com/jakehoare/leetcode/master/583_Delete_Operation_for_Two_Strings.py
@@ -536,6 +538,8 @@
 591,3,591 Tag Validator,https://raw.githubusercontent.com/jakehoare/leetcode/master/591_Tag_Validator.py
 592,2,592 Fraction Addition And Subtraction,https://raw.githubusercontent.com/jakehoare/leetcode/master/592_Fraction_Addition_And_Subtraction.py
 593,2,593 Valid Square,https://raw.githubusercontent.com/jakehoare/leetcode/master/593_Valid_Square.py
+594,1,594 Longest Harmonious Subsequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/594_Longest_Harmonious_Subsequence.py
+598,1,598 Range Addition II,https://raw.githubusercontent.com/jakehoare/leetcode/master/598_Range_Addition_II.py
 600,3,600 Non-negative Integers without Consecutive Ones,https://raw.githubusercontent.com/jakehoare/leetcode/master/600_Non-negative_Integers_without_Consecutive_Ones.py
 609,2,609 Find Duplicate File in System,https://raw.githubusercontent.com/jakehoare/leetcode/master/609_Find_Duplicate_File_in_System.py
 611,2,611 Valid Triangle Number,https://raw.githubusercontent.com/jakehoare/leetcode/master/611_Valid_Triangle_Number.py
