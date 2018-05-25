@@ -12,7 +12,7 @@ _project_ = 'leetcode'
 
 # The maximum for a given N is either just by printing 'A' N times, or producing the maximum maxA(i) from i key presses,
 # then using the remaining N - i to create maxA(i) * (N - i). N - i must be at least 4 to create at least one copy.
-# In fact the optimal occurs then N- i is 4 or 5.
+# In fact the optimal occurs when N - i is 4 or 5.
 # Time - O(n)
 # Space - O(n)
 
@@ -22,14 +22,13 @@ class Solution(object):
         :type N: int
         :rtype: int
         """
-
         def helper(n):
             if n in memo:
                 return memo[n]
 
             max_A = n       # press 'A' n times
-            for i in range(max(n - 5, 0), n - 3):   # i + 1 key presses to make a base list
-                max_A = max(max_A, helper(i) * (n - i - 1))     # then n - (i + 1) copies
+            for i in range(max(n - 5, 0), n - 3):               # i + 1 print 'A' to make a base list
+                max_A = max(max_A, helper(i) * (n - i - 1))     # then n - (i + 1) copies of the base list
 
             memo[n] = max_A
             return max_A
