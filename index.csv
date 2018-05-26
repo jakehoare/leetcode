@@ -531,6 +531,7 @@
 573,2,573 Squirrel Simulation,https://raw.githubusercontent.com/jakehoare/leetcode/master/573_Squirrel_Simulation.py
 575,1,575 Distribute Candies,https://raw.githubusercontent.com/jakehoare/leetcode/master/575_Distribute_Candies.py
 576,2,576 Out of Boundary Paths,https://raw.githubusercontent.com/jakehoare/leetcode/master/576_Out_of_Boundary_Paths.py
+581,1,581 Shortest Unsorted Continuous Subarray,https://raw.githubusercontent.com/jakehoare/leetcode/master/581_Shortest_Unsorted_Continuous_Subarray.py
 582,2,582 Kill Process,https://raw.githubusercontent.com/jakehoare/leetcode/master/582_Kill_Process.py
 583,2,583 Delete Operation for Two Strings,https://raw.githubusercontent.com/jakehoare/leetcode/master/583_Delete_Operation_for_Two_Strings.py
 587,3,587 Erect The Fence,https://raw.githubusercontent.com/jakehoare/leetcode/master/587_Erect_The_Fence.py
@@ -540,7 +541,9 @@
 593,2,593 Valid Square,https://raw.githubusercontent.com/jakehoare/leetcode/master/593_Valid_Square.py
 594,1,594 Longest Harmonious Subsequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/594_Longest_Harmonious_Subsequence.py
 598,1,598 Range Addition II,https://raw.githubusercontent.com/jakehoare/leetcode/master/598_Range_Addition_II.py
+599,1,599 Minimum Index Sum of Two Lists,https://raw.githubusercontent.com/jakehoare/leetcode/master/599_Minimum_Index_Sum_of_Two_Lists.py
 600,3,600 Non-negative Integers without Consecutive Ones,https://raw.githubusercontent.com/jakehoare/leetcode/master/600_Non-negative_Integers_without_Consecutive_Ones.py
+604,1,604 Design Compressed String Iterator,https://raw.githubusercontent.com/jakehoare/leetcode/master/604_Design_Compressed_String_Iterator.py
 609,2,609 Find Duplicate File in System,https://raw.githubusercontent.com/jakehoare/leetcode/master/609_Find_Duplicate_File_in_System.py
 611,2,611 Valid Triangle Number,https://raw.githubusercontent.com/jakehoare/leetcode/master/611_Valid_Triangle_Number.py
 616,2,616 Add Bold Tag in String,https://raw.githubusercontent.com/jakehoare/leetcode/master/616_Add_Bold_Tag_in_String.py
@@ -637,5 +640,7 @@
 758,1,758 Bold Words in String,https://raw.githubusercontent.com/jakehoare/leetcode/master/758_Bold_Words_in_String.py
 759,3,759 Employee Free Time,https://raw.githubusercontent.com/jakehoare/leetcode/master/759_Employee_Free_Time.py
 760,1,760 Find Anagram Mappings,https://raw.githubusercontent.com/jakehoare/leetcode/master/760_Find_Anagram_Mappings.py
+761,3,761 Special Binary String,https://raw.githubusercontent.com/jakehoare/leetcode/master/761_Special_Binary_String.py
 762,1,762 Prime Number of Set Bits in Binary Representation,https://raw.githubusercontent.com/jakehoare/leetcode/master/762_Prime_Number_of_Set_Bits_in_Binary_Representation.py
 763,2,763 Partition Labels,https://raw.githubusercontent.com/jakehoare/leetcode/master/763_Partition_Labels.py
+764,2,764 Largest Plus Sign,https://raw.githubusercontent.com/jakehoare/leetcode/master/764_Largest_Plus_Sign.py
