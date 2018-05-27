@@ -4,7 +4,7 @@ Given an integer array, find three numbers whose product is maximum and output t
 
 Solution can only be the product of the 3 largest numbers, or the largest and the 2 smallest.
 Iterate over array, updating the 3 largest and 2 smallest numbers seen.
-Alternatively, sort tha array.
+Alternatively, sort the array.
 Time - O(n)
 Space - O(1)
 */
