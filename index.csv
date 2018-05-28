@@ -544,12 +544,17 @@
 599,1,599 Minimum Index Sum of Two Lists,https://raw.githubusercontent.com/jakehoare/leetcode/master/599_Minimum_Index_Sum_of_Two_Lists.py
 600,3,600 Non-negative Integers without Consecutive Ones,https://raw.githubusercontent.com/jakehoare/leetcode/master/600_Non-negative_Integers_without_Consecutive_Ones.py
 604,1,604 Design Compressed String Iterator,https://raw.githubusercontent.com/jakehoare/leetcode/master/604_Design_Compressed_String_Iterator.py
+605,1,605 Can Place Flowers,https://raw.githubusercontent.com/jakehoare/leetcode/master/605_Can_Place_Flowers.py
+606,1,606 Construct String from Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/606_Construct_String_from_Binary_Tree.py
 609,2,609 Find Duplicate File in System,https://raw.githubusercontent.com/jakehoare/leetcode/master/609_Find_Duplicate_File_in_System.py
 611,2,611 Valid Triangle Number,https://raw.githubusercontent.com/jakehoare/leetcode/master/611_Valid_Triangle_Number.py
 616,2,616 Add Bold Tag in String,https://raw.githubusercontent.com/jakehoare/leetcode/master/616_Add_Bold_Tag_in_String.py
+617,1,617 Merge Two Binary Trees,https://raw.githubusercontent.com/jakehoare/leetcode/master/617_Merge_Two_Binary_Trees.py
 621,2,621 Task Scheduler,https://raw.githubusercontent.com/jakehoare/leetcode/master/621_Task_Scheduler.py
 623,2,623 Add One Row to Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/623_Add_One_Row_to_Tree.py
+624,1,624 Maximum Distance in Arrays,https://raw.githubusercontent.com/jakehoare/leetcode/master/624_Maximum_Distance_in_Arrays.py
 625,2,625 Minimum Factorization,https://raw.githubusercontent.com/jakehoare/leetcode/master/625_Minimum_Factorization.py
+628,1,628 Maximum Product of Three Numbers,https://raw.githubusercontent.com/jakehoare/leetcode/master/628_Maximum_Product_of_Three_Numbers.py
 629,3,629 K Inverse Pairs Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/629_K_Inverse_Pairs_Array.py
 630,3,630 Course Schedule III,https://raw.githubusercontent.com/jakehoare/leetcode/master/630_Course_Schedule_III.py
 631,3,631 Design Excel Sum Formula,https://raw.githubusercontent.com/jakehoare/leetcode/master/631_Design_Excel_Sum_Formula.py
@@ -644,3 +649,4 @@
 762,1,762 Prime Number of Set Bits in Binary Representation,https://raw.githubusercontent.com/jakehoare/leetcode/master/762_Prime_Number_of_Set_Bits_in_Binary_Representation.py
 763,2,763 Partition Labels,https://raw.githubusercontent.com/jakehoare/leetcode/master/763_Partition_Labels.py
 764,2,764 Largest Plus Sign,https://raw.githubusercontent.com/jakehoare/leetcode/master/764_Largest_Plus_Sign.py
+765,3,765 Couples Holding Hands,https://raw.githubusercontent.com/jakehoare/leetcode/master/765_Couples_Holding_Hands.py
