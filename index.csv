@@ -563,11 +563,14 @@
 634,2,634 Find the Derangement of An Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/634_Find_the_Derangement_of_An_Array.py
 635,2,635 Design Log Storage Function,https://raw.githubusercontent.com/jakehoare/leetcode/master/635_Design_Log_Storage_Function.py
 636,2,636 Exclusive Time of Functions,https://raw.githubusercontent.com/jakehoare/leetcode/master/636_Exclusive_Time_of_Functions.py
+637,1,637 Average of Levels in Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/637_Average_of_Levels_in_Binary_Tree.py
 638,2,638 Shopping Offers,https://raw.githubusercontent.com/jakehoare/leetcode/master/638_Shopping_Offers.py
 639,3,639 Decode Ways II,https://raw.githubusercontent.com/jakehoare/leetcode/master/639_Decode_Ways_II.py
 640,2,640 Solve the Equation,https://raw.githubusercontent.com/jakehoare/leetcode/master/640_Solve_the_Equation.py
 642,3,642 Design Search Autocomplete System,https://raw.githubusercontent.com/jakehoare/leetcode/master/642_Design_Search_Autocomplete_System.py
+643,1,643 Maximum Average Subarray I,https://raw.githubusercontent.com/jakehoare/leetcode/master/643_Maximum_Average_Subarray_I.py
 644,3,644 Maximum Average Subarray II,https://raw.githubusercontent.com/jakehoare/leetcode/master/644_Maximum_Average_Subarray_II.py
+645,1,645 Set Mismatch,https://raw.githubusercontent.com/jakehoare/leetcode/master/645_Set_Mismatch.py
 646,2,646 Maximum Length of Pair Chain,https://raw.githubusercontent.com/jakehoare/leetcode/master/646_Maximum_Length_of_Pair_Chain.py
 647,2,647 Palindromic Substrings,https://raw.githubusercontent.com/jakehoare/leetcode/master/647_Palindromic_Substrings.py
 648,2,648 Replace Words,https://raw.githubusercontent.com/jakehoare/leetcode/master/648_Replace_Words.py
@@ -575,9 +578,11 @@
 650,2,650 2 Keys Keyboard,https://raw.githubusercontent.com/jakehoare/leetcode/master/650_2_Keys_Keyboard.py
 651,2,651 4 Keys Keyboard,https://raw.githubusercontent.com/jakehoare/leetcode/master/651_4_Keys_Keyboard.py
 652,2,652 Find Duplicate Subtrees,https://raw.githubusercontent.com/jakehoare/leetcode/master/652_Find_Duplicate_Subtrees.py
+653,1,653 Two Sum IV - Input is a BST,https://raw.githubusercontent.com/jakehoare/leetcode/master/653_Two_Sum_IV_-_Input_is_a_BST.py
 654,2,654 Maximim Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/654_Maximim_Binary_Tree.py
 655,2,655 Print Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/655_Print_Binary_Tree.py
 656,3,656 Coin Path,https://raw.githubusercontent.com/jakehoare/leetcode/master/656_Coin_Path.py
+657,1,657 Judge Route Circle,https://raw.githubusercontent.com/jakehoare/leetcode/master/657_Judge_Route_Circle.py
 658,2,658 Find K Closest Elements,https://raw.githubusercontent.com/jakehoare/leetcode/master/658_Find_K_Closest_Elements.py
 659,2,659 Split Array into Consecutive Subsequences,https://raw.githubusercontent.com/jakehoare/leetcode/master/659_Split_Array_into_Consecutive_Subsequences.py
 660,3,660 Remove 9,https://raw.githubusercontent.com/jakehoare/leetcode/master/660_Remove_9.py
@@ -651,3 +656,5 @@
 763,2,763 Partition Labels,https://raw.githubusercontent.com/jakehoare/leetcode/master/763_Partition_Labels.py
 764,2,764 Largest Plus Sign,https://raw.githubusercontent.com/jakehoare/leetcode/master/764_Largest_Plus_Sign.py
 765,3,765 Couples Holding Hands,https://raw.githubusercontent.com/jakehoare/leetcode/master/765_Couples_Holding_Hands.py
+766,1,766 Toeplitz Matrix,https://raw.githubusercontent.com/jakehoare/leetcode/master/766_Toeplitz_Matrix.py
+767,2,767 Reorganize String,https://raw.githubusercontent.com/jakehoare/leetcode/master/767_Reorganize_String.py
