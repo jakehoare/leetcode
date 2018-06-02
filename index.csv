@@ -586,6 +586,7 @@
 658,2,658 Find K Closest Elements,https://raw.githubusercontent.com/jakehoare/leetcode/master/658_Find_K_Closest_Elements.py
 659,2,659 Split Array into Consecutive Subsequences,https://raw.githubusercontent.com/jakehoare/leetcode/master/659_Split_Array_into_Consecutive_Subsequences.py
 660,3,660 Remove 9,https://raw.githubusercontent.com/jakehoare/leetcode/master/660_Remove_9.py
+661,1,661 Image Smoother,https://raw.githubusercontent.com/jakehoare/leetcode/master/661_Image_Smoother.py
 662,2,662 Maximum Width of Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/662_Maximum_Width_of_Binary_Tree.py
 663,2,663 Equal Tree Partition,https://raw.githubusercontent.com/jakehoare/leetcode/master/663_Equal_Tree_Partition.py
 664,3,664 Strange Printer,https://raw.githubusercontent.com/jakehoare/leetcode/master/664_Strange_Printer.py
@@ -658,3 +659,5 @@
 765,3,765 Couples Holding Hands,https://raw.githubusercontent.com/jakehoare/leetcode/master/765_Couples_Holding_Hands.py
 766,1,766 Toeplitz Matrix,https://raw.githubusercontent.com/jakehoare/leetcode/master/766_Toeplitz_Matrix.py
 767,2,767 Reorganize String,https://raw.githubusercontent.com/jakehoare/leetcode/master/767_Reorganize_String.py
+768,3,768 Max Chunks To Make Sorted II,https://raw.githubusercontent.com/jakehoare/leetcode/master/768_Max_Chunks_To_Make_Sorted_II.py
+769,2,769 Max Chunks To Make Sorted,https://raw.githubusercontent.com/jakehoare/leetcode/master/769_Max_Chunks_To_Make_Sorted.py
