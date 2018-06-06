@@ -596,8 +596,10 @@
 668,3,668 Kth Smallest Number in Multiplication Table,https://raw.githubusercontent.com/jakehoare/leetcode/master/668_Kth_Smallest_Number_in_Multiplication_Table.py
 669,1,669 Trim a Binary Search Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/669_Trim_a_Binary_Search_Tree.py
 670,2,670 Maximum Swap,https://raw.githubusercontent.com/jakehoare/leetcode/master/670_Maximum_Swap.py
+671,1,671 Second Minimum Node In a Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/671_Second_Minimum_Node_In_a_Binary_Tree.py
 672,2,672 Bulb Switcher II,https://raw.githubusercontent.com/jakehoare/leetcode/master/672_Bulb_Switcher_II.py
 673,2,673 Number of Longest Increasing Subsequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/673_Number_of_Longest_Increasing_Subsequence.py
+674,1,674 Longest Continuous Increasing Subsequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/674_Longest_Continuous_Increasing_Subsequence.py
 675,3,675 Cut Off Trees for Golf Event,https://raw.githubusercontent.com/jakehoare/leetcode/master/675_Cut_Off_Trees_for_Golf_Event.py
 676,2,676 Implement Magic Dictionary,https://raw.githubusercontent.com/jakehoare/leetcode/master/676_Implement_Magic_Dictionary.py
 677,2,677 Map Sum Pairs,https://raw.githubusercontent.com/jakehoare/leetcode/master/677_Map_Sum_Pairs.py
@@ -669,3 +671,5 @@
 774,3,774 Minimize Max Distance to Gas Station,https://raw.githubusercontent.com/jakehoare/leetcode/master/774_Minimize_Max_Distance_to_Gas_Station.py
 775,2,775 Global and Local Inversions,https://raw.githubusercontent.com/jakehoare/leetcode/master/775_Global_and_Local_Inversions.py
 776,2,776 Split BST,https://raw.githubusercontent.com/jakehoare/leetcode/master/776_Split_BST.py
+777,2,777 Swap Adjacent in LR String,https://raw.githubusercontent.com/jakehoare/leetcode/master/777_Swap_Adjacent_in_LR_String.py
+778,3,778 Swim in Rising Water,https://raw.githubusercontent.com/jakehoare/leetcode/master/778_Swim_in_Rising_Water.py
