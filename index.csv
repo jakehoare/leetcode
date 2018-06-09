@@ -605,7 +605,9 @@
 677,2,677 Map Sum Pairs,https://raw.githubusercontent.com/jakehoare/leetcode/master/677_Map_Sum_Pairs.py
 678,2,678 Valid Parenthesis String,https://raw.githubusercontent.com/jakehoare/leetcode/master/678_Valid_Parenthesis_String.py
 679,3,679 24 Game,https://raw.githubusercontent.com/jakehoare/leetcode/master/679_24_Game.py
+680,1,680 Valid Palindrome II,https://raw.githubusercontent.com/jakehoare/leetcode/master/680_Valid_Palindrome_II.py
 681,2,681 Next Closest Time,https://raw.githubusercontent.com/jakehoare/leetcode/master/681_Next_Closest_Time.py
+682,1,682 Baseball Game,https://raw.githubusercontent.com/jakehoare/leetcode/master/682_Baseball_Game.py
 683,3,683 K Empty Slots,https://raw.githubusercontent.com/jakehoare/leetcode/master/683_K_Empty_Slots.py
 684,2,684 Redundant Connection,https://raw.githubusercontent.com/jakehoare/leetcode/master/684_Redundant_Connection.py
 685,3,685 Redundant Connection II,https://raw.githubusercontent.com/jakehoare/leetcode/master/685_Redundant_Connection_II.py
@@ -665,6 +667,7 @@
 767,2,767 Reorganize String,https://raw.githubusercontent.com/jakehoare/leetcode/master/767_Reorganize_String.py
 768,3,768 Max Chunks To Make Sorted II,https://raw.githubusercontent.com/jakehoare/leetcode/master/768_Max_Chunks_To_Make_Sorted_II.py
 769,2,769 Max Chunks To Make Sorted,https://raw.githubusercontent.com/jakehoare/leetcode/master/769_Max_Chunks_To_Make_Sorted.py
+770,3,770 Basic Calculator IV,https://raw.githubusercontent.com/jakehoare/leetcode/master/770_Basic_Calculator_IV.py
 771,1,771 Jewels and Stones,https://raw.githubusercontent.com/jakehoare/leetcode/master/771_Jewels_and_Stones.py
 772,3,772 Basic Calculator III,https://raw.githubusercontent.com/jakehoare/leetcode/master/772_Basic_Calculator_III.py
 773,3,773 Sliding Puzzle,https://raw.githubusercontent.com/jakehoare/leetcode/master/773_Sliding_Puzzle.py
