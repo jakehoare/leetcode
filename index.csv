@@ -611,6 +611,8 @@
 683,3,683 K Empty Slots,https://raw.githubusercontent.com/jakehoare/leetcode/master/683_K_Empty_Slots.py
 684,2,684 Redundant Connection,https://raw.githubusercontent.com/jakehoare/leetcode/master/684_Redundant_Connection.py
 685,3,685 Redundant Connection II,https://raw.githubusercontent.com/jakehoare/leetcode/master/685_Redundant_Connection_II.py
+686,1,686 Repeated String Match,https://raw.githubusercontent.com/jakehoare/leetcode/master/686_Repeated_String_Match.py
+687,1,687 Longest Univalue Path,https://raw.githubusercontent.com/jakehoare/leetcode/master/687_Longest_Univalue_Path.py
 688,2,688 Knight Probability in Chessboard,https://raw.githubusercontent.com/jakehoare/leetcode/master/688_Knight_Probability_in_Chessboard.py
 689,3,689 Maximum Sum of 3 Non-Overlapping Subarrays,https://raw.githubusercontent.com/jakehoare/leetcode/master/689_Maximum_Sum_of_3_Non-Overlapping_Subarrays.py
 691,3,691 Stickers to Spell Word,https://raw.githubusercontent.com/jakehoare/leetcode/master/691_Stickers_to_Spell_Word.py
@@ -676,3 +678,4 @@
 776,2,776 Split BST,https://raw.githubusercontent.com/jakehoare/leetcode/master/776_Split_BST.py
 777,2,777 Swap Adjacent in LR String,https://raw.githubusercontent.com/jakehoare/leetcode/master/777_Swap_Adjacent_in_LR_String.py
 778,3,778 Swim in Rising Water,https://raw.githubusercontent.com/jakehoare/leetcode/master/778_Swim_in_Rising_Water.py
+779,2,779 K-th Symbol in Grammar,https://raw.githubusercontent.com/jakehoare/leetcode/master/779_K-th_Symbol_in_Grammar.py
