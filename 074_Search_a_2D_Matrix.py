@@ -6,9 +6,9 @@ _project_ = 'leetcode'
 # Integers in each row are sorted from left to right.
 # The first integer of each row is greater than the last integer of the previous row.
 
-# Binary search first column to find the row, then binary search that row.
+# Treat the 2-d matrix as a 1-d list of length rows * cols. Binary search indices from 0 to rows * cols - 1.
 # Time - O(log m + log n)
-# Space - O(max(log m, log n))
+# Space - O(1)
 
 class Solution(object):
     def searchMatrix(self, matrix, target):
@@ -19,33 +19,22 @@ class Solution(object):
         """
         if not matrix or not matrix[0]:
             return False
+
         rows, cols = len(matrix), len(matrix[0])
+        low, high = 0, rows * cols - 1
 
-        def bin_search(low, high, row):     # if row == -1 then search first values of rows
-                                            # else search cols of a specific row
-            while high >= low:
+        while high >= low:
 
-                mid = (high + low) // 2
-                if row != -1:
-                    value = matrix[row][mid]
-                else:
-                    value = matrix[mid][0]
+            mid = (high + low) // 2
+            value = matrix[mid // cols][mid % cols]     # convert mid to a row and column
 
-                if target == value:
-                    return -2               # signifies target is found
-                elif target > value:
-                    low = mid + 1
-                else:
-                    high = mid - 1
+            if target == value:
+                return True
+            if target > value:
+                low = mid + 1
+            else:
+                high = mid - 1
 
-            return high
-
-        row = bin_search(0, rows - 1, -1)
-        if row == -2:
-            return True
-        if row == -1:
-            return False
-
-        return bin_search(0, cols - 1, row) == -2
+        return False
 
 
