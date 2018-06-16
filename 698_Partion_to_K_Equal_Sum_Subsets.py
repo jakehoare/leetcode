@@ -7,7 +7,7 @@ _project_ = 'leetcode'
 
 # Sort in decreasing order. Find some nums that sum to target, flagging each num in used. If a num is used then only
 # search smaller nums since any larger would have been used already.
-# Alternatively, add each number ot each bucket with capacity and recurse, backtracking if a solution is not found.
+# Alternatively, add each number to each bucket with capacity and recurse, backtracking if a solution is not found.
 # Time - O(k * 2**n) for k buckets, each number is or is not used in each
 # Space - O(k * 2**n)
 
@@ -57,7 +57,7 @@ class Solution2(object):
 
         partition = [0 for _ in range(k)]
 
-        def helper(i):
+        def helper(i):                          # test whether nums[i] can be added to some partition
             if i == len(nums):
                 return True
 
@@ -67,7 +67,7 @@ class Solution2(object):
                     if helper(i + 1):
                         return True
                     partition[j] -= nums[i]
-                if partition[j] == 0:           # stop if remaining numbers cannot fit when bucket is empty
+                if partition[j] == 0:           # do not try other empty buckets
                     break
 
             return False
