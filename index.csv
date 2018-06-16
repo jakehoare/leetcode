@@ -449,6 +449,7 @@
 475,1,475 Heaters,https://raw.githubusercontent.com/jakehoare/leetcode/master/475_Heaters.py
 476,1,476 Number Complement,https://raw.githubusercontent.com/jakehoare/leetcode/master/476_Number_Complement.py
 477,2,477 Total Hamming Diatance,https://raw.githubusercontent.com/jakehoare/leetcode/master/477_Total_Hamming_Diatance.py
+479,1,479 Largest Palindrome Product,https://raw.githubusercontent.com/jakehoare/leetcode/master/479_Largest_Palindrome_Product.py
 480,3,480 Sliding Window Median,https://raw.githubusercontent.com/jakehoare/leetcode/master/480_Sliding_Window_Median.py
 481,2,481 Magical String,https://raw.githubusercontent.com/jakehoare/leetcode/master/481_Magical_String.py
 482,1,482 License Key Formatting,https://raw.githubusercontent.com/jakehoare/leetcode/master/482_License_Key_Formatting.py
@@ -681,4 +682,6 @@
 779,2,779 K-th Symbol in Grammar,https://raw.githubusercontent.com/jakehoare/leetcode/master/779_K-th_Symbol_in_Grammar.py
 780,3,780 Reaching Points,https://raw.githubusercontent.com/jakehoare/leetcode/master/780_Reaching_Points.py
 781,2,781 Rabbits in Forest,https://raw.githubusercontent.com/jakehoare/leetcode/master/781_Rabbits_in_Forest.py
+782,3,782 Transform to Chessboard,https://raw.githubusercontent.com/jakehoare/leetcode/master/782_Transform_to_Chessboard.py
 783,1,783 Minimum Distance Between BST Nodes,https://raw.githubusercontent.com/jakehoare/leetcode/master/783_Minimum_Distance_Between_BST_Nodes.py
+784,1,784 Letter Case Permutation,https://raw.githubusercontent.com/jakehoare/leetcode/master/784_Letter_Case_Permutation.py
