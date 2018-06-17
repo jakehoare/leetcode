@@ -34,7 +34,7 @@ class Solution(object):
             queue = [i]                 # coloured nodes whose edges have not been checked
 
             while queue:
-                
+
                 v = queue.pop()
 
                 for nbor in graph[v]:
