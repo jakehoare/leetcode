@@ -649,6 +649,7 @@
 731,2,731 My Calendar II,https://raw.githubusercontent.com/jakehoare/leetcode/master/731_My_Calendar_II.py
 732,3,732 My Calendar III,https://raw.githubusercontent.com/jakehoare/leetcode/master/732_My_Calendar_III.py
 733,1,733 Flood Fill,https://raw.githubusercontent.com/jakehoare/leetcode/master/733_Flood_Fill.py
+734,1,734 Sentence Similarity,https://raw.githubusercontent.com/jakehoare/leetcode/master/734_Sentence_Similarity.py
 735,2,735 Asteroid Collision,https://raw.githubusercontent.com/jakehoare/leetcode/master/735_Asteroid_Collision.py
 736,3,736 Parse Lisp Expression,https://raw.githubusercontent.com/jakehoare/leetcode/master/736_Parse_Lisp_Expression.py
 737,2,737 Sentence Similarity II,https://raw.githubusercontent.com/jakehoare/leetcode/master/737_Sentence_Similarity_II.py
@@ -658,6 +659,7 @@
 741,3,741 Cherry Pickup,https://raw.githubusercontent.com/jakehoare/leetcode/master/741_Cherry_Pickup.py
 742,2,742 Closest Leaf in a Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/742_Closest_Leaf_in_a_Binary_Tree.py
 743,2,743 Network Delay Time,https://raw.githubusercontent.com/jakehoare/leetcode/master/743_Network_Delay_Time.py
+744,1,744 Find Smallest Letter Greater Than Target,https://raw.githubusercontent.com/jakehoare/leetcode/master/744_Find_Smallest_Letter_Greater_Than_Target.py
 745,3,745 Prefix and Suffix Search,https://raw.githubusercontent.com/jakehoare/leetcode/master/745_Prefix_and_Suffix_Search.py
 748,2,748 Shortest Completing Word,https://raw.githubusercontent.com/jakehoare/leetcode/master/748_Shortest_Completing_Word.py
 749,3,749 Contain Virus,https://raw.githubusercontent.com/jakehoare/leetcode/master/749_Contain_Virus.py
