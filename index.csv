@@ -661,6 +661,7 @@
 743,2,743 Network Delay Time,https://raw.githubusercontent.com/jakehoare/leetcode/master/743_Network_Delay_Time.py
 744,1,744 Find Smallest Letter Greater Than Target,https://raw.githubusercontent.com/jakehoare/leetcode/master/744_Find_Smallest_Letter_Greater_Than_Target.py
 745,3,745 Prefix and Suffix Search,https://raw.githubusercontent.com/jakehoare/leetcode/master/745_Prefix_and_Suffix_Search.py
+747,1,747 Largest Number At Least Twice of Others,https://raw.githubusercontent.com/jakehoare/leetcode/master/747_Largest_Number_At_Least_Twice_of_Others.py
 748,2,748 Shortest Completing Word,https://raw.githubusercontent.com/jakehoare/leetcode/master/748_Shortest_Completing_Word.py
 749,3,749 Contain Virus,https://raw.githubusercontent.com/jakehoare/leetcode/master/749_Contain_Virus.py
 750,2,750 Number Of Corner Rectangles,https://raw.githubusercontent.com/jakehoare/leetcode/master/750_Number_Of_Corner_Rectangles.py
@@ -705,5 +706,7 @@
 790,2,790 Domino and Tromino Tiling,https://raw.githubusercontent.com/jakehoare/leetcode/master/790_Domino_and_Tromino_Tiling.py
 791,2,791 Custom Sort String,https://raw.githubusercontent.com/jakehoare/leetcode/master/791_Custom_Sort_String.py
 792,2,792 Number of Matching Subsequences,https://raw.githubusercontent.com/jakehoare/leetcode/master/792_Number_of_Matching_Subsequences.py
+793,3,793 Preimage Size of Factorial Zeroes Function,https://raw.githubusercontent.com/jakehoare/leetcode/master/793_Preimage_Size_of_Factorial_Zeroes_Function.py
 794,2,794 Valid Tic-Tac-Toe State,https://raw.githubusercontent.com/jakehoare/leetcode/master/794_Valid_Tic-Tac-Toe_State.py
 795,2,795 Number of Subarrays with Bounded Maximum,https://raw.githubusercontent.com/jakehoare/leetcode/master/795_Number_of_Subarrays_with_Bounded_Maximum.py
+796,1,796 Rotate String,https://raw.githubusercontent.com/jakehoare/leetcode/master/796_Rotate_String.py
