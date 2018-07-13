@@ -21,7 +21,7 @@ class Solution(object):
         :type S: str
         :rtype: List[int]
         """
-        line, width = 0, 100            # line number and current width
+        line, width = 0, 100            # line number and width
 
         for c in S:
 
