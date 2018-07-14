@@ -626,6 +626,8 @@
 697,1,697 Degree of an Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/697_Degree_of_an_Array.py
 698,2,698 Partion to K Equal Sum Subsets,https://raw.githubusercontent.com/jakehoare/leetcode/master/698_Partion_to_K_Equal_Sum_Subsets.py
 699,3,699 Falling Squares,https://raw.githubusercontent.com/jakehoare/leetcode/master/699_Falling_Squares.py
+700,1,700 Search in a Binary Search Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/700_Search_in_a_Binary_Search_Tree.py
+707,1,707 Design Linked List,https://raw.githubusercontent.com/jakehoare/leetcode/master/707_Design_Linked_List.py
 711,3,711 Number of Distinct Islands II,https://raw.githubusercontent.com/jakehoare/leetcode/master/711_Number_of_Distinct_Islands_II.py
 712,2,712 Minimum ASCII Delete Sum for Two Strings,https://raw.githubusercontent.com/jakehoare/leetcode/master/712_Minimum_ASCII_Delete_Sum_for_Two_Strings.py
 713,2,713 Subarray Product Less Than K,https://raw.githubusercontent.com/jakehoare/leetcode/master/713_Subarray_Product_Less_Than_K.py
@@ -719,3 +721,4 @@
 801,2,801 Minimum Swaps To Make Sequences Increasing,https://raw.githubusercontent.com/jakehoare/leetcode/master/801_Minimum_Swaps_To_Make_Sequences_Increasing.py
 802,2,802 Find Eventual Safe States,https://raw.githubusercontent.com/jakehoare/leetcode/master/802_Find_Eventual_Safe_States.py
 804,1,804 Unique Morse Code Words,https://raw.githubusercontent.com/jakehoare/leetcode/master/804_Unique_Morse_Code_Words.py
+806,1,806 Number of Lines To Write String,https://raw.githubusercontent.com/jakehoare/leetcode/master/806_Number_of_Lines_To_Write_String.py
