@@ -16,7 +16,7 @@ _project_ = 'leetcode'
 #   If index is greater than the length, the node will not be inserted.
 #  deleteAtIndex(index) : Delete the index-th node in the linked list, if the index is valid.
 
-# Use a list. Alternatively define a Node class which allows addAtHead in O(1) time but O(n) get.
+# Use a list. Alternatively define a Node class which allows addAtHead in O(1) time but O(n) get method.
 # Time - init O(1), get O(1), addAtHead O(n), addAtTail(1), addAtIndex(n), deleteAtIndex(n)
 # Space - O(n)
 
