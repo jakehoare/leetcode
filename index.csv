@@ -406,6 +406,7 @@
 423,2,423 Reconstruct Original Digits from English,https://raw.githubusercontent.com/jakehoare/leetcode/master/423_Reconstruct_Original_Digits_from_English.py
 424,2,424 Longest Repeating Character Replacement,https://raw.githubusercontent.com/jakehoare/leetcode/master/424_Longest_Repeating_Character_Replacement.py
 425,3,425 Word Squares,https://raw.githubusercontent.com/jakehoare/leetcode/master/425_Word_Squares.py
+426,2,426 Convert Binary Search Tree to Sorted Doubly Linked List,https://raw.githubusercontent.com/jakehoare/leetcode/master/426_Convert_Binary_Search_Tree_to_Sorted_Doubly_Linked_List.py
 432,3,432 All Oone Data Structure,https://raw.githubusercontent.com/jakehoare/leetcode/master/432_All_Oone_Data_Structure.py
 433,2,433 Minimum Genetic Mutation,https://raw.githubusercontent.com/jakehoare/leetcode/master/433_Minimum_Genetic_Mutation.py
 434,1,434 Number of Segments in a String,https://raw.githubusercontent.com/jakehoare/leetcode/master/434_Number_of_Segments_in_a_String.py
@@ -721,4 +722,5 @@
 801,2,801 Minimum Swaps To Make Sequences Increasing,https://raw.githubusercontent.com/jakehoare/leetcode/master/801_Minimum_Swaps_To_Make_Sequences_Increasing.py
 802,2,802 Find Eventual Safe States,https://raw.githubusercontent.com/jakehoare/leetcode/master/802_Find_Eventual_Safe_States.py
 804,1,804 Unique Morse Code Words,https://raw.githubusercontent.com/jakehoare/leetcode/master/804_Unique_Morse_Code_Words.py
+805,3,805 Split Array With Same Average,https://raw.githubusercontent.com/jakehoare/leetcode/master/805_Split_Array_With_Same_Average.py
 806,1,806 Number of Lines To Write String,https://raw.githubusercontent.com/jakehoare/leetcode/master/806_Number_of_Lines_To_Write_String.py
