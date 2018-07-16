@@ -9,17 +9,11 @@ _project_ = 'leetcode'
 # serialization/deserialization algorithm should work. You just need to ensure that a binary tree can be serialized
 # to a string and this string can be deserialized to the original tree structure.
 
-# Perform a preorder traversal, recursing whenever we see a non-null node.  Rebuild by creating a queue and taking
-# the front value.  Ignore if null, else rebuild the root with value, recurse right then left.
+# Perform a preorder traversal, appending all visited nodes to a list and special sentinel "null" For None. Recursing
+# whenever we see a non-null node. Rebuild by creating a queue and taking the front value.
+# Ignore if null, else rebuild the root with value, recurse right then left.
 # Time - O(n)
 # Space - O(n)
-
-# Definition for a binary tree node.
-class TreeNode(object):
-    def __init__(self, x):
-        self.val = x
-        self.left = None
-        self.right = None
 
 from collections import deque
 
@@ -30,32 +24,38 @@ class Codec:
         :type root: TreeNode
         :rtype: str
         """
-        return ",".join(self.preorder(root))    # assumes TreeNode.val do not include comma
+        nodes = []
 
-    def preorder(self, node):
-        if not node:
-            return ["null"]
-        else:
-            return [str(node.val)] + self.preorder(node.left) + self.preorder(node.right)
+        def preorder(node):
+            if not node:
+                nodes.append("null")
+            else:
+                nodes.append(str(node.val))
+                preorder(node.left)
+                preorder(node.right)
 
+        preorder(root)
+        return ",".join(nodes)  # assumes TreeNode.val do not include comma
 
     def deserialize(self, data):
         """Decodes your encoded data to tree.
         :type data: str
         :rtype: TreeNode
         """
-        return self.rebuild(deque(data.split(",")))
+        node_list = deque(data.split(","))
 
-    def rebuild(self, node_list):
+        def rebuild():
 
-        if not node_list:
-            return None
+            if not node_list:
+                return None
 
-        node = node_list.popleft()
-        if node == "null":
-            return None
+            node = node_list.popleft()
+            if node == "null":
+                return None
 
-        node = TreeNode(node)
-        node.left = self.rebuild(node_list)
-        node.right = self.rebuild(node_list)
-        return node
+            node = TreeNode(node)
+            node.left = rebuild()
+            node.right = rebuild()
+            return node
+
+        return rebuild()
