@@ -22,36 +22,37 @@ class TreeNode(object):
 from collections import deque
 
 
-class Codec:
-    def serialize(self, root):
-        """Encodes a tree to a single string.
+def serialize(self, root):
+    """Encodes a tree to a single string.
+    :type root: TreeNode
+    :rtype: str
+    """
+    serial_list = []
 
-        :type root: TreeNode
-        :rtype: str
-        """
+    def serial(node):
+        if not node:
+            return
+        serial_list.append(str(node.val))
+        serial(node.left)
+        serial(node.right)
 
-        def serial(node):
-            if not node:
-                return []
-            return [str(node.val)] + serial(node.left) + serial(node.right)
+    serial(root)
+    return " ".join(serial_list)
 
-        return " ".join(serial(root))
+def deserialize(self, data):
+    """Decodes your encoded data to tree.
+    :type data: str
+    :rtype: TreeNode
+    """
+    preorder = deque(int(val) for val in data.split())  # convert to integers
 
-    def deserialize(self, data):
-        """Decodes your encoded data to tree.
+    # if first preorder is between low and high, create tree of all vals in that range with first preorder as root
+    def deserial(low, high):
+        if preorder and low < preorder[0] < high:
+            val = preorder.popleft()
+            node = TreeNode(val)
+            node.left = deserial(low, val)
+            node.right = deserial(val, high)
+            return node
 
-        :type data: str
-        :rtype: TreeNode
-        """
-        preorder = deque(int(val) for val in data.split())  # convert to integers
-
-        # if first preorder is between low and high, create tree of all vals in that range with first preorder as root
-        def deserial(low, high):
-            if preorder and low < preorder[0] < high:
-                val = preorder.popleft()
-                node = TreeNode(val)
-                node.left = deserial(low, val)
-                node.right = deserial(val, high)
-                return node
-
-        return deserial(float("-inf"), float("inf"))
+    return deserial(float("-inf"), float("inf"))
