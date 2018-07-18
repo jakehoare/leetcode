@@ -21,28 +21,32 @@ class Solution(object):
         :type str: str
         :rtype: bool
         """
-        return self.is_match(pattern, str, {}, set())
+        m, n = len(pattern), len(str)
 
-    def is_match(self, p, s, mapping, s_used):  # a slower alternative replaces s_used with mapping.values()
+        def is_match(i, j):
 
-        if not p and not s:
-            return True
-        if not p:                               # no pattern but some str remains unmatched
+            if i >= m and j >= n:
+                return True
+            if i >= m:                              # no pattern but some str remains unmatched
+                return False
+
+            for end in range(j, n - (m - i) + 1):   # leave at least 1 char in str for each of remaining pattern
+
+                p, test_s = pattern[i], str[j:end + 1]  # try to match test_s with p
+                if p not in mapping and test_s not in s_used:   # neither p nor test_s are used
+                    mapping[p] = test_s
+                    s_used.add(test_s)
+                    if is_match(i + 1, end + 1):
+                        return True
+                    del mapping[p]                  # revert mapping and s_used since failed
+                    s_used.discard(test_s)
+
+                elif p in mapping and mapping[p] == test_s:     # p already mapped to test_s
+                    if is_match(i + 1, end + 1):
+                        return True
+
             return False
 
-        for end in range(len(s) - len(p) + 1):  # leave at least 1 char in str for each of remaining pattern
-
-            test_s = s[:end + 1]                # try to match test_s with pattern[0]
-            if p[0] not in mapping and test_s not in s_used:    # neither p[0] nor test_s are used
-                mapping[p[0]] = test_s
-                s_used.add(test_s)
-                if self.is_match(p[1:], s[end + 1:], mapping, s_used):
-                    return True
-                del mapping[p[0]]       # delete mapping p[0] to test_s
-                s_used.discard(test_s)
-
-            elif p[0] in mapping and mapping[p[0]] == test_s:   # p[0] already mapped to test_s
-                if self.is_match(p[1:], s[end + 1:], mapping, s_used):
-                    return True
-
-        return False
+        mapping = {}
+        s_used = set()
+        return is_match(0, 0)
