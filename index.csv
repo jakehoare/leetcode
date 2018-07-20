@@ -411,6 +411,7 @@
 428,3,428 Serialize and Deserialize N-ary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/428_Serialize_and_Deserialize_N-ary_Tree.py
 429,1,429 N-ary Tree Level Order Traversal,https://raw.githubusercontent.com/jakehoare/leetcode/master/429_N-ary_Tree_Level_Order_Traversal.py
 430,2,430 Flatten a Multilevel Doubly Linked List,https://raw.githubusercontent.com/jakehoare/leetcode/master/430_Flatten_a_Multilevel_Doubly_Linked_List.py
+431,3,431 Encode N-ary Tree to Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/431_Encode_N-ary_Tree_to_Binary_Tree.py
 432,3,432 All Oone Data Structure,https://raw.githubusercontent.com/jakehoare/leetcode/master/432_All_Oone_Data_Structure.py
 433,2,433 Minimum Genetic Mutation,https://raw.githubusercontent.com/jakehoare/leetcode/master/433_Minimum_Genetic_Mutation.py
 434,1,434 Number of Segments in a String,https://raw.githubusercontent.com/jakehoare/leetcode/master/434_Number_of_Segments_in_a_String.py
