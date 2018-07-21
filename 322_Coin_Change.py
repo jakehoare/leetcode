@@ -23,12 +23,15 @@ class Solution(object):
         self.result = float("inf")
 
         def dfs(largest_coin, remainder, used_coins):
-            if not remainder:
+
+            if remainder == 0:
                 self.result = min(self.result, used_coins)
-            for i in range(largest_coin, len(coins)):
+
+            for i in range(largest_coin, len(coins)):                   # try coins with largest first
+
                 if remainder >= coins[i] * (self.result - used_coins):  # cannot improve on result
                     break
-                if coins[i] <= remainder:       # will not lead to negative amount
+                if coins[i] <= remainder:                               # use this coin
                     dfs(i, remainder - coins[i], used_coins + 1)
 
         dfs(0, amount, 0)
