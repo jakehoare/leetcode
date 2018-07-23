@@ -18,12 +18,13 @@ class Solution(object):
         """
         :type beginWord: str
         :type endWord: str
-        :type wordList: Set[str]
+        :type wordList: List[str]
         :rtype: int
         """
         length = 1
         visited = set()
-        wordList.add(endWord)
+        if endWord not in wordList:
+            return 0
 
         graph = defaultdict(set)
         for word in wordList:                   # build a mapping of words reachable by changing one letter
