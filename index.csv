@@ -529,6 +529,7 @@
 555,2,555 Split Concetenated Strings,https://raw.githubusercontent.com/jakehoare/leetcode/master/555_Split_Concetenated_Strings.py
 556,2,556 Next Greater Element III,https://raw.githubusercontent.com/jakehoare/leetcode/master/556_Next_Greater_Element_III.py
 557,1,557 Reverse Words in a String III,https://raw.githubusercontent.com/jakehoare/leetcode/master/557_Reverse_Words_in_a_String_III.py
+558,1,558 Quad Tree Intersection,https://raw.githubusercontent.com/jakehoare/leetcode/master/558_Quad_Tree_Intersection.py
 560,2,560 Subarray Sum Equals K,https://raw.githubusercontent.com/jakehoare/leetcode/master/560_Subarray_Sum_Equals_K.py
 561,1,561 Array Partition I,https://raw.githubusercontent.com/jakehoare/leetcode/master/561_Array_Partition_I.py
 562,2,562 Longest Line of Consecutive One in Matrix,https://raw.githubusercontent.com/jakehoare/leetcode/master/562_Longest_Line_of_Consecutive_One_in_Matrix.py
@@ -730,10 +731,13 @@
 800,1,800 Similar RGB Color,https://raw.githubusercontent.com/jakehoare/leetcode/master/800_Similar_RGB_Color.py
 801,2,801 Minimum Swaps To Make Sequences Increasing,https://raw.githubusercontent.com/jakehoare/leetcode/master/801_Minimum_Swaps_To_Make_Sequences_Increasing.py
 802,2,802 Find Eventual Safe States,https://raw.githubusercontent.com/jakehoare/leetcode/master/802_Find_Eventual_Safe_States.py
+803,3,803 Bricks Falling When Hit,https://raw.githubusercontent.com/jakehoare/leetcode/master/803_Bricks_Falling_When_Hit.py
 804,1,804 Unique Morse Code Words,https://raw.githubusercontent.com/jakehoare/leetcode/master/804_Unique_Morse_Code_Words.py
 805,3,805 Split Array With Same Average,https://raw.githubusercontent.com/jakehoare/leetcode/master/805_Split_Array_With_Same_Average.py
 806,1,806 Number of Lines To Write String,https://raw.githubusercontent.com/jakehoare/leetcode/master/806_Number_of_Lines_To_Write_String.py
 807,2,807 Max Increase to Keep City Skyline,https://raw.githubusercontent.com/jakehoare/leetcode/master/807_Max_Increase_to_Keep_City_Skyline.py
 808,2,808 Soup Servings,https://raw.githubusercontent.com/jakehoare/leetcode/master/808_Soup_Servings.py
 809,2,809 Expressive Words,https://raw.githubusercontent.com/jakehoare/leetcode/master/809_Expressive_Words.py
+810,3,810 Chalkboard XOR Game,https://raw.githubusercontent.com/jakehoare/leetcode/master/810_Chalkboard_XOR_Game.py
 811,1,811 Subdomain Visit Count,https://raw.githubusercontent.com/jakehoare/leetcode/master/811_Subdomain_Visit_Count.py
+813,2,813 Largest Sum of Averages,https://raw.githubusercontent.com/jakehoare/leetcode/master/813_Largest_Sum_of_Averages.py
