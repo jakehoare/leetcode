@@ -530,6 +530,7 @@
 556,2,556 Next Greater Element III,https://raw.githubusercontent.com/jakehoare/leetcode/master/556_Next_Greater_Element_III.py
 557,1,557 Reverse Words in a String III,https://raw.githubusercontent.com/jakehoare/leetcode/master/557_Reverse_Words_in_a_String_III.py
 558,1,558 Quad Tree Intersection,https://raw.githubusercontent.com/jakehoare/leetcode/master/558_Quad_Tree_Intersection.py
+559,1,559 Maximum Depth of N-ary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/559_Maximum_Depth_of_N-ary_Tree.py
 560,2,560 Subarray Sum Equals K,https://raw.githubusercontent.com/jakehoare/leetcode/master/560_Subarray_Sum_Equals_K.py
 561,1,561 Array Partition I,https://raw.githubusercontent.com/jakehoare/leetcode/master/561_Array_Partition_I.py
 562,2,562 Longest Line of Consecutive One in Matrix,https://raw.githubusercontent.com/jakehoare/leetcode/master/562_Longest_Line_of_Consecutive_One_in_Matrix.py
@@ -548,6 +549,8 @@
 583,2,583 Delete Operation for Two Strings,https://raw.githubusercontent.com/jakehoare/leetcode/master/583_Delete_Operation_for_Two_Strings.py
 587,3,587 Erect The Fence,https://raw.githubusercontent.com/jakehoare/leetcode/master/587_Erect_The_Fence.py
 588,3,588 Design In-Memory File System,https://raw.githubusercontent.com/jakehoare/leetcode/master/588_Design_In-Memory_File_System.py
+589,1,589 N-ary Tree Preorder Traversal,https://raw.githubusercontent.com/jakehoare/leetcode/master/589_N-ary_Tree_Preorder_Traversal.py
+590,1,590 N-ary Tree Postorder Traversal,https://raw.githubusercontent.com/jakehoare/leetcode/master/590_N-ary_Tree_Postorder_Traversal.py
 591,3,591 Tag Validator,https://raw.githubusercontent.com/jakehoare/leetcode/master/591_Tag_Validator.py
 592,2,592 Fraction Addition And Subtraction,https://raw.githubusercontent.com/jakehoare/leetcode/master/592_Fraction_Addition_And_Subtraction.py
 593,2,593 Valid Square,https://raw.githubusercontent.com/jakehoare/leetcode/master/593_Valid_Square.py
@@ -563,6 +566,7 @@
 616,2,616 Add Bold Tag in String,https://raw.githubusercontent.com/jakehoare/leetcode/master/616_Add_Bold_Tag_in_String.py
 617,1,617 Merge Two Binary Trees,https://raw.githubusercontent.com/jakehoare/leetcode/master/617_Merge_Two_Binary_Trees.py
 621,2,621 Task Scheduler,https://raw.githubusercontent.com/jakehoare/leetcode/master/621_Task_Scheduler.py
+622,2,622 Design Circular Queue,https://raw.githubusercontent.com/jakehoare/leetcode/master/622_Design_Circular_Queue.py
 623,2,623 Add One Row to Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/623_Add_One_Row_to_Tree.py
 624,1,624 Maximum Distance in Arrays,https://raw.githubusercontent.com/jakehoare/leetcode/master/624_Maximum_Distance_in_Arrays.py
 625,2,625 Minimum Factorization,https://raw.githubusercontent.com/jakehoare/leetcode/master/625_Minimum_Factorization.py
@@ -579,6 +583,7 @@
 638,2,638 Shopping Offers,https://raw.githubusercontent.com/jakehoare/leetcode/master/638_Shopping_Offers.py
 639,3,639 Decode Ways II,https://raw.githubusercontent.com/jakehoare/leetcode/master/639_Decode_Ways_II.py
 640,2,640 Solve the Equation,https://raw.githubusercontent.com/jakehoare/leetcode/master/640_Solve_the_Equation.py
+641,2,641 Design Circular Deque,https://raw.githubusercontent.com/jakehoare/leetcode/master/641_Design_Circular_Deque.py
 642,3,642 Design Search Autocomplete System,https://raw.githubusercontent.com/jakehoare/leetcode/master/642_Design_Search_Autocomplete_System.py
 643,1,643 Maximum Average Subarray I,https://raw.githubusercontent.com/jakehoare/leetcode/master/643_Maximum_Average_Subarray_I.py
 644,3,644 Maximum Average Subarray II,https://raw.githubusercontent.com/jakehoare/leetcode/master/644_Maximum_Average_Subarray_II.py
@@ -638,6 +643,8 @@
 698,2,698 Partion to K Equal Sum Subsets,https://raw.githubusercontent.com/jakehoare/leetcode/master/698_Partion_to_K_Equal_Sum_Subsets.py
 699,3,699 Falling Squares,https://raw.githubusercontent.com/jakehoare/leetcode/master/699_Falling_Squares.py
 700,1,700 Search in a Binary Search Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/700_Search_in_a_Binary_Search_Tree.py
+701,2,701 Insert into a Binary Search Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/701_Insert_into_a_Binary_Search_Tree.py
+704,1,704 Binary Search,https://raw.githubusercontent.com/jakehoare/leetcode/master/704_Binary_Search.py
 707,1,707 Design Linked List,https://raw.githubusercontent.com/jakehoare/leetcode/master/707_Design_Linked_List.py
 711,3,711 Number of Distinct Islands II,https://raw.githubusercontent.com/jakehoare/leetcode/master/711_Number_of_Distinct_Islands_II.py
 712,2,712 Minimum ASCII Delete Sum for Two Strings,https://raw.githubusercontent.com/jakehoare/leetcode/master/712_Minimum_ASCII_Delete_Sum_for_Two_Strings.py
@@ -740,4 +747,6 @@
 809,2,809 Expressive Words,https://raw.githubusercontent.com/jakehoare/leetcode/master/809_Expressive_Words.py
 810,3,810 Chalkboard XOR Game,https://raw.githubusercontent.com/jakehoare/leetcode/master/810_Chalkboard_XOR_Game.py
 811,1,811 Subdomain Visit Count,https://raw.githubusercontent.com/jakehoare/leetcode/master/811_Subdomain_Visit_Count.py
+812,1,812 Largest Triangle Area,https://raw.githubusercontent.com/jakehoare/leetcode/master/812_Largest_Triangle_Area.py
 813,2,813 Largest Sum of Averages,https://raw.githubusercontent.com/jakehoare/leetcode/master/813_Largest_Sum_of_Averages.py
+814,2,814 Binary Tree Pruning,https://raw.githubusercontent.com/jakehoare/leetcode/master/814_Binary_Tree_Pruning.py
