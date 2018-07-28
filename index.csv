@@ -644,6 +644,8 @@
 699,3,699 Falling Squares,https://raw.githubusercontent.com/jakehoare/leetcode/master/699_Falling_Squares.py
 700,1,700 Search in a Binary Search Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/700_Search_in_a_Binary_Search_Tree.py
 701,2,701 Insert into a Binary Search Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/701_Insert_into_a_Binary_Search_Tree.py
+702,2,702 Search in a Sorted Array of Unknown Size,https://raw.githubusercontent.com/jakehoare/leetcode/master/702_Search_in_a_Sorted_Array_of_Unknown_Size.py
+703,1,703 Kth Largest Element in a Stream,https://raw.githubusercontent.com/jakehoare/leetcode/master/703_Kth_Largest_Element_in_a_Stream.py
 704,1,704 Binary Search,https://raw.githubusercontent.com/jakehoare/leetcode/master/704_Binary_Search.py
 707,1,707 Design Linked List,https://raw.githubusercontent.com/jakehoare/leetcode/master/707_Design_Linked_List.py
 711,3,711 Number of Distinct Islands II,https://raw.githubusercontent.com/jakehoare/leetcode/master/711_Number_of_Distinct_Islands_II.py
