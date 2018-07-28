@@ -5,8 +5,9 @@ _project_ = 'leetcode'
 # Given a binary tree, return the inorder traversal of its nodes' values.
 # Note: Recursive solution is trivial, could you do it iteratively?
 
-# From root, go as far left as possible pushing all nodes onto stack.  While nodes on stack, pop a node and add it to
-# the result.  Then if it has a right child add that child and all its left branch to the stack.
+# From root, go as far left as possible pushing all nodes onto stack. While nodes on stack, pop a node and add it to
+# the result. Its left child (if any) has already been visited because it was added to the stack later so popped
+# earlier. If the node has a right child, add that child and all its left branch to the stack.
 # Time - O(n)
 # Space - O(n)
 
