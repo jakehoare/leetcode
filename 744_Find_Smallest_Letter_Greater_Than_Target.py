@@ -17,9 +17,9 @@ class Solution(object):
         :type target: str
         :rtype: str
         """
-        left, right = 0, len(letters)   # initial search space is first letter to beyond last letter Inclusive)
+        left, right = 0, len(letters)   # initial search space is first letter to beyond last letter (inclusive)
 
-        while left < right:
+        while left < right:             # stop if left == right
 
             mid = (left + right) // 2
 
