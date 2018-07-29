@@ -648,6 +648,8 @@
 703,1,703 Kth Largest Element in a Stream,https://raw.githubusercontent.com/jakehoare/leetcode/master/703_Kth_Largest_Element_in_a_Stream.py
 704,1,704 Binary Search,https://raw.githubusercontent.com/jakehoare/leetcode/master/704_Binary_Search.py
 707,1,707 Design Linked List,https://raw.githubusercontent.com/jakehoare/leetcode/master/707_Design_Linked_List.py
+708,2,708 Insert into a Cyclic Sorted List,https://raw.githubusercontent.com/jakehoare/leetcode/master/708_Insert_into_a_Cyclic_Sorted_List.py
+709,1,709 To Lower Case,https://raw.githubusercontent.com/jakehoare/leetcode/master/709_To_Lower_Case.py
 711,3,711 Number of Distinct Islands II,https://raw.githubusercontent.com/jakehoare/leetcode/master/711_Number_of_Distinct_Islands_II.py
 712,2,712 Minimum ASCII Delete Sum for Two Strings,https://raw.githubusercontent.com/jakehoare/leetcode/master/712_Minimum_ASCII_Delete_Sum_for_Two_Strings.py
 713,2,713 Subarray Product Less Than K,https://raw.githubusercontent.com/jakehoare/leetcode/master/713_Subarray_Product_Less_Than_K.py
@@ -752,3 +754,4 @@
 812,1,812 Largest Triangle Area,https://raw.githubusercontent.com/jakehoare/leetcode/master/812_Largest_Triangle_Area.py
 813,2,813 Largest Sum of Averages,https://raw.githubusercontent.com/jakehoare/leetcode/master/813_Largest_Sum_of_Averages.py
 814,2,814 Binary Tree Pruning,https://raw.githubusercontent.com/jakehoare/leetcode/master/814_Binary_Tree_Pruning.py
+815,3,815 Bus Routes,https://raw.githubusercontent.com/jakehoare/leetcode/master/815_Bus_Routes.py
