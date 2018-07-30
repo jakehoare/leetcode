@@ -10,8 +10,9 @@ _project_ = 'leetcode'
 # It is guaranteed that 0 ≤ Li, Ri ≤ INT_MAX, 0 < Hi ≤ INT_MAX, and Ri - Li > 0. You may assume all buildings are
 # perfect rectangles grounded on an absolutely flat surface at height 0.
 
-# Iterate over a sorted list of all left and right edges.  Heap stores building heights/right edge whenever we see
-# a left edge.  For each edge, the heap top has the highest building that is 'alive' just after x.
+# Iterate over a sorted list of all left and right edges. Heap stores (-building height, right edge) whenever we
+# see a left edge. For each edge, pop of all the buildings to the left, if it's a left edge then add the right 
+# edge to the heap, record the highest building. Heap top has the highest 'alive' building after each edge.
 # Time - O(n * logn), each building is inserted and removed from heap
 # Space - O(n)
 
@@ -32,10 +33,10 @@ class Solution(object):
 
         for x, neg_h, r in edges:
 
-            while x >= current[0][1]:       # discard 'dead' higher buildings that are left or equal to x
+            while current[0][1] <= x:       # discard right edges that are left or equal to new edge
                 heapq.heappop(current)      # dummy right edge at infinity ensures heap will never be empty
 
-            if neg_h:                       # implies left edge (since h will not be zero), push this building
+            if neg_h != 0:                  # implies left edge (since h will not be zero), push right edge
                 heapq.heappush(current, (neg_h, r))
 
             if skyline[-1][1] != -current[0][0]:        # previous skyline different from highest alive building
