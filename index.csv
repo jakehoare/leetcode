@@ -647,9 +647,12 @@
 702,2,702 Search in a Sorted Array of Unknown Size,https://raw.githubusercontent.com/jakehoare/leetcode/master/702_Search_in_a_Sorted_Array_of_Unknown_Size.py
 703,1,703 Kth Largest Element in a Stream,https://raw.githubusercontent.com/jakehoare/leetcode/master/703_Kth_Largest_Element_in_a_Stream.py
 704,1,704 Binary Search,https://raw.githubusercontent.com/jakehoare/leetcode/master/704_Binary_Search.py
+705,1,705 Design HashSet,https://raw.githubusercontent.com/jakehoare/leetcode/master/705_Design_HashSet.py
+706,1,706 Design HashMap,https://raw.githubusercontent.com/jakehoare/leetcode/master/706_Design_HashMap.py
 707,1,707 Design Linked List,https://raw.githubusercontent.com/jakehoare/leetcode/master/707_Design_Linked_List.py
 708,2,708 Insert into a Cyclic Sorted List,https://raw.githubusercontent.com/jakehoare/leetcode/master/708_Insert_into_a_Cyclic_Sorted_List.py
 709,1,709 To Lower Case,https://raw.githubusercontent.com/jakehoare/leetcode/master/709_To_Lower_Case.py
+710,3,710 Random Pick with Blacklist,https://raw.githubusercontent.com/jakehoare/leetcode/master/710_Random_Pick_with_Blacklist.py
 711,3,711 Number of Distinct Islands II,https://raw.githubusercontent.com/jakehoare/leetcode/master/711_Number_of_Distinct_Islands_II.py
 712,2,712 Minimum ASCII Delete Sum for Two Strings,https://raw.githubusercontent.com/jakehoare/leetcode/master/712_Minimum_ASCII_Delete_Sum_for_Two_Strings.py
 713,2,713 Subarray Product Less Than K,https://raw.githubusercontent.com/jakehoare/leetcode/master/713_Subarray_Product_Less_Than_K.py
@@ -755,3 +758,5 @@
 813,2,813 Largest Sum of Averages,https://raw.githubusercontent.com/jakehoare/leetcode/master/813_Largest_Sum_of_Averages.py
 814,2,814 Binary Tree Pruning,https://raw.githubusercontent.com/jakehoare/leetcode/master/814_Binary_Tree_Pruning.py
 815,3,815 Bus Routes,https://raw.githubusercontent.com/jakehoare/leetcode/master/815_Bus_Routes.py
+816,2,816 Ambiguous Coordinates,https://raw.githubusercontent.com/jakehoare/leetcode/master/816_Ambiguous_Coordinates.py
+817,2,817 Linked List Components,https://raw.githubusercontent.com/jakehoare/leetcode/master/817_Linked_List_Components.py
