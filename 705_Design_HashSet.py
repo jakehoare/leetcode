@@ -10,8 +10,8 @@ _project_ = 'leetcode'
 
 # Use list of size 10000 since there are at most 10000 operations so we will not fill every element. There may be
 # collisions, which are handled by separate chaining. Use a simple modulo hash function.
-# Time - O(1)
-# Space - O(1)
+# Time - O(1) average case
+# Space - O(n)
 
 class MyHashSet(object):
 
