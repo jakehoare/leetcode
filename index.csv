@@ -458,6 +458,7 @@
 475,1,475 Heaters,https://raw.githubusercontent.com/jakehoare/leetcode/master/475_Heaters.py
 476,1,476 Number Complement,https://raw.githubusercontent.com/jakehoare/leetcode/master/476_Number_Complement.py
 477,2,477 Total Hamming Diatance,https://raw.githubusercontent.com/jakehoare/leetcode/master/477_Total_Hamming_Diatance.py
+478,2,478 Generate Random Point in a Circle,https://raw.githubusercontent.com/jakehoare/leetcode/master/478_Generate_Random_Point_in_a_Circle.py
 479,1,479 Largest Palindrome Product,https://raw.githubusercontent.com/jakehoare/leetcode/master/479_Largest_Palindrome_Product.py
 480,3,480 Sliding Window Median,https://raw.githubusercontent.com/jakehoare/leetcode/master/480_Sliding_Window_Median.py
 481,2,481 Magical String,https://raw.githubusercontent.com/jakehoare/leetcode/master/481_Magical_String.py
@@ -492,6 +493,7 @@
 516,2,516 Longest Palindromic Subsequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/516_Longest_Palindromic_Subsequence.py
 517,3,517 Super Washing Machines,https://raw.githubusercontent.com/jakehoare/leetcode/master/517_Super_Washing_Machines.py
 518,2,518 Coin Change 2,https://raw.githubusercontent.com/jakehoare/leetcode/master/518_Coin_Change_2.py
+519,2,519 Random Flip Matrix,https://raw.githubusercontent.com/jakehoare/leetcode/master/519_Random_Flip_Matrix.py
 520,1,520 Detect Capital,https://raw.githubusercontent.com/jakehoare/leetcode/master/520_Detect_Capital.py
 521,1,521 Longest Uncommon Subsequence I,https://raw.githubusercontent.com/jakehoare/leetcode/master/521_Longest_Uncommon_Subsequence_I.py
 522,2,522 Longest Uncommon Subsequence II,https://raw.githubusercontent.com/jakehoare/leetcode/master/522_Longest_Uncommon_Subsequence_II.py
@@ -500,6 +502,7 @@
 525,2,525 Contiguous Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/525_Contiguous_Array.py
 526,2,526 Beautiful Arrangement,https://raw.githubusercontent.com/jakehoare/leetcode/master/526_Beautiful_Arrangement.py
 527,3,527 Word Abbreviation,https://raw.githubusercontent.com/jakehoare/leetcode/master/527_Word_Abbreviation.py
+528,2,528 Random Pick with Weight,https://raw.githubusercontent.com/jakehoare/leetcode/master/528_Random_Pick_with_Weight.py
 529,2,529 Minesweeper,https://raw.githubusercontent.com/jakehoare/leetcode/master/529_Minesweeper.py
 530,1,530 Minimum Absolute Difference in BST,https://raw.githubusercontent.com/jakehoare/leetcode/master/530_Minimum_Absolute_Difference_in_BST.py
 531,2,531 Lonely Pixel I,https://raw.githubusercontent.com/jakehoare/leetcode/master/531_Lonely_Pixel_I.py
