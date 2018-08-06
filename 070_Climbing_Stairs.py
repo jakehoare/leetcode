@@ -5,9 +5,11 @@ _project_ = 'leetcode'
 # You are climbing a stair case. It takes n steps to reach to the top.
 # Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
 
-# Dynamic programming.  Bases cases of 0 way for n<0 and 1 way for n == 1.  Else nb ways after 1 or 2 steps.
+# Dynamic programming.  Base cases of no ways for n <= 0, 1 way for n == 1 and 2 ways for n == 2.
+# For each additional step, the number of ways is taking one step from the previous step + taking two steps from the
+# step before that. Result is a Fibonacci sequence.
 # Time - O(n)
-# Space - O(n)
+# Space - O(1)
 
 class Solution(object):
     def climbStairs(self, n):
@@ -15,17 +17,13 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        memo = [0] + [-1] * n           # use list instead of dict since known size
-        return self.stairs(n, memo)
-
-    def stairs(self, n , memo):
-        if n < 0:
+        if n <= 0:
             return 0
-        if n == 0:
-            return 1
-        if memo[n] != -1:
-            return memo[n]
+        if n <= 2:
+            return n
 
-        result = self.stairs(n-1, memo) + self.stairs(n-2, memo)
-        memo[n] = result
-        return result
+        stairs, prev = 2, 1         # 2 ways to reach second step, one way to reach first
+        for _ in range(3, n + 1):
+            stairs, prev = stairs + prev, stairs
+
+        return stairs
