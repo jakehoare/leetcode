@@ -476,6 +476,7 @@
 494,2,494 Target Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/494_Target_Sum.py
 495,2,495 Teemo Attacking,https://raw.githubusercontent.com/jakehoare/leetcode/master/495_Teemo_Attacking.py
 496,1,496 Next Greater Element I,https://raw.githubusercontent.com/jakehoare/leetcode/master/496_Next_Greater_Element_I.py
+497,2,497 Random Point in Non-overlapping Rectangles,https://raw.githubusercontent.com/jakehoare/leetcode/master/497_Random_Point_in_Non-overlapping_Rectangles.py
 498,2,498 Diagonal Traverse,https://raw.githubusercontent.com/jakehoare/leetcode/master/498_Diagonal_Traverse.py
 499,3,499 The Maze III,https://raw.githubusercontent.com/jakehoare/leetcode/master/499_The_Maze_III.py
 500,1,500 Keyboard Row,https://raw.githubusercontent.com/jakehoare/leetcode/master/500_Keyboard_Row.py
@@ -763,9 +764,13 @@
 815,3,815 Bus Routes,https://raw.githubusercontent.com/jakehoare/leetcode/master/815_Bus_Routes.py
 816,2,816 Ambiguous Coordinates,https://raw.githubusercontent.com/jakehoare/leetcode/master/816_Ambiguous_Coordinates.py
 817,2,817 Linked List Components,https://raw.githubusercontent.com/jakehoare/leetcode/master/817_Linked_List_Components.py
+818,3,818 Race Car,https://raw.githubusercontent.com/jakehoare/leetcode/master/818_Race_Car.py
 819,1,819 Most Common Word,https://raw.githubusercontent.com/jakehoare/leetcode/master/819_Most_Common_Word.py
 820,2,820 Short Encoding of Words,https://raw.githubusercontent.com/jakehoare/leetcode/master/820_Short_Encoding_of_Words.py
 821,1,821 Shortest Distance to a Character,https://raw.githubusercontent.com/jakehoare/leetcode/master/821_Shortest_Distance_to_a_Character.py
 822,2,822 Card Flipping Game,https://raw.githubusercontent.com/jakehoare/leetcode/master/822_Card_Flipping_Game.py
+823,2,823 Binary Trees With Factors,https://raw.githubusercontent.com/jakehoare/leetcode/master/823_Binary_Trees_With_Factors.py
+824,1,824 Goat Latin,https://raw.githubusercontent.com/jakehoare/leetcode/master/824_Goat_Latin.py
+825,2,825 Friends Of Appropriate Ages,https://raw.githubusercontent.com/jakehoare/leetcode/master/825_Friends_Of_Appropriate_Ages.py
 835,2,835 Image Overlap,https://raw.githubusercontent.com/jakehoare/leetcode/master/835_Image_Overlap.py
 841,2,841 Keys and Rooms,https://raw.githubusercontent.com/jakehoare/leetcode/master/841_Keys_and_Rooms.py
