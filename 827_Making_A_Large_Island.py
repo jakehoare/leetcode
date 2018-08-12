@@ -33,7 +33,7 @@ class Solution(object):
             grid[r][c] = 2                                  # set to visited
             return 1 + sum(island(r + dr, c + dc) for dr, dc in nbors)
 
-        cell_to_areas = defaultdict(list)                   # map each neighbour cell to list of areas of islands
+        cell_to_areas = defaultdict(int)                    # map each neighbour cell to list of areas of islands
 
         for r in range(rows):
             for c in range(cols):
@@ -41,8 +41,8 @@ class Solution(object):
                 area = island(r, c)
                 if area != 0:
                     for cell in edge:
-                        cell_to_areas[cell].append(area)
+                        cell_to_areas[cell] += area
 
         if not cell_to_areas:                               # grid empty or full
             return 1 if grid[0][0] == 0 else rows * cols
-        return 1 + max(sum(areas) for areas in cell_to_areas.values())
+        return 1 + max(areas for areas in cell_to_areas.values())
