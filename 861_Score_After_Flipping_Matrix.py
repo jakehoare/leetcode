@@ -30,7 +30,7 @@ class Solution(object):
         if A == B:
             return any(count > 1 for count in Counter(A).values())
 
-        diffs = [i for i in range(len(A)) if A[i] != B[i]]
+        diffs = [i for i in range(len(A)) if A[i] != B[i]]      # indices of letters out of place in A
         if len(diffs) != 2:
             return False
-        return A[diffs[0]] == B[diffs[1]] and A[diffs[1]] == B[diffs[0]]
+        return A[diffs[0]] == B[diffs[1]] and A[diffs[1]] == B[diffs[0]] # swapping letters at misplaced indices
