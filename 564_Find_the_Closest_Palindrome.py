@@ -26,9 +26,9 @@ class Solution(object):
         :rtype: str
         """
         digits = len(n)
-        candidates = [int("1" + "0" * (digits - 1) + "1")]  # longer length e.g. 88 -> 101
+        candidates = {int("1" + "0" * (digits - 1) + "1")}  # longer length e.g. 88 -> 101
         if len(n) > 1:
-            candidates.append(int("9" * (digits - 1)))  # shorter length e.g. 12 -> 9
+            candidates.add(int("9" * (digits - 1)))  # shorter length e.g. 12 -> 9
 
         mid = len(n) // 2  # middle index if odd length, or first of RHS if even
         left = n[:mid]
@@ -43,22 +43,16 @@ class Solution(object):
             left = left[:-1]
             right = left[::-1]
 
-        candidates.append(int(left + centre * centre_count + right))
+        candidates.add(int(left + centre * centre_count + right))
         if centre != "9":
             new_centre = str(int(centre) + 1)
-            candidates.append(int(left + new_centre * centre_count + right))
+            candidates.add(int(left + new_centre * centre_count + right))
         if centre != "0":
             new_centre = str(int(centre) - 1)
-            candidates.append(int(left + new_centre * centre_count + right))
+            candidates.add(int(left + new_centre * centre_count + right))
 
         n_int = int(n)
-        closest = float("inf")
-        for candidate in candidates:
-            if candidate == n_int:  # must not be same as happend if n is palindrome
-                continue
-            if abs(candidate - n_int) < abs(closest - n_int):
-                closest = candidate
-            if abs(candidate - n_int) == abs(closest - n_int):
-                closest = min(closest, candidate)
-
-        return str(closest)
+        candidates.discard(n_int)
+        candidates = list(candidates)
+        candidates.sort(key=lambda x: (abs(x - n_int), x))  # sort by (abs difference from n, value)
+        return str(candidates[0])
