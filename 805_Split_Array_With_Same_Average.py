@@ -26,11 +26,11 @@ class Solution(object):
             if n == 0:                  # if no more numbers can be chosen,
                 return tgt == 0         # then True if and only if we have exactly reached the target
 
-            for i in range(j, len(B)):
+            for i in range(j, len(C)):
 
-                if B[i] > tgt:          # remaining numbers are at least as large because B is sorted
+                if C[i] > tgt:          # remaining numbers are at least as large because C is sorted
                     break
-                if n_sum_target(n - 1, tgt - B[i], i + 1):  # recurse having used num in B
+                if n_sum_target(n - 1, tgt - C[i], i + 1):  # recurse having used num in B
                     return True
 
             invalid.add((n, tgt, j))
@@ -38,7 +38,7 @@ class Solution(object):
 
         n, sum_A = len(A), sum(A)
         invalid = set()                 # memoize failed attempts
-        B = sorted(A)                   # C initially contains all of A
+        C = sorted(A)                   # C initially contains all of A
 
         for len_B in range(1, (n // 2) + 1):  # try all possible lengths of B
 
