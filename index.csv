@@ -810,9 +810,13 @@
 861,2,861 Score After Flipping Matrix,https://raw.githubusercontent.com/jakehoare/leetcode/master/861_Score_After_Flipping_Matrix.py
 862,3,862 Shortest Subarray with Sum at Least K,https://raw.githubusercontent.com/jakehoare/leetcode/master/862_Shortest_Subarray_with_Sum_at_Least_K.py
 863,2,863 All Nodes Distance K in Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/863_All_Nodes_Distance_K_in_Binary_Tree.py
+864,3,864 Shortest Path to Get All Keys,https://raw.githubusercontent.com/jakehoare/leetcode/master/864_Shortest_Path_to_Get_All_Keys.py
 865,2,865 Smallest Subtree with all the Deepest Nodes,https://raw.githubusercontent.com/jakehoare/leetcode/master/865_Smallest_Subtree_with_all_the_Deepest_Nodes.py
 866,2,866 Prime Palindrome,https://raw.githubusercontent.com/jakehoare/leetcode/master/866_Prime_Palindrome.py
 867,1,867 Transpose Matrix,https://raw.githubusercontent.com/jakehoare/leetcode/master/867_Transpose_Matrix.py
 868,1,868 Binary Gap,https://raw.githubusercontent.com/jakehoare/leetcode/master/868_Binary_Gap.py
 869,2,869 Reordered Power of 2,https://raw.githubusercontent.com/jakehoare/leetcode/master/869_Reordered_Power_of_2.py
 870,2,870 Advantage Shuffle,https://raw.githubusercontent.com/jakehoare/leetcode/master/870_Advantage_Shuffle.py
+871,3,871 Minimum Number of Refueling Stops,https://raw.githubusercontent.com/jakehoare/leetcode/master/871_Minimum_Number_of_Refueling_Stops.py
+872,1,872 Leaf-Similar Trees,https://raw.githubusercontent.com/jakehoare/leetcode/master/872_Leaf-Similar_Trees.py
+874,1,874 Walking Robot Simulation,https://raw.githubusercontent.com/jakehoare/leetcode/master/874_Walking_Robot_Simulation.py
