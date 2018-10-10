@@ -662,7 +662,7 @@
 713,2,713 Subarray Product Less Than K,https://raw.githubusercontent.com/jakehoare/leetcode/master/713_Subarray_Product_Less_Than_K.py
 714,2,714 Best Time to Buy and Sell Stock with Transaction Fee,https://raw.githubusercontent.com/jakehoare/leetcode/master/714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee.py
 715,3,715 Range Module,https://raw.githubusercontent.com/jakehoare/leetcode/master/715_Range_Module.py
-716,3,716 Max Stack,https://raw.githubusercontent.com/jakehoare/leetcode/master/716_Max_Stack.py
+716,1,716 Max Stack,https://raw.githubusercontent.com/jakehoare/leetcode/master/716_Max_Stack.py
 717,1,717 1-bit and 2-bit Characters,https://raw.githubusercontent.com/jakehoare/leetcode/master/717_1-bit_and_2-bit_Characters.py
 718,2,718 Maximum Length of Repeated Subarray,https://raw.githubusercontent.com/jakehoare/leetcode/master/718_Maximum_Length_of_Repeated_Subarray.py
 719,3,719 Find K-th Smallest Pair Distance,https://raw.githubusercontent.com/jakehoare/leetcode/master/719_Find_K-th_Smallest_Pair_Distance.py
@@ -689,18 +689,18 @@
 740,2,740 Delete and Earn,https://raw.githubusercontent.com/jakehoare/leetcode/master/740_Delete_and_Earn.py
 741,3,741 Cherry Pickup,https://raw.githubusercontent.com/jakehoare/leetcode/master/741_Cherry_Pickup.py
 742,2,742 Closest Leaf in a Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/742_Closest_Leaf_in_a_Binary_Tree.py
-743,2,743 Network Delay Time,https://raw.githubusercontent.com/jakehoare/leetcode/master/743_Network_Delay_Time.py
+743,1,743 Network Delay Time,https://raw.githubusercontent.com/jakehoare/leetcode/master/743_Network_Delay_Time.py
 744,1,744 Find Smallest Letter Greater Than Target,https://raw.githubusercontent.com/jakehoare/leetcode/master/744_Find_Smallest_Letter_Greater_Than_Target.py
 745,3,745 Prefix and Suffix Search,https://raw.githubusercontent.com/jakehoare/leetcode/master/745_Prefix_and_Suffix_Search.py
 746,1,746 Min Cost Climbing Stairs,https://raw.githubusercontent.com/jakehoare/leetcode/master/746_Min_Cost_Climbing_Stairs.py
 747,1,747 Largest Number At Least Twice of Others,https://raw.githubusercontent.com/jakehoare/leetcode/master/747_Largest_Number_At_Least_Twice_of_Others.py
-748,2,748 Shortest Completing Word,https://raw.githubusercontent.com/jakehoare/leetcode/master/748_Shortest_Completing_Word.py
+748,1,748 Shortest Completing Word,https://raw.githubusercontent.com/jakehoare/leetcode/master/748_Shortest_Completing_Word.py
 749,3,749 Contain Virus,https://raw.githubusercontent.com/jakehoare/leetcode/master/749_Contain_Virus.py
 750,2,750 Number Of Corner Rectangles,https://raw.githubusercontent.com/jakehoare/leetcode/master/750_Number_Of_Corner_Rectangles.py
 751,1,751 IP to CIDR,https://raw.githubusercontent.com/jakehoare/leetcode/master/751_IP_to_CIDR.py
 752,2,752 Open the Lock,https://raw.githubusercontent.com/jakehoare/leetcode/master/752_Open_the_Lock.py
 753,3,753 Cracking the Safe,https://raw.githubusercontent.com/jakehoare/leetcode/master/753_Cracking_the_Safe.py
-754,2,754 Reach a Number,https://raw.githubusercontent.com/jakehoare/leetcode/master/754_Reach_a_Number.py
+754,1,754 Reach a Number,https://raw.githubusercontent.com/jakehoare/leetcode/master/754_Reach_a_Number.py
 755,2,755 Pour Water,https://raw.githubusercontent.com/jakehoare/leetcode/master/755_Pour_Water.py
 756,2,756 Pyramid Transition Matrix,https://raw.githubusercontent.com/jakehoare/leetcode/master/756_Pyramid_Transition_Matrix.py
 757,3,757 Set Intersection Size At Least Two,https://raw.githubusercontent.com/jakehoare/leetcode/master/757_Set_Intersection_Size_At_Least_Two.py
@@ -775,7 +775,7 @@
 826,2,826 Most Profit Assigning Work,https://raw.githubusercontent.com/jakehoare/leetcode/master/826_Most_Profit_Assigning_Work.py
 827,3,827 Making A Large Island,https://raw.githubusercontent.com/jakehoare/leetcode/master/827_Making_A_Large_Island.py
 828,3,828 Unique Letter String,https://raw.githubusercontent.com/jakehoare/leetcode/master/828_Unique_Letter_String.py
-829,2,829 Consecutive Numbers Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/829_Consecutive_Numbers_Sum.py
+829,3,829 Consecutive Numbers Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/829_Consecutive_Numbers_Sum.py
 830,1,830 Positions of Large Groups,https://raw.githubusercontent.com/jakehoare/leetcode/master/830_Positions_of_Large_Groups.py
 831,2,831 Masking Personal Information,https://raw.githubusercontent.com/jakehoare/leetcode/master/831_Masking_Personal_Information.py
 832,1,832 Flipping an Image,https://raw.githubusercontent.com/jakehoare/leetcode/master/832_Flipping_an_Image.py
@@ -836,4 +836,5 @@
 887,3,887 Super Egg Drop,https://raw.githubusercontent.com/jakehoare/leetcode/master/887_Super_Egg_Drop.py
 888,1,888 Fair Candy Swap,https://raw.githubusercontent.com/jakehoare/leetcode/master/888_Fair_Candy_Swap.py
 890,2,890 Find and Replace Pattern,https://raw.githubusercontent.com/jakehoare/leetcode/master/890_Find_and_Replace_Pattern.py
+896,1,896 Monotonic Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/896_Monotonic_Array.py
 900,2,900 RLE Iterator,https://raw.githubusercontent.com/jakehoare/leetcode/master/900_RLE_Iterator.py
