@@ -14,7 +14,7 @@ _project_ = 'leetcode'
 # odd indices can be arranged to be identical.
 # The representation is the sorted chars at even indices concatenated to the sorted chars at odd indices.
 # Create a set of the unique representations.
-# Time - O(n), total length of all strings 
+# Time - O(n), total length of all strings
 # Space - O(n)
 
 class Solution(object):
