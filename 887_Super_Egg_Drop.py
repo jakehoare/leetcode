@@ -19,7 +19,7 @@ _project_ = 'leetcode'
 # If it doesn't break, we can explore the f(d, e) floors above the one we just dropped from.
 # So we can get the result for a building of height 1 + f(d, e - 1) + f(d, e).
 
-# Time - O(KN)
+# Time - O(K log N) since floors[K] grows exponentially with each drop.
 # Space - O(K)
 
 class Solution(object):
