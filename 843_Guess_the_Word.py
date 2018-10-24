@@ -32,22 +32,13 @@ class Solution(object):
             return sum(c1 == c2 for c1, c2 in zip(a, b))
 
         def most_overlap_word():
-            counts = [[0 for _ in range(26)] for _ in range(6)]     # counts[i][j] is nb of words with char j at index i
+            counts = [collections.defaultdict(int) for _ in range(6)]   # counts[i] maps chars to count of words with char at index i
             for word in candidates:
                 for i, c in enumerate(word):
-                    counts[i][ord(c) - ord("a")] += 1
-
-            best_score = 0
-            for word in candidates:
-                score = 0
-                for i, c in enumerate(word):
-                    score += counts[i][ord(c) - ord("a")]           # all words with same chars in same positions
-                if score > best_score:
-                    best_score = score
-                    best_word = word
-
-            return best_word
-
+                    counts[i][c] += 1                               # all words with same chars in same positions
+                    
+            return max(candidates, key=lambda x:sum(counts[i][c] for i, c in enumerate(x)))
+        
         candidates = wordlist[:]        # all remaining candidates, initially all words
         while candidates:
 
