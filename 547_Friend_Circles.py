@@ -10,7 +10,7 @@ _project_ = 'leetcode'
 # ith and jth students are direct friends with each other, otherwise not.
 # You have to output the total number of friend circles among all the students.
 
-# Union find structure. Intially each friend is in their own group. Iterate over the matrix, only using the lower
+# Union find structure. Initially each friend is in their own group. Iterate over the matrix, only using the lower
 # triangle because of the symmetry. For each friend relationship, union the groups by setting the group exemplar (an
 # arbitrary member of the gorup) of one friend to the group exemplar of the other.
 # Result is the final number of unique group exemplars.
@@ -39,3 +39,27 @@ class Solution(object):
                     group[get_group(i)] = get_group(j)  # set exemplar of i's group to exemplar of j's group
 
         return len(set(get_group(i) for i in range(n)))
+
+class Solution2(object):
+    def findCircleNum(self, M):
+        """
+        :type M: List[List[int]]
+        :rtype: int
+        """
+
+        def dfs(i):
+            for j in range(len(M)):
+                if M[i][j] == 1:
+                    if j not in seen:
+                        seen.add(j)
+                        dfs(j)
+
+        circles = 0
+        seen = set()
+
+        for i in range(len(M)):
+            if i not in seen:
+                circles += 1
+                dfs(i)
+
+        return circles
