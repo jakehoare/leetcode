@@ -512,9 +512,7 @@
 535,2,535 Encode and Decode TinyURL,https://raw.githubusercontent.com/jakehoare/leetcode/master/535_Encode_and_Decode_TinyURL.py
 536,2,536 Construct Binary Tree from String,https://raw.githubusercontent.com/jakehoare/leetcode/master/536_Construct_Binary_Tree_from_String.py
 537,2,537 Complex Number Multiplication,https://raw.githubusercontent.com/jakehoare/leetcode/master/537_Complex_Number_Multiplication.py
-537,2,537 Friend Circles,https://raw.githubusercontent.com/jakehoare/leetcode/master/537_Friend_Circles.py
 538,1,538 Convert BST to Greater Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/538_Convert_BST_to_Greater_Tree.py
-538,1,538 Convet BST to Greater Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/538_Convet_BST_to_Greater_Tree.py
 539,2,539 Minimum Time Difference,https://raw.githubusercontent.com/jakehoare/leetcode/master/539_Minimum_Time_Difference.py
 540,2,540 Single Element in a Sorted Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/540_Single_Element_in_a_Sorted_Array.py
 541,1,541 Reverse String II,https://raw.githubusercontent.com/jakehoare/leetcode/master/541_Reverse_String_II.py
@@ -871,5 +869,7 @@
 923,2,923 3Sum With Multiplicity,https://raw.githubusercontent.com/jakehoare/leetcode/master/923_3Sum_With_Multiplicity.py
 924,3,924 Minimize Malware Spread,https://raw.githubusercontent.com/jakehoare/leetcode/master/924_Minimize_Malware_Spread.py
 925,1,925 Long Pressed Name,https://raw.githubusercontent.com/jakehoare/leetcode/master/925_Long_Pressed_Name.py
+926,2,926 Flip String to Monotone Increasing,https://raw.githubusercontent.com/jakehoare/leetcode/master/926_Flip_String_to_Monotone_Increasing.py
 929,1,929 Unique Email Addresses,https://raw.githubusercontent.com/jakehoare/leetcode/master/929_Unique_Email_Addresses.py
 930,2,930 Binary Subarrays With Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/930_Binary_Subarrays_With_Sum.py
+931,2,931 Minimum Falling Path Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/931_Minimum_Falling_Path_Sum.py
