@@ -41,6 +41,3 @@ class Solution(object):
         dfs("0" * (n - 1))
         return "".join(result) + "0" * (n - 1)
 
-
-sol = Solution()
-print(sol.crackSafe(3, 2))
