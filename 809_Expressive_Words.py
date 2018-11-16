@@ -68,8 +68,3 @@ class Solution(object):
 
         return result
 
-
-s = "heeellooo"
-test = ["hello", "hi", "helo"]
-sol = Solution()
-print(sol.expressiveWords(s, test))
