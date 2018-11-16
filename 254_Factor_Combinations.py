@@ -48,19 +48,6 @@ class Solution2(object):
 
         return factors
 
-import matplotlib.pyplot as plt
-import random
-inputs = []
-times = []
-sol = Solution2()
-i = 0
-while i < 10000000:
-    start = time.time()
-    sol.getFactors(i)
-    times.append(time.time()-start)
-    inputs.append(i)
-    i += random.randint(1,10000)
-plt.plot(inputs, times, 'o')
-plt.show()
+
 
 
