@@ -11,9 +11,11 @@ _project_ = 'leetcode'
 # Maintain a dictionary mapping the difference in side heights to the greatest total length used with that difference.
 # Use only non-negative differences.
 # For each rod, update each height difference by both adding and subtracting the rod.
-# When there is a difference of zero, we have a possible solution.
+# Return the greatest total length used with a difference of zero.
 # Time - O(2 ** n) since 2 ** (n - 1) possible diffs.
 # Space - O(2 ** (n - 1))
+
+from collections import defaultdict
 
 class Solution:
     def tallestBillboard(self, rods):
@@ -21,25 +23,17 @@ class Solution:
         :type rods: List[int]
         :rtype: int
         """
-        best = 0        # best total length for both sides of equal height
-        diffs = {}      # map difference in side lengths to total length used
+        diffs = {0 : 0}     # key is difference, value is max total length
 
         for rod in rods:
 
-            new_diffs = dict(diffs)
-            if rod not in new_diffs or rod > new_diffs[rod]:        # add the rod as a single side to the dictionary
-                new_diffs[rod] = rod
+            new_diffs = defaultdict(int, diffs)
 
             for diff, used_len in diffs.items():
 
-                if diff + rod not in new_diffs or used_len + rod > new_diffs[diff + rod]:
-                    new_diffs[diff + rod] = used_len + rod          # better total length used for diff + rod
-
-                if abs(diff - rod) not in new_diffs or used_len + rod > new_diffs[abs(diff - rod)]:
-                    new_diffs[abs(diff - rod)] = used_len + rod     # better total length for abs(diff - rod)
+                new_diffs[diff + rod] = max(used_len + rod, new_diffs[diff + rod])
+                new_diffs[abs(diff - rod)] = max(used_len + rod, new_diffs[abs(diff - rod)])
 
             diffs = new_diffs
-            if 0 in diffs:      # sides are balanced
-                best = max(best, diffs[0])
 
-        return best // 2
+        return diffs[0] // 2
