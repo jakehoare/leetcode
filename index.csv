@@ -886,9 +886,11 @@
 940,3,940 Distinct Subsequences II,https://raw.githubusercontent.com/jakehoare/leetcode/master/940_Distinct_Subsequences_II.py
 941,1,941 Valid Mountain Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/941_Valid_Mountain_Array.py
 942,1,942 DI String Match,https://raw.githubusercontent.com/jakehoare/leetcode/master/942_DI_String_Match.py
+943,3,943 Find the Shortest Superstring,https://raw.githubusercontent.com/jakehoare/leetcode/master/943_Find_the_Shortest_Superstring.py
 944,1,944 Delete Columns to Make Sorted,https://raw.githubusercontent.com/jakehoare/leetcode/master/944_Delete_Columns_to_Make_Sorted.py
 945,2,945 Minimum Increment to Make Array Unique,https://raw.githubusercontent.com/jakehoare/leetcode/master/945_Minimum_Increment_to_Make_Array_Unique.py
 946,2,946 Validate Stack Sequences,https://raw.githubusercontent.com/jakehoare/leetcode/master/946_Validate_Stack_Sequences.py
 948,2,948 Bag of Tokens,https://raw.githubusercontent.com/jakehoare/leetcode/master/948_Bag_of_Tokens.py
 949,1,949 Largest Time for Given Digits,https://raw.githubusercontent.com/jakehoare/leetcode/master/949_Largest_Time_for_Given_Digits.py
+951,2,951 Flip Equivalent Binary Trees,https://raw.githubusercontent.com/jakehoare/leetcode/master/951_Flip_Equivalent_Binary_Trees.py
 956,3,956 Tallest Billboard,https://raw.githubusercontent.com/jakehoare/leetcode/master/956_Tallest_Billboard.py
