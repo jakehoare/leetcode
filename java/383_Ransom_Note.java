@@ -5,7 +5,7 @@ that will return true if the ransom note can be constructed from the magazines ;
 Each letter in the magazine string can only be used once in your ransom note.
 You may assume that both strings contain only lowercase letters.
 
-Count magazine letter frequencies in an array.  Decrement count for each letter in ransomNote, returning false if
+Count magazine letter frequencies in an array. Decrement count for each letter in ransomNote, returning false if
 any letter count is negative.
 Alternatively if unknown set of characters use hashmap as counter.
 Time - O(m), magazine length
