@@ -7,7 +7,8 @@ _project_ = 'leetcode'
 # exactly k times. Note that k is guaranteed to be a positive integer.
 # You may assume that the input string is always valid; No extra white spaces, square brackets are well-formed, etc.
 
-# Parse digits to an integer, if opening brackets push integer to stack and reset.  Push chars to stack.
+# Build stack of chars of result. Iterate over input, pushing chars to stack.
+# Parse digits to an integer until opening bracket, then push integer to stack and reset.
 # If closing bracket, pop chars until integer is found then push back char sequence multiplied by integer.
 # Alternatively, recursively.
 # Time - O(2**n), integer creates sequence of length 2**n
