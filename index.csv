@@ -895,6 +895,8 @@
 949,1,949 Largest Time for Given Digits,https://raw.githubusercontent.com/jakehoare/leetcode/master/949_Largest_Time_for_Given_Digits.py
 950,2,950 Reveal Cards In Increasing Order,https://raw.githubusercontent.com/jakehoare/leetcode/master/950_Reveal_Cards_In_Increasing_Order.py
 951,2,951 Flip Equivalent Binary Trees,https://raw.githubusercontent.com/jakehoare/leetcode/master/951_Flip_Equivalent_Binary_Trees.py
+952,3,952 Largest Component Size by Common Factor,https://raw.githubusercontent.com/jakehoare/leetcode/master/952_Largest_Component_Size_by_Common_Factor.py
 953,1,953 Verifying an Alien Dictionary,https://raw.githubusercontent.com/jakehoare/leetcode/master/953_Verifying_an_Alien_Dictionary.py
 954,2,954 Array of Doubled Pairs,https://raw.githubusercontent.com/jakehoare/leetcode/master/954_Array_of_Doubled_Pairs.py
 956,3,956 Tallest Billboard,https://raw.githubusercontent.com/jakehoare/leetcode/master/956_Tallest_Billboard.py
+957,2,957 Prison Cells After N Days,https://raw.githubusercontent.com/jakehoare/leetcode/master/957_Prison_Cells_After_N_Days.py
