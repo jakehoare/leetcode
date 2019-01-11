@@ -2,7 +2,7 @@
 https://leetcode.com/problems/first-unique-character-in-a-string/
 Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
 
-Count frequencies of each letter.  Iterate over string again, return index of first letter with frequency of 1.
+Count frequencies of each letter. Iterate over string again, return index of first letter with frequency of 1.
 Time - O(n)
 Space - O(1)
 */
