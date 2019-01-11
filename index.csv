@@ -488,6 +488,7 @@
 506,1,506 Relative Ranks,https://raw.githubusercontent.com/jakehoare/leetcode/master/506_Relative_Ranks.py
 507,1,507 Perfect Number,https://raw.githubusercontent.com/jakehoare/leetcode/master/507_Perfect_Number.py
 508,2,508 Most Frequent Subtree Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/508_Most_Frequent_Subtree_Sum.py
+509,1,509 Fibonacci Number,https://raw.githubusercontent.com/jakehoare/leetcode/master/509_Fibonacci_Number.py
 513,2,513 Find Bottom Left Tree Value,https://raw.githubusercontent.com/jakehoare/leetcode/master/513_Find_Bottom_Left_Tree_Value.py
 514,3,514 Freedom Trail,https://raw.githubusercontent.com/jakehoare/leetcode/master/514_Freedom_Trail.py
 515,2,515 Find Largest Value in Each Tree Row,https://raw.githubusercontent.com/jakehoare/leetcode/master/515_Find_Largest_Value_in_Each_Tree_Row.py
@@ -907,3 +908,5 @@
 961,1,961 N-Repeated Element in Size 2N Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/961_N-Repeated_Element_in_Size_2N_Array.py
 962,2,962 Maximum Width Ramp,https://raw.githubusercontent.com/jakehoare/leetcode/master/962_Maximum_Width_Ramp.py
 963,2,963 Minimum Area Rectangle II,https://raw.githubusercontent.com/jakehoare/leetcode/master/963_Minimum_Area_Rectangle_II.py
+965,1,965 Univalued Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/965_Univalued_Binary_Tree.py
+966,2,966 Vowel Spellchecker,https://raw.githubusercontent.com/jakehoare/leetcode/master/966_Vowel_Spellchecker.py
