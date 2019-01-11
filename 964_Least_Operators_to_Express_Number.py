@@ -18,7 +18,7 @@ _project_ = 'leetcode'
 # For each digit, we can either make the digit as a sum of ones (each one being made from x / x), or make the next
 # power of x minus the digit.
 # Apart from the first digit, subsequent digits are made as a power multiplied by the digits and possibly with an
-# additional power and the previous neg result.
+# additional factor of power and the previous neg result.
 # Time - O(log n)
 # Space - O(1)
 
