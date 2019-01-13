@@ -5,7 +5,7 @@ next greater numbers for nums1's elements in the corresponding places of nums2.
 The Next Greater Number of a number x in nums1 is the first greater number to its right in nums2. If it does not
 exist, output -1 for this number.
 
-Maintain a stack of nums seen thathav not found a greater element and is hence in decreasing order. For each num, pop
+Maintain a stack of nums seen that have not found a greater element and is hence in decreasing order. For each num, pop
 all off stack that are lower and record popped num and its next greater element in map. Push num to map.
 Populate result by searching map for each num in findNums.
 Time - O(n)
