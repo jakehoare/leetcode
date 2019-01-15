@@ -21,21 +21,20 @@ class Solution(object):
         """
         nbors = [[1, 3], [0, 2, 4], [1, 5], [0, 4], [1, 3, 5], [2, 4]]  # indices of neighbouring cells in linear board
 
-        def next_boards(b):
+        def next_boards(b):                 # return list of next possible boards
 
             i = b.index(0)
-
             next_bds = []
-            for nbor in nbors[i]:
-                bd_copy = bd[:]             # make a copy
-                bd_copy[i], bd_copy[nbor] = bd_copy[nbor], bd_copy[i]   # swap zero with neighbour
-                next_bds.append(bd_copy)
 
+            for nbor in nbors[i]:
+                b_copy = b[:]               # make a copy
+                b_copy[i], b_copy[nbor] = b_copy[nbor], b_copy[i]   # swap zero with neighbour
+                next_bds.append(b_copy)
             return next_bds
 
-        seen = set()                        # convert board to tuple
-        steps = 0
         queue = [board[0] + board[1]]       # convert board to linear board
+        steps = 0
+        seen = set()                        # visited linear boards, as tuples
 
         while queue:
 
