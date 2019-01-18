@@ -14,7 +14,7 @@ _project_ = 'leetcode'
 
 # Depth-first search. Each state is a location and direction. Clean the location and add to visited set.
 # For each of the 4 neighbouring cells, if neighbour has not been visited and can be moved to, recurse to visit
-# neighbour then move back to original cell and turn left.
+# neighbour, then move back to original cell and turn left.
 # Time - O(mn)
 # Space - O(mn)
 
