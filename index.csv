@@ -459,7 +459,7 @@
 476,1,476 Number Complement,https://raw.githubusercontent.com/jakehoare/leetcode/master/476_Number_Complement.py
 477,2,477 Total Hamming Diatance,https://raw.githubusercontent.com/jakehoare/leetcode/master/477_Total_Hamming_Diatance.py
 478,2,478 Generate Random Point in a Circle,https://raw.githubusercontent.com/jakehoare/leetcode/master/478_Generate_Random_Point_in_a_Circle.py
-479,1,479 Largest Palindrome Product,https://raw.githubusercontent.com/jakehoare/leetcode/master/479_Largest_Palindrome_Product.py
+479,3,479 Largest Palindrome Product,https://raw.githubusercontent.com/jakehoare/leetcode/master/479_Largest_Palindrome_Product.py
 480,3,480 Sliding Window Median,https://raw.githubusercontent.com/jakehoare/leetcode/master/480_Sliding_Window_Median.py
 481,2,481 Magical String,https://raw.githubusercontent.com/jakehoare/leetcode/master/481_Magical_String.py
 482,1,482 License Key Formatting,https://raw.githubusercontent.com/jakehoare/leetcode/master/482_License_Key_Formatting.py
@@ -922,5 +922,7 @@
 974,2,974 Subarray Sums Divisible by K,https://raw.githubusercontent.com/jakehoare/leetcode/master/974_Subarray_Sums_Divisible_by_K.py
 975,3,975 Odd Even Jump,https://raw.githubusercontent.com/jakehoare/leetcode/master/975_Odd_Even_Jump.py
 976,1,976 Largest Perimeter Triangle,https://raw.githubusercontent.com/jakehoare/leetcode/master/976_Largest_Perimeter_Triangle.py
+977,1,977 Squares of a Sorted Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/977_Squares_of_a_Sorted_Array.py
 978,2,978 Longest Turbulent Subarray,https://raw.githubusercontent.com/jakehoare/leetcode/master/978_Longest_Turbulent_Subarray.py
 979,2,979 Distribute Coins in Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/979_Distribute_Coins_in_Binary_Tree.py
+980,3,980 Unique Paths III,https://raw.githubusercontent.com/jakehoare/leetcode/master/980_Unique_Paths_III.py
