@@ -8,7 +8,7 @@ _project_ = 'leetcode'
 
 # Search for target +/- 0.5 (not integer so not found) and return the index above this.
 # If same index is returned for + and - 0.5 then target not found.
-# Binary search could be implemented iteratively.
+# Binary search could be implemented iteratively or use the bisect module.
 # Time - O(log n)
 # Space - O(1)
 
@@ -19,14 +19,19 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        lower = self.binary(nums, target-0.5, 0, len(nums)-1)
-        upper = self.binary(nums, target+0.5, 0, len(nums)-1)
-        return [-1, -1] if lower == upper else [lower, upper-1]
+        def binary(target, left, right):
 
-    def binary(self, nums, target, left, right):
-        if left > right:
-            return left
-        mid = (left + right) // 2
-        while target > nums[mid]:
-            return self.binary(nums, target, mid+1, right)
-        return self.binary(nums, target, left, mid-1)
+            if left > right:
+                return left
+
+            mid = (left + right) // 2
+            if target > nums[mid]:
+                left = mid + 1
+            else:
+                right = mid - 1
+
+            return binary(target, left, right)
+
+        lower = binary(target - 0.5, 0, len(nums) - 1)
+        upper = binary(target + 0.5, 0, len(nums) - 1)
+        return [-1, -1] if lower == upper else [lower, upper - 1]
