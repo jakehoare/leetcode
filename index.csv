@@ -490,6 +490,7 @@
 507,1,507 Perfect Number,https://raw.githubusercontent.com/jakehoare/leetcode/master/507_Perfect_Number.py
 508,2,508 Most Frequent Subtree Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/508_Most_Frequent_Subtree_Sum.py
 509,1,509 Fibonacci Number,https://raw.githubusercontent.com/jakehoare/leetcode/master/509_Fibonacci_Number.py
+510,2,510 Inorder Successor in BST II,https://raw.githubusercontent.com/jakehoare/leetcode/master/510_Inorder_Successor_in_BST_II.py
 513,2,513 Find Bottom Left Tree Value,https://raw.githubusercontent.com/jakehoare/leetcode/master/513_Find_Bottom_Left_Tree_Value.py
 514,3,514 Freedom Trail,https://raw.githubusercontent.com/jakehoare/leetcode/master/514_Freedom_Trail.py
 515,2,515 Find Largest Value in Each Tree Row,https://raw.githubusercontent.com/jakehoare/leetcode/master/515_Find_Largest_Value_in_Each_Tree_Row.py
@@ -927,4 +928,5 @@
 979,2,979 Distribute Coins in Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/979_Distribute_Coins_in_Binary_Tree.py
 980,3,980 Unique Paths III,https://raw.githubusercontent.com/jakehoare/leetcode/master/980_Unique_Paths_III.py
 981,2,981 Time Based Key-Value Store,https://raw.githubusercontent.com/jakehoare/leetcode/master/981_Time_Based_Key-Value_Store.py
+983,2,983 Minimum Cost For Tickets,https://raw.githubusercontent.com/jakehoare/leetcode/master/983_Minimum_Cost_For_Tickets.py
 984,1,984 String Without AAA or BBB,https://raw.githubusercontent.com/jakehoare/leetcode/master/984_String_Without_AAA_or_BBB.py
