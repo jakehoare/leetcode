@@ -12,7 +12,7 @@ _project_ = 'leetcode'
 
 # Traverse the tree, creating a mapping from the x-coordinate of each node to a tuple of its y-coordinate and value.
 # For each x-coordinate sorted in ascending order, sort the nodes by descending y-coordinate and value.
-# Time - O(n (log n)**2), if there are sqrt(n) x-coords each with sqrt(n) y-coords
+# Time - O(n log n), to sort the x-coord. Sorting the y-coords takes the same or less.
 # Space - O(n)
 
 from collections import defaultdict
