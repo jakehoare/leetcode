@@ -919,7 +919,7 @@
 970,1,970 Powerful Integers,https://raw.githubusercontent.com/jakehoare/leetcode/master/970_Powerful_Integers.py
 971,2,971 Flip Binary Tree To Match Preorder Traversal,https://raw.githubusercontent.com/jakehoare/leetcode/master/971_Flip_Binary_Tree_To_Match_Preorder_Traversal.py
 972,3,972 Equal Rational Numbers,https://raw.githubusercontent.com/jakehoare/leetcode/master/972_Equal_Rational_Numbers.py
-973,1,973 K Closest Points to Origin,https://raw.githubusercontent.com/jakehoare/leetcode/master/973_K_Closest_Points_to_Origin.py
+973,2,973 K Closest Points to Origin,https://raw.githubusercontent.com/jakehoare/leetcode/master/973_K_Closest_Points_to_Origin.py
 974,2,974 Subarray Sums Divisible by K,https://raw.githubusercontent.com/jakehoare/leetcode/master/974_Subarray_Sums_Divisible_by_K.py
 975,3,975 Odd Even Jump,https://raw.githubusercontent.com/jakehoare/leetcode/master/975_Odd_Even_Jump.py
 976,1,976 Largest Perimeter Triangle,https://raw.githubusercontent.com/jakehoare/leetcode/master/976_Largest_Perimeter_Triangle.py
@@ -930,7 +930,7 @@
 981,2,981 Time Based Key-Value Store,https://raw.githubusercontent.com/jakehoare/leetcode/master/981_Time_Based_Key-Value_Store.py
 982,3,982 Triples with Bitwise AND Equal To Zero,https://raw.githubusercontent.com/jakehoare/leetcode/master/982_Triples_with_Bitwise_AND_Equal_To_Zero.py
 983,2,983 Minimum Cost For Tickets,https://raw.githubusercontent.com/jakehoare/leetcode/master/983_Minimum_Cost_For_Tickets.py
-984,1,984 String Without AAA or BBB,https://raw.githubusercontent.com/jakehoare/leetcode/master/984_String_Without_AAA_or_BBB.py
+984,2,984 String Without AAA or BBB,https://raw.githubusercontent.com/jakehoare/leetcode/master/984_String_Without_AAA_or_BBB.py
 985,1,985 Sum of Even Numbers After Queries,https://raw.githubusercontent.com/jakehoare/leetcode/master/985_Sum_of_Even_Numbers_After_Queries.py
 986,2,986 Interval List Intersections,https://raw.githubusercontent.com/jakehoare/leetcode/master/986_Interval_List_Intersections.py
 987,2,987 Vertical Order Traversal of a Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/987_Vertical_Order_Traversal_of_a_Binary_Tree.py
@@ -944,3 +944,4 @@
 995,3,995 Minimum Number of K Consecutive Bit Flips,https://raw.githubusercontent.com/jakehoare/leetcode/master/995_Minimum_Number_of_K_Consecutive_Bit_Flips.py
 996,3,996 Number of Squareful Arrays,https://raw.githubusercontent.com/jakehoare/leetcode/master/996_Number_of_Squareful_Arrays.py
 997,1,997 Find the Town Judge,https://raw.githubusercontent.com/jakehoare/leetcode/master/997_Find_the_Town_Judge.py
+998,2,998 Maximum Binary Tree II,https://raw.githubusercontent.com/jakehoare/leetcode/master/998_Maximum_Binary_Tree_II.py
