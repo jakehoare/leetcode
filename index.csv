@@ -97,6 +97,8 @@
 97,3,097 Interleaving String,https://raw.githubusercontent.com/jakehoare/leetcode/master/097_Interleaving_String.py
 98,2,098 Validate Binary Search Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/098_Validate_Binary_Search_Tree.py
 99,3,099 Recover Binary Search Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/099_Recover_Binary_Search_Tree.py
+1001,3,1001 Grid Illumination,https://raw.githubusercontent.com/jakehoare/leetcode/master/1001_Grid_Illumination.py
+1002,1,1002 Find Common Characters,https://raw.githubusercontent.com/jakehoare/leetcode/master/1002_Find_Common_Characters.py
 100,1,100 Same Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/100_Same_Tree.py
 101,1,101 Symmetric Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/101_Symmetric_Tree.py
 102,2,102 Binary Tree Level Order Traversal,https://raw.githubusercontent.com/jakehoare/leetcode/master/102_Binary_Tree_Level_Order_Traversal.py
@@ -945,3 +947,4 @@
 996,3,996 Number of Squareful Arrays,https://raw.githubusercontent.com/jakehoare/leetcode/master/996_Number_of_Squareful_Arrays.py
 997,1,997 Find the Town Judge,https://raw.githubusercontent.com/jakehoare/leetcode/master/997_Find_the_Town_Judge.py
 998,2,998 Maximum Binary Tree II,https://raw.githubusercontent.com/jakehoare/leetcode/master/998_Maximum_Binary_Tree_II.py
+999,1,999 Available Captures for Rook,https://raw.githubusercontent.com/jakehoare/leetcode/master/999_Available_Captures_for_Rook.py
