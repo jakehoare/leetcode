@@ -101,6 +101,8 @@
 1002,1,1002 Find Common Characters,https://raw.githubusercontent.com/jakehoare/leetcode/master/1002_Find_Common_Characters.py
 1003,2,1003 Check If Word Is Valid After Substitutions,https://raw.githubusercontent.com/jakehoare/leetcode/master/1003_Check_If_Word_Is_Valid_After_Substitutions.py
 1004,2,1004 Max Consecutive Ones III,https://raw.githubusercontent.com/jakehoare/leetcode/master/1004_Max_Consecutive_Ones_III.py
+1005,1,1005 Maximize Sum Of Array After K Negations,https://raw.githubusercontent.com/jakehoare/leetcode/master/1005_Maximize_Sum_Of_Array_After_K_Negations.py
+1007,2,1007 Minimum Domino Rotations For Equal Row,https://raw.githubusercontent.com/jakehoare/leetcode/master/1007_Minimum_Domino_Rotations_For_Equal_Row.py
 100,1,100 Same Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/100_Same_Tree.py
 101,1,101 Symmetric Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/101_Symmetric_Tree.py
 102,2,102 Binary Tree Level Order Traversal,https://raw.githubusercontent.com/jakehoare/leetcode/master/102_Binary_Tree_Level_Order_Traversal.py
