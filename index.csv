@@ -106,6 +106,7 @@
 1007,2,1007 Minimum Domino Rotations For Equal Row,https://raw.githubusercontent.com/jakehoare/leetcode/master/1007_Minimum_Domino_Rotations_For_Equal_Row.py
 100,1,100 Same Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/100_Same_Tree.py
 1012,1,1012 Complement of Base 10 Integer,https://raw.githubusercontent.com/jakehoare/leetcode/master/1012_Complement_of_Base_10_Integer.py
+1013,1,1013 Pairs of Songs With Total Durations Divisible by 60,https://raw.githubusercontent.com/jakehoare/leetcode/master/1013_Pairs_of_Songs_With_Total_Durations_Divisible_by_60.py
 101,1,101 Symmetric Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/101_Symmetric_Tree.py
 102,2,102 Binary Tree Level Order Traversal,https://raw.githubusercontent.com/jakehoare/leetcode/master/102_Binary_Tree_Level_Order_Traversal.py
 103,2,103 Binary Tree Zigzag Level Order Traversal,https://raw.githubusercontent.com/jakehoare/leetcode/master/103_Binary_Tree_Zigzag_Level_Order_Traversal.py
