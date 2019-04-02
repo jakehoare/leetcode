@@ -952,9 +952,11 @@
 1003,2,1003 Check If Word Is Valid After Substitutions,https://raw.githubusercontent.com/jakehoare/leetcode/master/1003_Check_If_Word_Is_Valid_After_Substitutions.py
 1004,2,1004 Max Consecutive Ones III,https://raw.githubusercontent.com/jakehoare/leetcode/master/1004_Max_Consecutive_Ones_III.py
 1005,1,1005 Maximize Sum Of Array After K Negations,https://raw.githubusercontent.com/jakehoare/leetcode/master/1005_Maximize_Sum_Of_Array_After_K_Negations.py
+1006,2,1006 Clumsy Factorial,https://raw.githubusercontent.com/jakehoare/leetcode/master/1006_Clumsy_Factorial.py
 1007,2,1007 Minimum Domino Rotations For Equal Row,https://raw.githubusercontent.com/jakehoare/leetcode/master/1007_Minimum_Domino_Rotations_For_Equal_Row.py
 1008,2,1008 Construct Binary Search Tree from Preorder Traversal,https://raw.githubusercontent.com/jakehoare/leetcode/master/1008_Construct_Binary_Search_Tree_from_Preorder_Traversal.py
-1012,1,1012 Complement of Base 10 Integer,https://raw.githubusercontent.com/jakehoare/leetcode/master/1012_Complement_of_Base_10_Integer.py
-1013,1,1013 Pairs of Songs With Total Durations Divisible by 60,https://raw.githubusercontent.com/jakehoare/leetcode/master/1013_Pairs_of_Songs_With_Total_Durations_Divisible_by_60.py
-1014,2,1014 Capacity To Ship Packages Within D Days,https://raw.githubusercontent.com/jakehoare/leetcode/master/1014_Capacity_To_Ship_Packages_Within_D_Days.py
-1020,1,1020 Partition Array Into Three Parts With Equal Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/1020_Partition_Array_Into_Three_Parts_With_Equal_Sum.py
+1009,1,1009 Complement of Base 10 Integer,https://raw.githubusercontent.com/jakehoare/leetcode/master/1009_Complement_of_Base_10_Integer.py
+1010,1,1010 Pairs of Songs With Total Durations Divisible by 60,https://raw.githubusercontent.com/jakehoare/leetcode/master/1010_Pairs_of_Songs_With_Total_Durations_Divisible_by_60.py
+1011,2,1011 Capacity To Ship Packages Within D Days,https://raw.githubusercontent.com/jakehoare/leetcode/master/1011_Capacity_To_Ship_Packages_Within_D_Days.py
+1013,1,1013 Partition Array Into Three Parts With Equal Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/1013_Partition_Array_Into_Three_Parts_With_Equal_Sum.py
+1014,2,1014 Best Sightseeing Pair,https://raw.githubusercontent.com/jakehoare/leetcode/master/1014_Best_Sightseeing_Pair.py
