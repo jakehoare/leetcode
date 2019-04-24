@@ -14,7 +14,7 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        last_seen = {}      # mapping from character to it's last seen index in s
+        last_seen = {}      # mapping from character to its last seen index in s
         start = 0           # start index of current substring
         longest = 0
 
@@ -22,9 +22,9 @@ class Solution(object):
 
             if c in last_seen and last_seen[c] >= start:
                 # start a new substring after the previous sighting of c
-                start = last_seen[c]+1
+                start = last_seen[c] + 1
             else:
-                longest = max(longest, i-start+1)
+                longest = max(longest, i - start + 1)
 
             last_seen[c] = i    # update the last sighting index
 
