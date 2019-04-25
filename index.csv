@@ -961,6 +961,7 @@
 1011,2,1011 Capacity To Ship Packages Within D Days,https://raw.githubusercontent.com/jakehoare/leetcode/master/1011_Capacity_To_Ship_Packages_Within_D_Days.py
 1013,1,1013 Partition Array Into Three Parts With Equal Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/1013_Partition_Array_Into_Three_Parts_With_Equal_Sum.py
 1014,2,1014 Best Sightseeing Pair,https://raw.githubusercontent.com/jakehoare/leetcode/master/1014_Best_Sightseeing_Pair.py
+1015,2,1015 Smallest Integer Divisible by K,https://raw.githubusercontent.com/jakehoare/leetcode/master/1015_Smallest_Integer_Divisible_by_K.py
 1016,2,1016 Binary String With Substrings Representing 1 To N,https://raw.githubusercontent.com/jakehoare/leetcode/master/1016_Binary_String_With_Substrings_Representing_1_To_N.py
 1017,2,1017 Convert to Base -2,https://raw.githubusercontent.com/jakehoare/leetcode/master/1017_Convert_to_Base_-2.py
 1018,1,1018 Binary Prefix Divisible By 5,https://raw.githubusercontent.com/jakehoare/leetcode/master/1018_Binary_Prefix_Divisible_By_5.py
@@ -969,3 +970,4 @@
 1021,1,1021 Remove Outermost Parentheses,https://raw.githubusercontent.com/jakehoare/leetcode/master/1021_Remove_Outermost_Parentheses.py
 1022,1,1022 Sum of Root To Leaf Binary Numbers,https://raw.githubusercontent.com/jakehoare/leetcode/master/1022_Sum_of_Root_To_Leaf_Binary_Numbers.py
 1023,2,1023 Camelcase Matching,https://raw.githubusercontent.com/jakehoare/leetcode/master/1023_Camelcase_Matching.py
+1024,2,1024 Video Stitching,https://raw.githubusercontent.com/jakehoare/leetcode/master/1024_Video_Stitching.py
