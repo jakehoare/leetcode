@@ -885,7 +885,7 @@
 935,2,935 Knight Dialer,https://raw.githubusercontent.com/jakehoare/leetcode/master/935_Knight_Dialer.py
 936,3,936 Stamping The Sequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/936_Stamping_The_Sequence.py
 937,1,937 Reorder Log Files,https://raw.githubusercontent.com/jakehoare/leetcode/master/937_Reorder_Log_Files.py
-938,2,938 Range Sum of BST,https://raw.githubusercontent.com/jakehoare/leetcode/master/938_Range_Sum_of_BST.py
+938,1,938 Range Sum of BST,https://raw.githubusercontent.com/jakehoare/leetcode/master/938_Range_Sum_of_BST.py
 939,2,939 Minimum Area Rectangle,https://raw.githubusercontent.com/jakehoare/leetcode/master/939_Minimum_Area_Rectangle.py
 940,3,940 Distinct Subsequences II,https://raw.githubusercontent.com/jakehoare/leetcode/master/940_Distinct_Subsequences_II.py
 941,1,941 Valid Mountain Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/941_Valid_Mountain_Array.py
@@ -971,3 +971,4 @@
 1022,1,1022 Sum of Root To Leaf Binary Numbers,https://raw.githubusercontent.com/jakehoare/leetcode/master/1022_Sum_of_Root_To_Leaf_Binary_Numbers.py
 1023,2,1023 Camelcase Matching,https://raw.githubusercontent.com/jakehoare/leetcode/master/1023_Camelcase_Matching.py
 1024,2,1024 Video Stitching,https://raw.githubusercontent.com/jakehoare/leetcode/master/1024_Video_Stitching.py
+1025,1,1025 Divisor Game,https://raw.githubusercontent.com/jakehoare/leetcode/master/1025_Divisor_Game.py
