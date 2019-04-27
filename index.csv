@@ -959,6 +959,7 @@
 1009,1,1009 Complement of Base 10 Integer,https://raw.githubusercontent.com/jakehoare/leetcode/master/1009_Complement_of_Base_10_Integer.py
 1010,1,1010 Pairs of Songs With Total Durations Divisible by 60,https://raw.githubusercontent.com/jakehoare/leetcode/master/1010_Pairs_of_Songs_With_Total_Durations_Divisible_by_60.py
 1011,2,1011 Capacity To Ship Packages Within D Days,https://raw.githubusercontent.com/jakehoare/leetcode/master/1011_Capacity_To_Ship_Packages_Within_D_Days.py
+1012,3,1012 Numbers With Repeated Digits,https://raw.githubusercontent.com/jakehoare/leetcode/master/1012_Numbers_With_Repeated_Digits.py
 1013,1,1013 Partition Array Into Three Parts With Equal Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/1013_Partition_Array_Into_Three_Parts_With_Equal_Sum.py
 1014,2,1014 Best Sightseeing Pair,https://raw.githubusercontent.com/jakehoare/leetcode/master/1014_Best_Sightseeing_Pair.py
 1015,2,1015 Smallest Integer Divisible by K,https://raw.githubusercontent.com/jakehoare/leetcode/master/1015_Smallest_Integer_Divisible_by_K.py
@@ -972,3 +973,5 @@
 1023,2,1023 Camelcase Matching,https://raw.githubusercontent.com/jakehoare/leetcode/master/1023_Camelcase_Matching.py
 1024,2,1024 Video Stitching,https://raw.githubusercontent.com/jakehoare/leetcode/master/1024_Video_Stitching.py
 1025,1,1025 Divisor Game,https://raw.githubusercontent.com/jakehoare/leetcode/master/1025_Divisor_Game.py
+1026,2,1026 Maximum Difference Between Node and Ancestor,https://raw.githubusercontent.com/jakehoare/leetcode/master/1026_Maximum_Difference_Between_Node_and_Ancestor.py
+1027,2,1027 Longest Arithmetic Sequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/1027_Longest_Arithmetic_Sequence.py
