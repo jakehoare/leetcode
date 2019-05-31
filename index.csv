@@ -946,7 +946,6 @@
 996,3,996 Number of Squareful Arrays,https://raw.githubusercontent.com/jakehoare/leetcode/master/996_Number_of_Squareful_Arrays.py
 997,1,997 Find the Town Judge,https://raw.githubusercontent.com/jakehoare/leetcode/master/997_Find_the_Town_Judge.py
 998,2,998 Maximum Binary Tree II,https://raw.githubusercontent.com/jakehoare/leetcode/master/998_Maximum_Binary_Tree_II.py
-999,1,999 Available Captures for Rook,https://raw.githubusercontent.com/jakehoare/leetcode/master/999_Available_Captures_for_Rook.py
 1000,3,1000 Minimum Cost to Merge Stones,https://raw.githubusercontent.com/jakehoare/leetcode/master/1000_Minimum_Cost_to_Merge_Stones.py
 1001,3,1001 Grid Illumination,https://raw.githubusercontent.com/jakehoare/leetcode/master/1001_Grid_Illumination.py
 1002,1,1002 Find Common Characters,https://raw.githubusercontent.com/jakehoare/leetcode/master/1002_Find_Common_Characters.py
@@ -998,3 +997,4 @@
 1051,1,1051 Height Checker,https://raw.githubusercontent.com/jakehoare/leetcode/master/1051_Height_Checker.py
 1052,2,1052 Grumpy Bookstore Owner,https://raw.githubusercontent.com/jakehoare/leetcode/master/1052_Grumpy_Bookstore_Owner.py
 1053,2,1053 Previous Permutation With One Swap,https://raw.githubusercontent.com/jakehoare/leetcode/master/1053_Previous_Permutation_With_One_Swap.py
+1054,2,1054 Distant Barcodes,https://raw.githubusercontent.com/jakehoare/leetcode/master/1054_Distant_Barcodes.py
