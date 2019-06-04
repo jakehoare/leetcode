@@ -143,7 +143,7 @@
 143,2,143 Reorder List,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/143_Reorder_List.py
 144,2,144 Binary Tree Preorder Traversal,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/144_Binary_Tree_Preorder_Traversal.py
 145,3,145 Binary Tree Postorder Traversal,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/145_Binary_Tree_Postorder_Traversal.py
-146,3,146 LRU Cache,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/146_LRU_Cache.py
+146,2,146 LRU Cache,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/146_LRU_Cache.py
 147,2,147 Insertion Sort List,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/147_Insertion_Sort_List.py
 148,2,148 Sort List,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/148_Sort_List.py
 149,3,149 Max Points on a Line,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/149_Max_Points_on_a_Line.py
@@ -999,3 +999,5 @@
 1052,2,1052 Grumpy Bookstore Owner,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1052_Grumpy_Bookstore_Owner.py
 1053,2,1053 Previous Permutation With One Swap,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1053_Previous_Permutation_With_One_Swap.py
 1054,2,1054 Distant Barcodes,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1054_Distant_Barcodes.py
+1060,2,1060 Missing Element in Sorted Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1060_Missing_Element_in_Sorted_Array.py
+1061,2,1061 Lexicographically Smallest Equivalent String,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1061_Lexicographically_Smallest_Equivalent_String.py
