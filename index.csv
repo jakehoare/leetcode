@@ -407,7 +407,7 @@
 424,2,424 Longest Repeating Character Replacement,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/424_Longest_Repeating_Character_Replacement.py
 425,3,425 Word Squares,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/425_Word_Squares.py
 426,2,426 Convert Binary Search Tree to Sorted Doubly Linked List,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/426_Convert_Binary_Search_Tree_to_Sorted_Doubly_Linked_List.py
-427,1,427 Construct Quad Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/427_Construct_Quad_Tree.py
+427,2,427 Construct Quad Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/427_Construct_Quad_Tree.py
 428,3,428 Serialize and Deserialize N-ary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/428_Serialize_and_Deserialize_N-ary_Tree.py
 429,1,429 N-ary Tree Level Order Traversal,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/429_N-ary_Tree_Level_Order_Traversal.py
 430,2,430 Flatten a Multilevel Doubly Linked List,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/430_Flatten_a_Multilevel_Doubly_Linked_List.py
@@ -1009,3 +1009,4 @@
 1062,2,1062 Longest Repeating Substring,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1062_Longest_Repeating_Substring.py
 1063,3,1063 Number of Valid Subarrays,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1063_Number_of_Valid_Subarrays.py
 1064,1,1064 Fixed Point,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1064_Fixed_Point.py
+1065,1,1065 Index Pairs of a String,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1065_Index_Pairs_of_a_String.py
