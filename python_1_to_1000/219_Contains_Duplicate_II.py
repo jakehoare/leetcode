@@ -17,7 +17,7 @@ class Solution(object):
         :type k: int
         :rtype: bool
         """
-        window = set()
+        window = set()      # elements in window must be unique or else solution already found
 
         for i, num in enumerate(nums):
             if i > k:
