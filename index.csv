@@ -1015,5 +1015,7 @@
 1071,1,1071 Greatest Common Divisor of Strings,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1071_Greatest_Common_Divisor_of_Strings.py
 1072,2,1072 Flip Columns For Maximum Number of Equal Rows,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1072_Flip_Columns_For_Maximum_Number_of_Equal_Rows.py
 1073,2,1073 Adding Two Negabinary Numbers,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1073_Adding_Two_Negabinary_Numbers.py
+1074,3,1074 Number of Submatrices That Sum to Target,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1074_Number_of_Submatrices_That_Sum_to_Target.py
 1078,1,1078 Occurrences After Bigram,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1078_Occurrences_After_Bigram.py
 1079,2,1079 Letter Tile Possibilities,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1079_Letter_Tile_Possibilities.py
+1081,2,1081 Smallest Subsequence of Distinct Characters,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1081_Smallest_Subsequence_of_Distinct_Characters.py
