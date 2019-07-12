@@ -1012,6 +1012,7 @@
 1064,1,1064 Fixed Point,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1064_Fixed_Point.py
 1065,1,1065 Index Pairs of a String,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1065_Index_Pairs_of_a_String.py
 1066,2,1066 Campus Bikes II,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1066_Campus_Bikes_II.py
+1067,3,1067 Digit Count in Range,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1067_Digit_Count_in_Range.py
 1071,1,1071 Greatest Common Divisor of Strings,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1071_Greatest_Common_Divisor_of_Strings.py
 1072,2,1072 Flip Columns For Maximum Number of Equal Rows,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1072_Flip_Columns_For_Maximum_Number_of_Equal_Rows.py
 1073,2,1073 Adding Two Negabinary Numbers,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1073_Adding_Two_Negabinary_Numbers.py
@@ -1025,4 +1026,8 @@
 1087,2,1087 Brace Expansion,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1087_Brace_Expansion.py
 1089,1,1089 Duplicate Zeros,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1089_Duplicate_Zeros.py
 1090,2,1090 Largest Values From Labels,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1090_Largest_Values_From_Labels.py
+1091,2,1091 Shortest Path in Binary Matrix,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1091_Shortest_Path_in_Binary_Matrix.py
+1092,3,1092 Shortest Common Supersequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1092_Shortest_Common_Supersequence.py
 1093,2,1093 Statistics from a Large Sample,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1093_Statistics_from_a_Large_Sample.py
+1094,2,1094 Car Pooling,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1094_Car_Pooling.py
+1099,1,1099 Two Sum Less Than K,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1099_Two_Sum_Less_Than_K.py
