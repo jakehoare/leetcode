@@ -279,7 +279,7 @@
 296,3,296 Best Meeting Point,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/296_Best_Meeting_Point.py
 297,3,297 Serialize and Deserialize Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/297_Serialize_and_Deserialize_Binary_Tree.py
 298,2,298 Binary Tree Longest Consecutive Sequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/298_Binary_Tree_Longest_Consecutive_Sequence.py
-299,2,299 Bulls and Cows,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/299_Bulls_and_Cows.py
+299,1,299 Bulls and Cows,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/299_Bulls_and_Cows.py
 300,2,300 Longest Increasing Subsequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/300_Longest_Increasing_Subsequence.py
 301,3,301 Remove Invalid Parentheses,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/301_Remove_Invalid_Parentheses.py
 302,3,302 Smallest Rectangle Enclosing Black Pixels,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/302_Smallest_Rectangle_Enclosing_Black_Pixels.py
@@ -418,7 +418,7 @@
 435,2,435 Non-overlppaping Intervals,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/435_Non-overlppaping_Intervals.py
 436,2,436 Find Right Interval,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/436_Find_Right_Interval.py
 437,1,437 Path Sum III,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/437_Path_Sum_III.py
-438,1,438 Find All Anagrams in a String,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/438_Find_All_Anagrams_in_a_String.py
+438,2,438 Find All Anagrams in a String,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/438_Find_All_Anagrams_in_a_String.py
 439,2,439 Ternary Expression Parser,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/439_Ternary_Expression_Parser.py
 440,3,440 K-th Smallest in Lexicographical Order,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/440_K-th_Smallest_in_Lexicographical_Order.py
 441,1,441 Arranging Coins,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/441_Arranging_Coins.py
