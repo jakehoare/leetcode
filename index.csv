@@ -988,7 +988,7 @@
 1038,2,1038 Binary Search Tree to Greater Sum Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1038_Binary_Search_Tree_to_Greater_Sum_Tree.py
 1039,2,1039 Minimum Score Triangulation of Polygon,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1039_Minimum_Score_Triangulation_of_Polygon.py
 1040,2,1040 Moving Stones Until Consecutive II,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1040_Moving_Stones_Until_Consecutive_II.py
-1041,1,1041 Robot Bounded In Circle,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1041_Robot_Bounded_In_Circle.py
+1041,2,1041 Robot Bounded In Circle,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1041_Robot_Bounded_In_Circle.py
 1042,1,1042 Flower Planting With No Adjacent,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1042_Flower_Planting_With_No_Adjacent.py
 1043,2,1043 Partition Array for Maximum Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1043_Partition_Array_for_Maximum_Sum.py
 1044,3,1044 Longest Duplicate Substring,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1044_Longest_Duplicate_Substring.py
@@ -1043,5 +1043,7 @@
 1108,1,1108 Defanging an IP Address,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1108_Defanging_an_IP_Address.py
 1109,2,1109 Corporate Flight Bookings,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1109_Corporate_Flight_Bookings.py
 1110,2,1110 Delete Nodes And Return Forest,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1110_Delete_Nodes_And_Return_Forest.py
+1118,1,1118 Number of Days in a Month,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1118_Number_of_Days_in_a_Month.py
+1119,1,1119 Remove Vowels from a String,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1119_Remove_Vowels_from_a_String.py
 1120,2,1120 Maximum Average Subtree,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1120_Maximum_Average_Subtree.py
 1121,3,1121 Divide Array Into Increasing Sequences,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1121_Divide_Array_Into_Increasing_Sequences.py
