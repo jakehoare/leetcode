@@ -372,7 +372,7 @@
 389,1,389 Find the Difference,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/389_Find_the_Difference.py
 390,2,390 Elimination Game,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/390_Elimination_Game.py
 391,3,391 Perfect Rectangle,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/391_Perfect_Rectangle.py
-392,2,392 Is Subsequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/392_Is_Subsequence.py
+392,1,392 Is Subsequence,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/392_Is_Subsequence.py
 393,2,393 UTF-8 Validation,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/393_UTF-8_Validation.py
 394,2,394 Decode String,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/394_Decode_String.py
 395,2,395 Longest Substring with At Least K Repeating Characters,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/395_Longest_Substring_with_At_Least_K_Repeating_Characters.py
@@ -380,7 +380,7 @@
 397,2,397 Integer Replacement,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/397_Integer_Replacement.py
 398,2,398 Random Pick Index,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/398_Random_Pick_Index.py
 399,2,399 Evaluate Division,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/399_Evaluate_Division.py
-400,1,400 Nth Digit,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/400_Nth_Digit.py
+400,2,400 Nth Digit,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/400_Nth_Digit.py
 401,1,401 Binary Watch,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/401_Binary_Watch.py
 402,2,402 Remove K Digits,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/402_Remove_K_Digits.py
 403,3,403 Frog Jump,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/403_Frog_Jump.py
@@ -1047,3 +1047,6 @@
 1119,1,1119 Remove Vowels from a String,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1119_Remove_Vowels_from_a_String.py
 1120,2,1120 Maximum Average Subtree,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1120_Maximum_Average_Subtree.py
 1121,3,1121 Divide Array Into Increasing Sequences,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1121_Divide_Array_Into_Increasing_Sequences.py
+1122,1,1122 Relative Sort Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1122_Relative_Sort_Array.py
+1123,2,1123 Lowest Common Ancestor of Deepest Leaves,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1123_Lowest_Common_Ancestor_of_Deepest_Leaves.py
+1128,1,1128 Number of Equivalent Domino Pairs,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1128_Number_of_Equivalent_Domino_Pairs.py
