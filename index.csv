@@ -1043,6 +1043,7 @@
 1108,1,1108 Defanging an IP Address,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1108_Defanging_an_IP_Address.py
 1109,2,1109 Corporate Flight Bookings,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1109_Corporate_Flight_Bookings.py
 1110,2,1110 Delete Nodes And Return Forest,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1110_Delete_Nodes_And_Return_Forest.py
+1111,2,1111 Maximum Nesting Depth of Two Valid Parentheses Strings,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1111_Maximum_Nesting_Depth_of_Two_Valid_Parentheses_Strings.py
 1118,1,1118 Number of Days in a Month,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1118_Number_of_Days_in_a_Month.py
 1119,1,1119 Remove Vowels from a String,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1119_Remove_Vowels_from_a_String.py
 1120,2,1120 Maximum Average Subtree,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1120_Maximum_Average_Subtree.py
@@ -1052,3 +1053,4 @@
 1124,2,1124 Longest Well-Performing Interval,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1124_Longest_Well-Performing_Interval.py
 1125,3,1125 Smallest Sufficient Team,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1125_Smallest_Sufficient_Team.py
 1128,1,1128 Number of Equivalent Domino Pairs,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1128_Number_of_Equivalent_Domino_Pairs.py
+1129,2,1129 Shortest Path with Alternating Colors,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1129_Shortest_Path_with_Alternating_Colors.py
