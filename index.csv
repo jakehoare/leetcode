@@ -1068,5 +1068,7 @@
 1144,2,1144 Decrease Elements To Make Array Zigzag,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1144_Decrease_Elements_To_Make_Array_Zigzag.py
 1145,2,1145 Binary Tree Coloring Game,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1145_Binary_Tree_Coloring_Game.py
 1146,2,1146 Snapshot Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1146_Snapshot_Array.py
+1147,3,1147 Longest Chunked Palindrome Decomposition,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1147_Longest_Chunked_Palindrome_Decomposition.py
 1150,1,1150 Check If a Number Is Majority Element in a Sorted Array,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1150_Check_If_a_Number_Is_Majority_Element_in_a_Sorted_Array.py
 1151,2,1151 Minimum Swaps to Group All 1's Together,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1151_Minimum_Swaps_to_Group_All_1's_Together.py
+1155,2,1155 Number of Dice Rolls With Target Sum,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1155_Number_of_Dice_Rolls_With_Target_Sum.py
