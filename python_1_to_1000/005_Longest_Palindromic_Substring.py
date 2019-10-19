@@ -5,7 +5,8 @@ _project_ = 'leetcode'
 # Given a string S, find the longest palindromic substring in S.
 # You may assume that the maximum length of S is 1000, and there exists one unique longest palindromic substring.
 
-# For each centre point of a character or between 2 characters, expand the palindrome if the end characters are the same.
+# For each centre point of a character or between 2 characters,
+# expand the palindrome if the end characters are the same.
 # Return early by starting with the middle centre and ruling out later centres that could not have longer
 # substring than the palindrome already found.
 # Time - O(n^2), 2n centres, each expanded upto n times
@@ -23,7 +24,7 @@ class Solution(object):
 
         # create list of 2n-1 possible centres, each letter and between each pair
         # even indices represent letters, odd represent between letters
-        # start with middle index that potentially creates longest paliindrome
+        # start with middle index that potentially creates longest palindrome
         centres = [len(s) - 1]
         for diff in range(1, len(s)):  # build list of indices from long to short
             centres.append(centres[0] + diff)
