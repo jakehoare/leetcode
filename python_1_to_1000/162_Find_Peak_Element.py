@@ -10,7 +10,7 @@ _project_ = 'leetcode'
 # If array has 3 or more elements, return mid if it is a peak else recurse on the side with a higher element.
 # If array has < 3 elements, return index of greater.
 # Time - O(log n)
-# Space - O(n)
+# Space - O(1)
 
 class Solution(object):
     def findPeakElement(self, nums):
