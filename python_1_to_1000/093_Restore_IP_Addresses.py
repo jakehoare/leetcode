@@ -17,13 +17,13 @@ class Solution(object):
         :type s: str
         :rtype: List[str]
         """
-        nb_sections = 4
-        if 3*nb_sections < len(s) < nb_sections:    # cannot make any IPs
+        NB_SECTIONS = 4
+        if 3 * NB_SECTIONS < len(s) < NB_SECTIONS:    # cannot make any IPs
             return []
 
         results = [[]]
 
-        while nb_sections > 0:
+        while NB_SECTIONS > 0:
 
             new_results = []
 
@@ -32,14 +32,14 @@ class Solution(object):
                 used = sum((len(section) for section in result))    # number of used characters in this partial result
                 remaining = len(s) - used                           # number of remaining chars in s
 
-                if 3*(nb_sections-1) >= remaining-3 >= nb_sections-1 and 100 <= int(s[used:used+3]) <= 255:
-                    new_results.append(result + [s[used:used+3]])
-                if 3*(nb_sections-1) >= remaining-2 >= nb_sections-1 and 10 <= int(s[used:used+2]):
-                    new_results.append(result + [s[used:used+2]])
-                if 3*(nb_sections-1) >= remaining-1 >= nb_sections-1:
+                if 3 * (NB_SECTIONS - 1) >= remaining - 3 >= NB_SECTIONS - 1 and 100 <= int(s[used:used + 3]) <= 255:
+                    new_results.append(result + [s[used:used + 3]])
+                if 3 * (NB_SECTIONS - 1) >= remaining - 2 >= NB_SECTIONS - 1 and 10 <= int(s[used:used + 2]):
+                    new_results.append(result + [s[used:used + 2]])
+                if 3 * (NB_SECTIONS - 1) >= remaining - 1 >= NB_SECTIONS - 1:
                     new_results.append(result + [s[used]])
 
-            nb_sections -= 1
+            NB_SECTIONS -= 1
             results = new_results
 
         return ['.'.join(result) for result in results]
