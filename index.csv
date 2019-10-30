@@ -1024,6 +1024,7 @@
 1085,1,1085 Sum of Digits in the Minimum Number,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1085_Sum_of_Digits_in_the_Minimum_Number.py
 1086,1,1086 High Five,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1086_High_Five.py
 1087,2,1087 Brace Expansion,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1087_Brace_Expansion.py
+1088,3,1088 Confusing Number II,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1088_Confusing_Number_II.py
 1089,1,1089 Duplicate Zeros,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1089_Duplicate_Zeros.py
 1090,2,1090 Largest Values From Labels,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1090_Largest_Values_From_Labels.py
 1091,2,1091 Shortest Path in Binary Matrix,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1091_Shortest_Path_in_Binary_Matrix.py
@@ -1118,5 +1119,10 @@
 1209,2,1209 Remove All Adjacent Duplicates in String II,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1209_Remove_All_Adjacent_Duplicates_in_String_II.py
 1210,3,1210 Minimum Moves to Reach Target with Rotations,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1210_Minimum_Moves_to_Reach_Target_with_Rotations.py
 1213,1,1213 Intersection of Three Sorted Arrays,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1213_Intersection_of_Three_Sorted_Arrays.py
+1214,2,1214 Two Sum BSTs,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1214_Two_Sum_BSTs.py
+1215,2,1215 Stepping Numbers,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1215_Stepping_Numbers.py
+1216,3,1216 Valid Palindrome III,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1216_Valid_Palindrome_III.py
+1217,1,1217 Play with Chips,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1217_Play_with_Chips.py
+1218,2,1218 Longest Arithmetic Subsequence of Given Difference,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1218_Longest_Arithmetic_Subsequence_of_Given_Difference.py
 1219,2,1219 Path with Maximum Gold,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1219_Path_with_Maximum_Gold.py
 1223,2,1223 Dice Roll Simulation,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1223_Dice_Roll_Simulation.py
