@@ -409,7 +409,7 @@
 426,2,426 Convert Binary Search Tree to Sorted Doubly Linked List,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/426_Convert_Binary_Search_Tree_to_Sorted_Doubly_Linked_List.py
 427,2,427 Construct Quad Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/427_Construct_Quad_Tree.py
 428,3,428 Serialize and Deserialize N-ary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/428_Serialize_and_Deserialize_N-ary_Tree.py
-429,1,429 N-ary Tree Level Order Traversal,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/429_N-ary_Tree_Level_Order_Traversal.py
+429,2,429 N-ary Tree Level Order Traversal,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/429_N-ary_Tree_Level_Order_Traversal.py
 430,2,430 Flatten a Multilevel Doubly Linked List,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/430_Flatten_a_Multilevel_Doubly_Linked_List.py
 431,3,431 Encode N-ary Tree to Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/431_Encode_N-ary_Tree_to_Binary_Tree.py
 432,3,432 All Oone Data Structure,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/432_All_Oone_Data_Structure.py
@@ -1127,4 +1127,7 @@
 1219,2,1219 Path with Maximum Gold,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1219_Path_with_Maximum_Gold.py
 1220,3,1220 Count Vowels Permutation,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1220_Count_Vowels_Permutation.py
 1221,1,1221 Split a String in Balanced Strings,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1221_Split_a_String_in_Balanced_Strings.py
+1222,2,1222 Queens That Can Attack the King,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1222_Queens_That_Can_Attack_the_King.py
 1223,2,1223 Dice Roll Simulation,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1223_Dice_Roll_Simulation.py
+1224,3,1224 Maximum Equal Frequency,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1224_Maximum_Equal_Frequency.py
+1228,1,1228 Missing Number In Arithmetic Progression,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1228_Missing_Number_In_Arithmetic_Progression.py
