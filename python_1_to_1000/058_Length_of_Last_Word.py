@@ -2,7 +2,8 @@ _author_ = 'jake'
 _project_ = 'leetcode'
 
 # https://leetcode.com/problems/length-of-last-word/
-# Given a string s consists of upper/lower-case alphabets and empty space characters ' ', return the length of last word in the string.
+# Given a string s consists of upper/lower-case alphabets and empty space characters ' ',
+# return the length of last word in the string.
 # If the last word does not exist, return 0.
 # Note: A word is defined as a character sequence consists of non-space characters only
 
@@ -16,7 +17,7 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        i = len(s)-1
+        i = len(s) - 1
         end = -1
 
         while i >= 0:
@@ -25,4 +26,4 @@ class Solution(object):
             if s[i] != ' ' and end == -1:
                 end = i
             i -= 1
-        return end + 1 if end != -1 else 0
+        return end + 1 if end != -1 else
