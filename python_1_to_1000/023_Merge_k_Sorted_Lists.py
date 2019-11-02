@@ -4,7 +4,7 @@ _project_ = 'leetcode'
 # https://leetcode.com/problems/merge-k-sorted-lists/
 # Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
 
-# Maintain a min heap of tupes of (val, node) for the next node in each list.
+# Maintain a min heap of tuples of (val, node) for the next node in each list.
 # Time - O(n log k) for n total nodes, each of which is pushed and popped from heap in log k time.
 # Space - O(k) for heap of k nodes
 
