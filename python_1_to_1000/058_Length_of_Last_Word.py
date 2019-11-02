@@ -5,9 +5,11 @@ _project_ = 'leetcode'
 # Given a string s consists of upper/lower-case alphabets and empty space characters ' ',
 # return the length of last word in the string.
 # If the last word does not exist, return 0.
-# Note: A word is defined as a character sequence consists of non-space characters only
+# Note: A word is defined as a character sequence consists of non-space characters only.
 
-# Start at last character and decrement i.  Set variable end when non-blank is seen.  Return at next non-blank.
+# Start at last character and decrement i.
+# Set variable end when non-blank is seen.
+# Return at next non-blank.
 # Time - O(n)
 # Space - O(1)
 
@@ -26,4 +28,4 @@ class Solution(object):
             if s[i] != ' ' and end == -1:
                 end = i
             i -= 1
-        return end + 1 if end != -1 else
+        return end + 1 if end != -1 else 0
