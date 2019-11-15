@@ -6,7 +6,7 @@ _project_ = 'leetcode'
 # Return the sum of the three integers. You may assume that each input would have exactly one solution.
 
 # Sort the array. For each staring index bidirectional search in the rest of the array.
-# Time - O(n^2)
+# Time - O(n**2)
 # Space - O(1)
 
 class Solution(object):
@@ -19,19 +19,19 @@ class Solution(object):
         nums.sort()
         closest = float('inf')  # default if len(nums) < 3
 
-        for i in range(len(nums)-2):
-            j = i+1
-            k = len(nums)-1
+        for i in range(len(nums) - 2):
+            j = i + 1
+            k = len(nums) - 1
 
             while j < k:
 
                 triple = nums[i] + nums[j] + nums[k]
                 if triple == target:    # early return, cannot do better
                     return target
-                if abs(triple-target) < abs(closest-target):
+                if abs(triple - target) < abs(closest - target):
                     closest = triple
 
-                if triple-target > 0:
+                if triple - target > 0:
                     k -= 1
                 else:
                     j += 1
