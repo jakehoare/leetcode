@@ -7,7 +7,7 @@ _project_ = 'leetcode'
 # A gray code sequence must begin with 0. For example, given n = 2, return [0,1,3,2]. Its gray code sequence is:
 # 00 - 0, 01 - 1, 11 - 3, 10 - 2
 
-# Grey sequence of n+1 is formed starting with sequence for n, then appending the reverse of that sequence with
+# Grey sequence of n + 1 is formed starting with sequence for n, then appending the reverse of that sequence with
 # the extra bit set.
 # GC(0) = [0], GC(1) = [0,1], GC(2) = [0,1,3,2], GC(3) = [0,1,3,2,6,7,5,4]
 # Time - O(2**n)
@@ -22,7 +22,7 @@ class Solution(object):
         gray = [0]
 
         for i in range(n):
-            gray += [x + 2**i for x in reversed(gray)]
+            gray += [x + 2 ** i for x in reversed(gray)]
 
         return gray
 
