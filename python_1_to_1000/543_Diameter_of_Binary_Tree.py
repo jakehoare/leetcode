@@ -6,10 +6,10 @@ _project_ = 'leetcode'
 # The diameter of a binary tree is the length of the longest path between any two nodes in a tree.
 # This path may or may not pass through the root.
 
-# Bottom up recursion. The longest path passing with a node as root is the longest downwards left path + longest
-# downwards right path.
-# If there is no child on right or left then the longest path on that side is zero. Else longest path is 1 + longest
-# of left and right paths down from child.
+# Bottom up recursion.
+# The longest path passing with a node as root is the longest downwards left path + longest downwards right path.
+# If there is no child on right or left then the longest path on that side is zero.
+# Else longest path is 1 + longest of left and right paths down from child.
 # Time - O(n)
 # Space - O(1)
 
@@ -19,17 +19,15 @@ class Solution(object):
         :type root: TreeNode
         :rtype: int
         """
-        if not root:
-            return 0
-        self.diameter = 0
+        self.result = 0
 
-        def helper(node):       # return (longest path down left, longest path down right)
+        def helper(node):       # return longest downwards path
+            if not node:
+                return -1       # so leaf returns zero
+            left = helper(node.left)
+            right = helper(node.right)
+            self.result = max(self.result, 2 + left + right)
+            return max(1 + left, 1 + right)
 
-            left_longest = 0 if not node.left else 1 + max(helper(node.left))
-            right_longest = 0 if not node.right else 1 + max(helper(node.right))
-
-            self.diameter = max(self.diameter, left_longest + right_longest)    # update overall longest path
-            return (left_longest, right_longest)
-
-        helper(root)            # ignore return value
-        return self.diameter
+        helper(root)        # ignore return value
+        return self.result
