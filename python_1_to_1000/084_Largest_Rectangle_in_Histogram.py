@@ -8,7 +8,7 @@ _project_ = 'leetcode'
 # For each bar, find the largest rectangle including that bar as the lowest bar.
 # An index is popped from the stack when a lower bar to the right is found.
 # We calculate the largest area with the bar at the popped index as the height (lowest bar in rectangle).
-# Width is determined by loses lower bar to the left and right.
+# Width is determined by the closest lower bar to the left and right.
 # Time - O(n)
 # Space - O(n)
 
@@ -19,7 +19,7 @@ class Solution(object):
         :rtype: int
         """
         max_area = 0
-        heights = [0] + heights + [0]   # stack will not be empt and last genuine bar will be popped
+        heights = [0] + heights + [0]   # stack will not be empty and last genuine bar will be popped
         stack = [0]                     # indices of bars in non-decreasing height order
 
         for i, bar in enumerate(heights[1:], 1):
