@@ -156,7 +156,7 @@
 156,2,156 Binary Tree Upside Down,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/156_Binary_Tree_Upside_Down.py
 157,1,157 Read N Characters Given Read4,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/157_Read_N_Characters_Given_Read4.py
 158,3,158 Read N Characters Given Read4 II - Call multiple times,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/158_Read_N_Characters_Given_Read4_II_-_Call_multiple_times.py
-159,3,159 Longest Substring with At Most Two Distinct Characters,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/159_Longest%20Substring_with_At_Most_Two_Distinct_Characters.py
+159,2,159 Longest Substring with At Most Two Distinct Characters,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/159_Longest%20Substring_with_At_Most_Two_Distinct_Characters.py
 160,1,160 Intersection of Two Linked Lists,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/160_Intersection_of_Two_Linked_Lists.py
 161,2,161 One Edit Distance,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/161_One_Edit_Distance.py
 162,2,162 Find Peak Element,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/162_Find_Peak_Element.py
@@ -1162,6 +1162,7 @@
 1259,3,1259 Handshakes That Don't Cross,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1259_Handshakes_That_Don't_Cross.py
 1260,1,1260 Shift 2D Grid,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1260_Shift_2D_Grid.py
 1261,2,1261 Find Elements in a Contaminated Binary Tree,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1261_Find_Elements_in_a_Contaminated_Binary_Tree.py
+1262,2,1262 Greatest Sum Divisible by Three,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1262_Greatest_Sum_Divisible_by_Three.py
 1265,2,1265 Print Immutable Linked List in Reverse,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1265_Print_Immutable_Linked_List_in_Reverse.py
 1266,1,1266 Minimum Time Visiting All Points,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1266_Minimum_Time_Visiting_All_Points.py
 1267,2,1267 Count Servers that Communicate,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1267_Count_Servers_that_Communicate.py
