@@ -18,7 +18,7 @@ _project_ = 'leetcode'
 # previous clip).
 # Note that if end < stitch_end we may still increment the count and set prev_stitch_end = stitch_end and the clip
 # will later be replaced.
-# Time - O(n)
+# Time - O(n log n)
 # Space - O(1)
 
 class Solution(object):
