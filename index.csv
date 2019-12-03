@@ -701,7 +701,7 @@
 751,1,751 IP to CIDR,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/751_IP_to_CIDR.py
 752,2,752 Open the Lock,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/752_Open_the_Lock.py
 753,3,753 Cracking the Safe,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/753_Cracking_the_Safe.py
-754,1,754 Reach a Number,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/754_Reach_a_Number.py
+754,2,754 Reach a Number,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/754_Reach_a_Number.py
 755,2,755 Pour Water,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/755_Pour_Water.py
 756,2,756 Pyramid Transition Matrix,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/756_Pyramid_Transition_Matrix.py
 757,3,757 Set Intersection Size At Least Two,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1_to_1000/757_Set_Intersection_Size_At_Least_Two.py
@@ -1168,4 +1168,6 @@
 1266,1,1266 Minimum Time Visiting All Points,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1266_Minimum_Time_Visiting_All_Points.py
 1267,2,1267 Count Servers that Communicate,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1267_Count_Servers_that_Communicate.py
 1268,2,1268 Search Suggestions System,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1268_Search_Suggestions_System.py
+1269,3,1269 Number of Ways to Stay in the Same Place After Some Steps,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1269_Number_of_Ways_to_Stay_in_the_Same_Place_After_Some_Steps.py
+1272,2,1272 Remove Interval,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1272_Remove_Interval.py
 1273,2,1273 Delete Tree Nodes,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1273_Delete_Tree_Nodes.py
