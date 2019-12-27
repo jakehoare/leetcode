@@ -1188,3 +1188,6 @@
 1290,1,1290 Convert Binary Number in a Linked List to Integer,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1290_Convert_Binary_Number_in_a_Linked_List_to_Integer.py
 1291,2,1291 Sequential Digits,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1291_Sequential_Digits.py
 1292,2,1292 Maximum Side Length of a Square with Sum Less than or Equal to Threshold,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1292_Maximum_Side_Length_of_a_Square_with_Sum_Less_than_or_Equal_to_Threshold.py
+1295,1,1295 Find Numbers with Even Number of Digits,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1295_Find_Numbers_with_Even_Number_of_Digits.py
+1296,2,1296 Divide Array in Sets of K Consecutive Numbers,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1296_Divide_Array_in_Sets_of_K_Consecutive_Numbers.py
+1298,3,1298 Maximum Candies You Can Get from Boxes,https://raw.githubusercontent.com/jakehoare/leetcode/master/python_1001_to_2000/1298_Maximum_Candies_You_Can_Get_from_Boxes.py
