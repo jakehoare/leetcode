@@ -34,8 +34,8 @@ class Solution(object):
         result = 0
         open_boxes, closed_boxes = set(), set()
         for initial_box in initialBoxes:     # put in either opened or unopened set
-            container = open_boxes if status[initial_box ] == OPEN else closed_boxes
-            container.add(initial_box )
+            container = open_boxes if status[initial_box] == OPEN else closed_boxes
+            container.add(initial_box)
 
         while open_boxes:
 
