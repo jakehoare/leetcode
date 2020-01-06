@@ -26,9 +26,13 @@ class Solution(object):
 
         for r, c in positions:
 
+            if (r, c) in parent:    # ignore duplicate land
+                island_count.append(island_count[-1])
+                continue
+
             nbors = set()
 
-            for nbor in [(r+1, c), (r-1, c), (r, c+1), (r, c-1)]:
+            for nbor in [(r + 1, c), (r - 1, c), (r, c + 1), (r, c - 1)]:
                 if nbor in parent:
                     island = parent[nbor]
                     while island != parent[island]:
