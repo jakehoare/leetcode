@@ -18,15 +18,15 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
+        n = len(nums)
         stack = []                          # indices whose nums form decreasing sequence
-        next_greater = [-1] * len(nums)     # default -1 if no greater
+        next_greater = [-1] * n             # default -1 if no greater
 
-        for i in range(2 * len(nums)):
-
-            num = nums[i % len(nums)]       # wrap around
+        for i in range(2 * n):
+            num = nums[i % n]               # wrap around
             while stack and num > nums[stack[-1]]:
                 next_greater[stack.pop()] = num
-            if i < len(nums):
+            if i < n:
                 stack.append(i)
 
         return next_greater
