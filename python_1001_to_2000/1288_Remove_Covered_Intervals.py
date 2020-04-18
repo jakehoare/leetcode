@@ -19,7 +19,7 @@ class Solution(object):
         :rtype: int
         """
         stack = []
-        intervals.sort()
+        intervals.sort(key=lambda x:[x[0], -x[1]])
 
         for interval in intervals:
             if not stack or stack[-1][1] < interval[1]:     # keep if not covered
