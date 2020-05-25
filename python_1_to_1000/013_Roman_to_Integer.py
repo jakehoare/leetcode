@@ -5,8 +5,10 @@ _project_ = 'leetcode'
 # Given a roman numeral, convert it to an integer.
 # Input is guaranteed to be within the range from 1 to 3999.
 
-# Check for 2-character matches and if none there must be a single char match.
-# Time - O(n) where len(s) = n
+# Iterate along s, checking if the next 2 characters match any valid roman numeral.
+# If so, add the value of the numeral to the result. Otherwise the next single
+# character must match a numeral, which is added to the result.
+# Time - O(n)
 # Space - O(1)
 
 class Solution(object):
@@ -21,8 +23,8 @@ class Solution(object):
         integer = 0
         i = 0
         while i < len(s):
-            if i < len(s)-1 and s[i:i+2] in doubles:
-                integer += doubles[s[i:i+2]]
+            if i < len(s) - 1 and s[i:i + 2] in doubles:
+                integer += doubles[s[i:i + 2]]
                 i += 2
             else:
                 integer += singles[s[i]]
