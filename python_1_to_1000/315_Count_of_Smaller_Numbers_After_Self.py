@@ -5,18 +5,11 @@ _project_ = 'leetcode'
 # You are given an integer array nums and you have to return a new counts array. The counts array has the property
 # where counts[i] is the number of smaller elements to the right of nums[i].
 
-# Create a binary search tree that tracks the number of smaller entries in left subtree of each node.  For each
-# num in array starting from right, find number of smaller entries in BST and simultaneously add node.
-# Time - O(n*n), n log n if balanced
+# Merge sort, counting the smaller elements to the right during merging.
+# Helper function sorts the original indices of the input.
+# Merge in decreasing order, incrementing smallest when all right array are smaller than largest of left array.
+# Time - O(n log n)
 # Space - O(n)
-
-# Definition for a binary tree node.
-class TreeNode(object):
-    def __init__(self, x):
-        self.val = x
-        self.smaller = 0    # number of entries in left subtree
-        self.left = None
-        self.right = None
 
 class Solution(object):
     def countSmaller(self, nums):
@@ -24,34 +17,23 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
+        def helper(indices):
+            mid = len(indices) / 2
+            if mid == 0:
+                return indices
+            
+            left, right = helper(indices[:mid]), helper(indices[mid:])
+            
+            for i in range(len(indices))[::-1]: # Rebuild indices from largest to smallest num.
+                if not right or left and nums[left[-1]] > nums[right[-1]]:
+                    indices[i] = left.pop()
+                    smaller[indices[i]] += len(right) # All right are smaller than largest left.
+                else:
+                    indices[i] = right.pop()
+            
+            return indices
+        
+        
         smaller = [0 for _ in range(len(nums))]
-        if len(nums) < 2:
-            return smaller
-        root = TreeNode(nums[-1])
-
-        for i in range(len(nums)-2, -1, -1):    # left to right
-            node = root
-            count = 0                           # nb entries smaller than nums[i]
-
-            while True:
-                if nums[i] < node.val:
-                    node.smaller += 1           # increment left subtree count and move left
-                    if not node.left:
-                        node.left = TreeNode(nums[i])
-                        break
-                    else:
-                        node = node.left
-
-                else:   # nums[i] >= node.val
-                    count += node.smaller       # all nodes in left subtree
-                    if nums[i] > node.val:      # and this node if node.val != nums[i]
-                        count += 1
-                    if not node.right:
-                        node.right = TreeNode(nums[i])
-                        break
-                    else:
-                        node = node.right
-
-            smaller[i] = count
-
+        helper([i for i in range(len(smaller))])
         return smaller
