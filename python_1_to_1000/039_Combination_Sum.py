@@ -30,6 +30,6 @@ class Solution(object):
             return
 
         i = 0
-        while target-i*nums[next] >= 0:
-            self.helper(nums, next+1, target-i*nums[next], partial + [nums[next]]*i, result)
+        while target - i * nums[next] >= 0:
+            self.helper(nums, next + 1, target - i * nums[next], partial + [nums[next]] * i, result)
             i += 1
